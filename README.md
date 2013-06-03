@@ -1,6 +1,6 @@
 #How To Submit A Proposal
 
-First and foremost, make sure you're available on both XX/YY and XX/YY.  Once we have settled on the talks, we will be curating an agenda that groups like topics together.  More information at [2013.cascadiajs.com][].
+*DISCLAIMER: We do not currently have dates locked for this conference. It will be held in Vancouver, BC in September or October. But go ahead and submit a proposal if you're interested, we will happily remove it if the final dates do not work for you!*
 
 * Create a [Github account][] if you don't have one already
 * Fork this repository
