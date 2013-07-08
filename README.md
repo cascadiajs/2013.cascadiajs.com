@@ -1,6 +1,6 @@
 #How To Submit A Proposal
 
-*DISCLAIMER: We do not currently have dates locked for this conference. It will be held in Vancouver, BC in September or October. But go ahead and submit a proposal if you're interested, we will happily remove it if the final dates do not work for you!*
+*First, make sure you're available to attend the conference. It will be held in Vancouver, BC, Canada on November 7th and 8th.*
 
 * Create a [Github account][] if you don't have one already
 * Fork this repository
