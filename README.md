@@ -1,6 +1,6 @@
 #How To Submit A Proposal
 
-*First, make sure you're available to attend the conference. It will be held in Vancouver, BC, Canada on November 7th and 8th.*
+*First, make sure you're available to attend the conference. It will be held in Vancouver, BC, Canada in early November. Exact dates soon!*
 
 * Create a [Github account][] if you don't have one already
 * Fork this repository
