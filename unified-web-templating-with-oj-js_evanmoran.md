@@ -1,8 +1,8 @@
 #Unified Web Templating with oj.js
 
 * Name      : Evan Moran
-* Twitter   : [@evanmoran][http://twitter.com/evanmoran]
-* Github    : [evanmoran][http://github.com/evanmoran]
+* Twitter   : [@evanmoran](http://twitter.com/evanmoran)
+* Github    : [evanmoran](http://github.com/evanmoran)
 
 ##Abstract
 
