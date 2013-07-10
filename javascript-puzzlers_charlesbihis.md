@@ -20,6 +20,8 @@ What _not_ to expect:
 
 ## Speaker Bio
 
+![Charles Bihis](https://raw.github.com/charlesbihis/2013.cascadiajs.com/master/images/charlesbihis.png)
+
 My name is Charles Bihis and I am a Computer Scientist with the Adobe Identity team.  I work on the Internet.
 
 [@charlesbihis]:http://twitter.com/charlesbihis
