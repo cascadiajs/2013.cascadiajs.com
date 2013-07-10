@@ -32,11 +32,15 @@ If you have any other artifacts that relate to your presentation, like slide dec
 
 ##What are we looking for?
 
-We're looking for anything related to the open web, which includes: browser, Node.js, Windows 8, Firefox OS, tooling, robots, you name it. All the talks will be 30 minutes.
+We're looking for anything related to the open web, which includes: browser, Node.js, Windows 8, Firefox OS, tooling, robots, you name it. Please, no vendor pitches (i.e. How to Use Product X). A great talk should address issues that developers struggle with, break down and explain complicated topics and cover new ground in JS technology. 
+
+All the talks will be 30 minutes.
 
 We're also open to suggestions for unconference topics. For example, suppose you really want to talk about MongoDB in Node.js but don't have a presentation, maybe just some questions or experiences to share? We will likely set aside time for lightening talks, so get your ideas ready.
 
 ##Other Stuff
+
+The deadline to submit a proposal is **August 15, 2013**. You are free to submit (and even revise) proposals up until that date. Please
 
 If you have any questions about this process, need more information or need assistance with travel and/or lodging, don't hesitate to reach out to us at [info@cascadiajs.com][].
 
