@@ -15,12 +15,12 @@ What to expect:
 * Discover ways to make your code immune to bugs caused by these features.
 
 What _not_ to expect:
-* 3rd-party libraries or frameworks
+* 3rd-party libraries or frameworks (e.g. jQuery, Node.js, Backbone.js, etc)
 * Bugs
 
 ## Speaker Bio
 
-I work on the Internet.
+My name is Charles Bihis and I am a Computer Scientist with the Adobe Identity team.  I work on the Internet.
 
 [@charlesbihis]:http://twitter.com/charlesbihis
 [charlesbihis]:http://github.com/charlesbihis
