@@ -15,14 +15,43 @@
   <div style="width: 800px; margin: 1em auto 0;">
     <img src="/images/CJS13-header.jpg" alt="">
     <h2>November 14-15 2013 // Vancouver, BC, Canada</h2>
-    <h2></h2>
     <div style="padding:0 130px 0 130px">
-    Early bird tickets will go on sale soon. Feel free to sign-up for our <a href="https://tito.io/event-loop/cascadiajs-2013">interest list</a> or follow <a href="http://twitter.com/cascadiajs">@CascadiaJS</a> for updates. More Info Coming Soon!<br/><br/>
+    Early bird tickets will go on sale soon. Feel free to sign-up for our <a href="https://tito.io/event-loop/cascadiajs-2013">interest list</a> or follow <a href="http://twitter.com/cascadiajs">@CascadiaJS</a> for updates. More info coming soon!<br/><br/>
     If you're interested in helping to make CascadiaJS 2013 happen, please check-out our <a href="/CascadiaJS2013-SponsorshipPackages.pdf">sponsorship brochure</a>.<br/><br/>
     If you're curious what all the fuss is about, check-out the fun from <a href="http://2012.cascadiajs.com">CascadiaJS 2012</a><br/><br/>
+    <h3>Join the CascadiaJS 2013 Community!</h3>
+    <div id="community"></div>
+    <p>If you are passionate about building things with JavaScript, we want you to speak at CascadiaJS 2013! We are running an <a href="https://github.com/cascadiajs/2013.cascadiajs.com">open proposal process</a> on Github, so if you can submit a pull request you can submit a proposal.</p>
     <img src="/images/logo.png" alt="a JSConf for the PacNW"/>
     </div>
   </div>
 
 </body>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.0/underscore-min.js"></script>
+<script>
+function renderPeeps(peeps) {
+  peeps.forEach(function(peep) {
+    $('<a href="' + peep.url + '"><img width="80" height="80" src="' + peep.avatar_url + '"/></a>').appendTo('#community');
+  });
+}
+
+$(document).ready(function() {
+  var peeps = {};
+  var forksUrl = 'https://api.github.com/repos/cascadiajs/2013.cascadiajs.com/forks?callback=?';
+  var collabsUrl = 'https://api.github.com/repos/cascadiajs/2013.cascadiajs.com/collaborators?callback=?';
+  $.when( $.getJSON(forksUrl), $.getJSON(collabsUrl) ).done(function(forks, collabs) {
+    console.log(forks);
+    forks[0].data.forEach(function(fork) {
+      peeps[fork.owner.login] = {url: 'https://github.com/'+fork.owner.login, avatar_url: fork.owner.avatar_url};
+    });
+    collabs[0].data.forEach(function(collab) {
+      peeps[collab.login] = {url: 'https://github.com/'+collab.login, avatar_url: collab.avatar_url};
+    });
+    renderPeeps(_.values(peeps));
+  });
+});
+</script>
+
+
 </html>
