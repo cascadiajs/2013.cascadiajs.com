@@ -5,6 +5,7 @@
 * Twitter   : [@josepheames][]
 * Github    : [joeeames][]
 * Github    : [iammerrick][]
+* Website   : [www.domo.com][]
 
 ##Abstract
 
@@ -21,8 +22,6 @@ Jabber podcast.
 
 Joe is a front end developer for Domo Inc, and an author for Pluralsight.com where he has authored courses on jQuery, testing JavaScript, and AngularJS. Joe has a strong interest in education, he is a frequent blogger and speaker, and a panelist on the JavaScript Jabber podcast.
 
-Links
------
 
 [@iammerrick]:http://twitter.com/iammerrick
 [@josepheames]:http://twitter.com/josepheames
