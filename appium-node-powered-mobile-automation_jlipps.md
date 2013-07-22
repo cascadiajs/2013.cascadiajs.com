@@ -7,8 +7,9 @@
 
 ##Abstract
 
-Appium is a Node.js server that makes automating native and hybrid mobile
-applications easy, using any programming language. When we started work on
+Appium ([appium.io](http://appium.io)) is a Node.js server that makes it
+possible to automate native and hybrid mobile applications, using any
+programming language and any testing framework.  When we started work on
 Appium, which has become a successful open-source project with the better part
 of a thousand resolved GitHub issues and pull requests, we had our choice of
 programming languages and frameworks. For a variety of reasons, we chose
