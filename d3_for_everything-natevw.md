@@ -13,7 +13,8 @@ As Bret Victor's essay "Magic Ink" points out, most of [software is visualizatio
 by imagining your interface as an interactive chart, building an entire app with a DOM-based visualization library starts to make sense!
 Well-crafted code using D3 looks declarative, can be debugged imperatively, and lets you efficiently react to asynchronous or realtime updates. What's not to like?
 
-This talk will defend using D3 for everything, show how to do it well, and explain what sort of architecture(s) can result.  We'll look at how D3 combines what *is* right about jQuery with the architectural sanity of Knockout/Angular/Ember–type capital-F frameworks, offering the best of both worlds.
+This talk will defend using D3 for everything, show how to do it well, and explain what sort of architecture(s) can result.
+We'll look at how D3 combines what *is* right about jQuery with the architectural sanity of "capital-F frameworks" like Knockout/Angular/Ember, brilliantly offering the best of both worlds.
 
 ## Speaker Bio
 
