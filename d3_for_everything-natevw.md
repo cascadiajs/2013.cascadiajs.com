@@ -11,10 +11,9 @@ D3 is well-known as an SVG visualization library, but can provide a powerful pla
 
 As Bret Victor's essay "Magic Ink" points out, most of [software is visualization](http://worrydream.com/MagicInk/#most_software_is_information_software) —
 by imagining your interface as an interactive chart, building an entire app with with a DOM-based visualization library starts to make sense!
-Well-crafted code using D3 looks declarative, can be debugged imperatively, and lets you efficiently react to asynchronous or realtime updates.
-We'll look at how D3 combines what *is* right about jQuery with architectural sanity like Knockout/Angular/Ember devs get.
+Well-crafted code using D3 looks declarative, can be debugged imperatively, and lets you efficiently react to asynchronous or realtime updates. What's not to like?
 
-This talk will defend using D3 for everything, show how to do it well, and explain what sort of architecture(s) can result. 
+This talk will defend using D3 for everything, show how to do it well, and explain what sort of architecture(s) can result.  We'll look at how D3 combines what *is* right about jQuery with the architectural sanity of Knockout/Angular/Ember–type capital-F frameworks, offering the best of both worlds.
 
 ## Speaker Bio
 
@@ -22,5 +21,5 @@ This talk will defend using D3 for everything, show how to do it well, and expla
 
 Nate is a freelance product developer and open/unhosted data addict,
 most recently busy combining RESTful sensor networks and smartwatches with suburban agriculture.
-His world headquarters are on the Eastern Washington steppe, within a federally-sponsored pavement/McMansion oasis:
-this offers him and his family the joy of being weird without the hassle of living abnormally.
+His world headquarters are on the Eastern Washington steppe within a federally-sponsored pavement/McMansion oasis:
+this offers him and his family the joy of being weird, without the hassle of living abnormally.
