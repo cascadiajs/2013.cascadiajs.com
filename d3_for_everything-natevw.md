@@ -7,7 +7,7 @@
 
 ## Abstract
 
-D3 is well-known as an SVG visualization library, but can provide a powerful platform for building entire front-end applications.
+D3 is well-known as an SVG visualization library, but can provide a powerful platform for building entire DOM-aware frontend applications.
 
 As Bret Victor's essay "Magic Ink" points out, most of [software is visualization](http://worrydream.com/MagicInk/#most_software_is_information_software) —
 by imagining your interface as an interactive chart, building an entire app with a DOM-based visualization library starts to make sense!
