@@ -30,7 +30,7 @@ Also, the code examples will be demonstrated in coffeescript. Get over it.
 
 ##Speaker Bio
 
-![davidmfoley](../images/davidmfoley.png)
+![davidmfoley](images/davidmfoley.png)
 
 I am CTO of [Substantial][], a 60-person digital product studio based in Seattle and San Francisco.
 
