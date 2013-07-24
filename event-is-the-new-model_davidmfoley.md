@@ -3,13 +3,13 @@
 * Name      : Dave Foley
 * Twitter   : [@davidmfoley][]
 * Github    : [davidmfoley][]
-* Website   : [substantial.com][]
+* Website   : [http://substantial.com][]
 
 ##Abstract
 
 Most of us are accustomed to modeling our application domains by their state at any given point in time. When audit logs, reporting views, data migrations and real-time updates are required, our tendency is to bolt them on to this relational point-in-time model, which can be difficult and costly.
 
-Building on the [http://martinfowler.com/eaaDev/EventSourcing.html]:"Event Sourcing" pattern, we can instead treat each application as an append-only stream of immutable events. In this style of application, the state of the model at any point in time can be derived by replaying all of the events up to that point in time. This also allows for multiple poinit-in-time representations ("Models") to exist simultaneously in different places.
+Building on the [http://martinfowler.com/eaaDev/EventSourcing.html][Event Sourcing] pattern, we can instead treat each application as an append-only stream of immutable events. In this style of application, the state of the model at any point in time can be derived by replaying all of the events up to that point in time. This also allows for multiple poinit-in-time representations ("Models") to exist simultaneously in different places.
 
 The Node.js ecosystem provides a particularly interesting platform for this style of application development. With a shared language between a browser-based client and a node-based server, we can even use the same model logic in both places. I'll walk through experiences and lessons learned over the course of the development of an event-sourced real-time browser application using node, socket.io, spine, including:
 
@@ -30,7 +30,7 @@ Also, the code examples will be demonstrated in coffeescript. Get over it.
 
 ![davidmfoley](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/davidmfoley.png)
 
-I am CTO at [http://substantial.com]:Substantial, a 60-person digital product studio based in Seattle and San Francisco.
+I am CTO at [http://substantial.com][Substantial], a 60-person digital product studio based in Seattle and San Francisco.
 
 [@davidmfoley]:http://twitter.com/davidmfoley
 [davidmfoley]:http://github.com/davidmfoley
