@@ -36,7 +36,7 @@ We're looking for anything related to the open web, which includes: browser, Nod
 
 All the talks will be 30 minutes.
 
-We're also open to suggestions for unconference topics. For example, suppose you really want to talk about MongoDB in Node.js but don't have a presentation, maybe just some questions or experiences to share? We will likely set aside time for lightening talks, so get your ideas ready.
+We're also open to suggestions for unconference topics. For example, suppose you really want to talk about MongoDB in Node.js but don't have a presentation, maybe just some questions or experiences to share? We will likely set aside time for lightning talks, so get your ideas ready.
 
 ##Other Stuff
 
