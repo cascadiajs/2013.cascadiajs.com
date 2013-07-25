@@ -1,11 +1,11 @@
 # Automated Testing & Inversion of Control
 
 * Name      : Curtis Lassam & Cube Drone
-* Twitter   : [@classam][http://twitter.com/classam]
-* Twitter   : [@cube_drone][http://twitter.com/cube_drone]
-* Github    : [classam][http://github.com/classam]
-* Website   : [curtis.lassam.net][http://curtis.lassam.net]
-* Website   : [cube-drone.com][http://cube-drone.com]
+* Twitter   : [@classam](http://twitter.com/classam)
+* Twitter   : [@cube_drone](http://twitter.com/cube_drone)
+* Github    : [classam](http://github.com/classam)
+* Website   : [curtis.lassam.net](http://curtis.lassam.net)
+* Website   : [cube-drone.com](http://cube-drone.com)
 
 ##Abstract
 
@@ -34,10 +34,12 @@ online mini-talk, but I'm going to flesh it out a little bit and extend it into 
 ##Speaker Bio
 
 ![classam](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/classam.png)
+
 I'm a Vancouver software developer, currently working for Simon Fraser University. I am also a bad cartoonist, 
 an inconsiderate lover, an air-pugilist, 18 feet tall, and I can shoot laser beams with my eyes (but only when I am
 also holding a laser pointer). 
 
 ![cube_drone](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/cube_drone.png)
+
 I'm an imaginary prop! I work at a web company in Vancouver that specializes in convincing companies to rebuild
 their enterprise software with trendy new technology that we are expert consultants in. 
