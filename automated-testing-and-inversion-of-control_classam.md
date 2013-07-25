@@ -14,21 +14,21 @@ This is going to be based really heavily on [this](http://www.youtube.com/watch?
 online mini-talk, but I'm going to flesh it out a little bit and extend it into Javascript tools and use-cases. 
 
 * Why is it important? 
-** Making changes to your code: it will break things.
-** Documenting your API by forcing yourself to use it.
-** Improving your API by forcing yourself to use it. 
+ * Making changes to your code: it will break things.
+ * Documenting your API by forcing yourself to use it.
+ * Improving your API by forcing yourself to use it. 
 * How do we get started?
-** Finding a test framework.
-** Finding a test runner.
+ * Finding a test framework.
+ * Finding a test runner.
 * Arrange-Act-Assert
 * Running Your Tests Regularly (Continuous Integration!)
 * Only Test The Thing You're Testing
-** Why integration tests are bad.
-** Why unit tests are good.
-** What is Inversion of Control?
-** Why there aren't any IOC frameworks for dynamic languages.
+ * Why integration tests are bad.
+ * Why unit tests are good.
+ * What is Inversion of Control?
+ * Why there aren't any famous IOC frameworks for dynamic languages.
 * Mocking out things that are hard to test.
-** Mocking out the DOM.
+ * Mocking out the DOM.
 * The balance between testing and everything else. 
 
 ##Speaker Bio
