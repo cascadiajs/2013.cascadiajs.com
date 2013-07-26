@@ -16,12 +16,13 @@ nerd on.
 
 ##Speaker Bio
 
-![jlembeck](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/jlembeck.png)
+![jlembeck](https://raw.github.com/jlembeck/2013.cascadiajs.com/master/images/jlembeck.png)
 
 Likes: Computers, Accessibility, Nachos, Automation
+
 Dislikes: Typing the same thing twice
 
-[@janedoe]:http://twitter.com/jefflembeck
-[janedoe]:http://github.com/jlembeck
-[jane.doe.com]:http://jefflembeck.com
+[@jefflembeck]:http://twitter.com/jefflembeck
+[jlembeck]:http://github.com/jlembeck
+[jefflembeck.com]:http://jefflembeck.com
 
