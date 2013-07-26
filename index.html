@@ -1,57 +1,193 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <title>CascadiaJS 2013</title>
-  <style>
-    html {
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      text-align: center;
-    }
-  </style>
-</head>
+    <head>
+        <script type="text/javascript" src="//use.typekit.net/wdz6oco.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-<body>
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>CascadiaJS 2013</title>
 
-  <div style="width: 800px; margin: 1em auto 0;">
-    <img src="/images/CJS13-header.jpg" alt="">
-    <h2>November 14-15 2013 // Vancouver, BC, Canada</h2>
-    <div style="padding:0 130px 0 130px">
-    Early bird tickets will go on sale soon. Feel free to sign-up for our <a href="https://tito.io/event-loop/cascadiajs-2013">interest list</a> or follow <a href="http://twitter.com/cascadiajs">@CascadiaJS</a> for updates. More info coming soon!<br/><br/>
-    If you're interested in helping to make CascadiaJS 2013 happen, please check-out our <a href="/CascadiaJS2013-SponsorshipPackages.pdf">sponsorship brochure</a>.<br/><br/>
-    If you're curious what all the fuss is about, check-out the fun from <a href="http://2012.cascadiajs.com">CascadiaJS 2012</a><br/><br/>
-    <h3>Join the CascadiaJS 2013 Community!</h3>
-    <div id="community"></div>
-    <p>If you are passionate about building things with JavaScript, we want you to speak at CascadiaJS 2013! We are running an <a href="https://github.com/cascadiajs/2013.cascadiajs.com">open proposal process</a> on Github, so if you can submit a pull request you can submit a proposal.</p>
-    <img src="/images/logo.png" alt="a JSConf for the PacNW"/>
-    </div>
-  </div>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/main.css">
 
-</body>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.0/underscore-min.js"></script>
-<script>
-function renderPeeps(peeps) {
-  peeps.forEach(function(peep) {
-    $('<a href="' + peep.url + '"><img width="80" height="80" src="' + peep.avatar_url + '"/></a>').appendTo('#community');
-  });
-}
+        <!-- Favicon 16 x 16 Pixels -->
+        <link rel="icon" type="image/png" href="images/favicon-16x16.png">
 
-$(document).ready(function() {
-  var peeps = {};
-  var forksUrl = 'https://api.github.com/repos/cascadiajs/2013.cascadiajs.com/forks?callback=?';
-  var collabsUrl = 'https://api.github.com/repos/cascadiajs/2013.cascadiajs.com/collaborators?callback=?';
-  $.when( $.getJSON(forksUrl), $.getJSON(collabsUrl) ).done(function(forks, collabs) {
-    console.log(forks);
-    forks[0].data.forEach(function(fork) {
-      peeps[fork.owner.login] = {url: 'https://github.com/'+fork.owner.login, avatar_url: fork.owner.avatar_url};
-    });
-    collabs[0].data.forEach(function(collab) {
-      peeps[collab.login] = {url: 'https://github.com/'+collab.login, avatar_url: collab.avatar_url};
-    });
-    renderPeeps(_.values(peeps));
-  });
-});
-</script>
+        <!-- Favicon 32 x 32 Pixels -->
+        <link rel="icon" type="image/png" href="images/favicon-32x32.png">
 
+    </head>
+    <body>
+        
+        <div class="container">
 
+            <header>
+              <a href="https://twitter.com/CascadiaJS" target="_blank" title="Link to the CascadiaJS Twitter page"><div class="twitter"></div></a>
+              <a href="/" title="Link to the home page of the CascadiaJS website"><img class="logo" src="images/cascadiajs-logo@2x.png" width="114" alt="The logo for CascadiaJS"/>
+              <h1><a href="/" title="Link to the home page of the CascadiaJS website"><img src="images/cascadiajs-wordmark@2x.png" width="628" alt="A wordmark for CascadiaJS 2013"/></a></h1>
+              <h2 class="date">November 14 – 15, 2013<br>Vancouver, BC, Canada</h2>
+              <img src="images/vancouver-skyline@2x.png" alt="A graphic image of the Vancouver skyline" width="1009"/>
+            </header>
+
+            <!-- <hr class="under-lead"> -->
+
+            <article>
+
+                	<section class="lead-paragraph">
+	  	<p>CascadiaJS is a two-day conference on the cutting edge of JavaScript. Browser, server, OS – we cover it all.</p>
+	</section>
+	<section class="clearfix">
+		<ul class="actions">
+			<li>
+				<img src="images/github-icon@2x.png" width="93" alt="An icon with Github’s octocat character"/>
+			  	<h2>Speak</h2>
+			  	<p>Want to speak at CascadiaJS 2013? We are running <a href="https://github.com/cascadiajs/2013.cascadiajs.com" target="_blank" title="A link to the CascadiaJS open proposal process on Github">an open proposal process on Github</a>.</p>
+			</li>
+			<li>
+				<img src="images/ticket-icon@2x.png" width="56" alt="An icon of a ticket"/></p>
+			  	<h2>Attend</h2>
+			  	<p>Early bird tickets will go on sale soon. Feel free to sign-up for <a href="https://tito.io/event-loop/cascadiajs-2013" title="A link to the CascadiaJS tickets for purchase on tito.io">our interest list</a> or follow <a href="http://twitter.com/cascadiajs" target="_blank" title="Link to the CascadiaJS Twitter page">@CascadiaJS</a> for updates.</p>
+			 </li>
+			 <li>
+			    <img src="images/trophy-icon@2x.png" width="93" alt="An icon of a trophy"/>
+			  	<h2>Sponsor</h2>
+			  	<p>If you’re interested in helping to make CascadiaJS 2013 happen, please check out our <a href="http://2013.cascadiajs.com/CascadiaJS2013-SponsorshipPackages.pdf" target="_blank" title="A link to the Sponsorship Brochure for potential sponsors of CascadiaJS to consider options">Sponsorship Brochure</a>.</p>
+			 </li>
+		</ul>
+	</section>
+
+	<!-- Before There Were Speakers -->
+
+	<section class="callout">
+		<h2 class="h2callout">More info coming soon!</h2>
+	</section>
+
+	<section class="more-info">
+		<p>If you’re curious about last year’s event, see the <a href="http://2012.cascadiajs.com" target="_blank" title="A link to the Cascadia 2012 website">CascadiaJS 2012 site</a>.</p>
+	</section>
+
+	<!-- The Speakers -->
+
+<!-- 	<hr class="under-lead">
+
+		<ul class="speakers-list">
+			
+			<h2 class="speakers">Speakers</h2>
+			
+				
+				    <li>
+				        <a href="https://github.com/cascadiajs/cascadiajs.github.com/blob/master/proposal/distributed-programming-for-kids_dominictarr.md" target="_blank" title="Kit Cambridge – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
+				        
+						<img src="/images/speakers/kitcambridge.png" alt="An image of Kit Cambridge"/>
+						
+						<h3>Kit Cambridge</h3></a>
+						<p>Engineer at Voxer</p>
+				    </li>
+				
+				    <li>
+				        <a href="https://github.com/cascadiajs/cascadiajs.github.com/blob/master/proposal/distributed-programming-for-kids_dominictarr.md" target="_blank" title="John-David Dalton – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
+				        
+						<img src="/images/speakers/jdalton.png" alt="An image of John-David Dalton"/>
+						
+						<h3>John-David Dalton</h3></a>
+						<p>JavaScript Tinkerer, Bug Fixer & Benchmark Runner</p>
+				    </li>
+				
+				    <li>
+				        <a href="https://github.com/cascadiajs/cascadiajs.github.com/blob/master/proposal/distributed-programming-for-kids_dominictarr.md" target="_blank" title="Itay Neeman – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
+				        
+						<img src="/images/speakers/ineeman.png" alt="An image of Itay Neeman"/>
+						
+						<h3>Itay Neeman</h3></a>
+						<p>Splunker</p>
+				    </li>
+				
+				    <li>
+				        <a href="https://github.com/cascadiajs/cascadiajs.github.com/blob/master/proposal/distributed-programming-for-kids_dominictarr.md" target="_blank" title="Geoffrey Grosenbach – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
+				        
+						<img src="/images/speakers/topfunky.jpeg" alt="An image of Geoffrey Grosenbach"/>
+						
+						<h3>Geoffrey Grosenbach</h3></a>
+						<p>Creator of Peepcode</p>
+				    </li>
+				
+				    <li>
+				        <a href="https://github.com/cascadiajs/cascadiajs.github.com/blob/master/proposal/distributed-programming-for-kids_dominictarr.md" target="_blank" title="Emily Rose – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
+				        
+						<img src="/images/speakers/emilyrose.jpeg" alt="An image of Emily Rose"/>
+						
+						<h3>Emily Rose</h3></a>
+						<p>Makes Magic Happen with JS & Hardware</p>
+				    </li>
+				
+				    <li>
+				        <a href="https://github.com/cascadiajs/cascadiajs.github.com/blob/master/proposal/distributed-programming-for-kids_dominictarr.md" target="_blank" title="Rick Waldron – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
+				        
+						<img src="/images/speakers/rickwaldron.jpg" alt="An image of Rick Waldron"/>
+						
+						<h3>Rick Waldron</h3></a>
+						<p>Javascript Evangelist</p>
+				    </li>
+				
+				    <li>
+				        <a href="https://github.com/cascadiajs/cascadiajs.github.com/blob/master/proposal/distributed-programming-for-kids_dominictarr.md" target="_blank" title="Matt Podwysocki – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
+				        
+						<img src="/images/speakers/mattpodwysocki.png" alt="An image of Matt Podwysocki"/>
+						
+						<h3>Matt Podwysocki</h3></a>
+						<p>Maintainer of RxJS</p>
+				    </li>
+				
+				    <li>
+				        <a href="https://github.com/cascadiajs/cascadiajs.github.com/blob/master/proposal/distributed-programming-for-kids_dominictarr.md" target="_blank" title="Dominic Tarr – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
+				        
+						<img src="/images/speakers/dominictarr.png" alt="An image of Dominic Tarr"/>
+						
+						<h3>Dominic Tarr</h3></a>
+						<p>JavaScript Meta-haxx</p>
+				    </li>
+				
+				    <li>
+				        <a href="https://twitter.com/angelinamagnum" target="_blank" title="Angelina Fabbro – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
+				        
+						<img src="/images/speakers/angelinafabbro.jpg" alt="An image of Angelina Fabbro"/>
+						
+						<h3>Angelina Fabbro</h3></a>
+						<p>Programming & Cognitive Science Geek</p>
+				    </li>
+				
+				    <li>
+				        <a href="https://github.com/cascadiajs/cascadiajs.github.com/blob/master/proposal/distributed-programming-for-kids_dominictarr.md" target="_blank" title="David Greenspan – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
+				        
+						<img src="/images/speakers/dgreenspan.jpg" alt="An image of David Greenspan"/>
+						
+						<h3>David Greenspan</h3></a>
+						<p>Meteor author & creator of Etherpad</p>
+				    </li>
+				
+
+		</ul>
+
+		<div class="clearfix"></div> -->
+
+            </article>
+
+            <footer>
+              <div class="copyright">
+                <img src="images/cascadiajs-footer-logo@2x.png" width="44" alt="A monochrome logo of the CascadiaJS logo"/>
+                <p>&copy; CascadiaJS. 2013.</p>
+              </div>
+              <div class="credits">
+                <a href="http://www.steamclock.com" target="_blank"><img src="images/steamclock-footer-logo@2x.png" width="44" alt="Steamclock Software logo"/></a>
+                <p>Website by <a href="http://www.steamclock.com" target="_blank">Steamclock Software</a>.</p>
+              </div>
+            </footer>
+
+            <div class="green-stripe"></div>
+
+        </div>
+
+    </body>
 </html>
