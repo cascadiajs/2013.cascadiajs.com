@@ -3,7 +3,7 @@
 * Name: Luis Daniel Rodriguez
 * Twitter: [@uxcodeline][]
 * Github: [uxcodeine][]
-* Website: [uxcodeline.com][]
+* Website: [www.uxcodeline.com][]
 
 ##Abstract
 
@@ -19,4 +19,4 @@ Luis Daniel Rodriguez grew up in Ecuador, South America and now lives and works 
 
 [@uxcodeline]:http://twitter.com/uxcodeline
 [uxcodeine]:http://github.com/uxcodeine
-[uxcodeline.com]:http://uxcodeline.com
+[www.uxcodeline.com]:http://uxcodeline.com
