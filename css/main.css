@@ -450,7 +450,9 @@ article {
 
 
 section {
+  width: 100%;
   clear: both;
+  text-align: center;
 }
 
 .lead-paragraph {
@@ -504,47 +506,6 @@ a {
   color: rgb(0,0,0);
 }
 
-/* The Bigass More Info Coming Soon */
-
-.callout {
-  text-align: center;
-  font-size: 1.15em;
-  margin: 30px 0;
-  padding: 20px 0;
-  border-top: solid 1px #29832f;
-  border-bottom: solid 1px #29832f;
-}
-
-.h2callout {
-  font-weight: 700;
-  color: rgb(100, 193, 249);
-}
-
-/* The Tiny Section About 2012 */
-
-.more-info {
-  text-align: center;
-  padding: 0 2%;
-}
-
-/* The Calls to Action On Home Page*/
-
-ul.actions {
-  float: left;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-ul.actions > li {
-  text-align: center;
-  margin: 20px 0 40px 0;
-}
-
-ul.actions > li:last-child {
-  margin: 40px 0 0 0;
-}
-
 /* The Fancy HR Element */
 
 hr.under-lead {
@@ -567,7 +528,99 @@ hr.under-lead:after {
     background-size: 23px 23px;
 }
 
+/* The Calls to Action On Home Page*/
+
+section.callstoaction {
+  float: left;
+  padding: 0 0 35px 0;
+}
+
+ul.actions {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.actions > li {
+  text-align: center;
+  margin: 20px 0 40px 0;
+}
+
+ul.actions > li:last-child {
+  margin: 40px 0 0 0;
+}
+
+/* The Organizers List */
+
+section.organizers {
+  float: left;
+  border-top: solid 1px rgb(41, 131, 47);
+  padding: 20px 0;
+}
+
+ul.organizers {
+  width: 100%;
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 40px 0;
+  min-height: 70px;
+  text-align: center;
+}
+
+ul.organizers > li {
+  float: left;
+  width: 45%;
+  margin: 0 5% 20px 0;
+}
+
+ul.organizers > li:nth-child(2n+2) {
+  float: left;
+  width: 45%;
+  margin-right: 0;
+}
+
+ul.organizers > li:last-child {
+  margin-bottom: 0;
+}
+
+ul.organizers > li > img {
+  border-radius: 50000px;
+  margin: 0;
+}
+
+ul.organizers > li > h3 {
+  margin: 0;
+  font-size: 0.85em;
+}
+
+/* The Sponsors List */
+
+section.sponsors {
+  border-top: solid 1px rgb(41, 131, 47);
+  padding: 20px 0;
+}
+
+ul.sponsors {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+  min-height: 70px;
+  text-align: center;
+}
+
+ul.sponsors > li {
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* The Speakers List */
+
+h2.speakers {
+  font-size: 1.5em;
+  margin: 10px 0 30px 0;
+}
 
 ul.speakers-list {
   float: left;
@@ -596,9 +649,28 @@ ul.speakers-list > li > a {
   text-decoration: none;
 }
 
-h2.speakers {
-  font-size: 1.5em;
-  margin: 10px 0 30px 0;
+/* The Bigass More Info Coming Soon */
+
+.callout {
+  text-align: center;
+  font-size: 1.15em;
+  margin: 0 0 30px 0;
+  padding: 20px 0;
+  border-top: solid 1px #29832f;
+  border-bottom: solid 1px #29832f;
+}
+
+.h2callout {
+  font-weight: 700;
+  color: rgb(100, 193, 249);
+}
+
+/* The Tiny Section About 2012 */
+
+.more-info {
+  text-align: center;
+  width: 85%;
+  margin: 0 auto 10px auto;
 }
 
 /* Le Footer */
@@ -638,6 +710,26 @@ footer a {
     font-size: 1.6em;
   }
 
+  section.sponsors {
+    margin-bottom: 0;
+    padding: 20px 0 30px 0;
+  }
+
+  ul.sponsors > li {
+    float: left;
+    width: 30%;
+    margin: 0 5% 0 0;
+  }
+
+  ul.sponsors > li:last-child {
+    float: left;
+    margin-right: 0;
+  }
+
+  ul.organizers > li:last-child {
+    margin-bottom: 0;
+  }
+
   footer {
     float: left;
   }
@@ -664,8 +756,8 @@ footer a {
   }
 
   .lead-paragraph {
-    padding: 0 20%;
-    margin: 0 0 20px 0;
+    width: 60%;
+    margin: 0 auto 20px auto;
   }
 
   ul.actions > li {
@@ -678,6 +770,46 @@ footer a {
     float: left;
     width: 30%;
     margin: 40px 0 0 0;
+  }
+
+  ul.organizers {
+    width: 100%;
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 40px 0;
+    min-height: 70px;
+    text-align: center;
+  }
+
+  ul.organizers > li {
+    float: left;
+    width: 20%;
+    margin: 0 6.667% 20px 0;
+  }
+
+  ul.organizers > li:nth-child(2n+2) {
+    float: left;
+    width: 20%;
+    margin: 0 6.667% 20px 0;
+  }
+
+  ul.organizers > li:last-child {
+    float: left;
+    margin-right: 0;
+  }
+
+  ul.organizers > li:last-child {
+    margin-bottom: 0;
+  }
+
+  ul.organizers > li:last-child {
+    margin-bottom: 0;
+  }
+
+  section.sponsors {
+    margin-bottom: 0;
+    padding: 20px 0 0px 0;
   }
 
   ul.speakers-list > li {
@@ -695,12 +827,12 @@ footer a {
 
   .callout {
     font-size: 2.15em;
-    margin: 60px 0;
+    margin: 30px 0;
   }
 
   .more-info {
-    margin: 40px ;
-    padding: 0 27%;
+    margin: 40px auto;
+    width: 53%;
   }
 
 }
@@ -712,8 +844,8 @@ footer a {
   }
 
   .more-info {
-    margin: 40px ;
-    padding: 0 27%;
+    margin: 40px auto;
+    width: 35%;
   }
 
   ul.speakers-list > li {
