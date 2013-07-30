@@ -588,6 +588,10 @@ ul.organizers > li:last-child {
 ul.organizers > li > img {
   border-radius: 50000px;
   margin: 0;
+  -webkit-box-shadow: 0 12px 0px -9px rgb(41, 131, 47);
+     -moz-box-shadow: 0 12px 0px -9px rgb(41, 131, 47);
+          box-shadow: 0 12px 0px -9px rgb(41, 131, 47);
+  border: 3px solid rgb(255, 255, 255);
 }
 
 ul.organizers > li > h3 {
