@@ -13,10 +13,10 @@ While accessibility has traditionally referred to the practice of providing equa
 
 Some questions I'll answer:
 
-• How does accessible Javascript differ from regular Javascript?
-• What has changed about how we code for accessibility as our tools have evolved?
-• Should your mobile site be accessible?
-• How can accessibility possibly be as cool as robotics?
+* How does accessible Javascript differ from regular Javascript?
+* What has changed about how we code for accessibility as our tools have evolved?
+* Should your mobile site be accessible?
+* How can accessibility possibly be as cool as robotics?
 
 ##Speaker Bio
 
