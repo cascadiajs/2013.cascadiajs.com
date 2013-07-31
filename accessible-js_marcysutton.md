@@ -7,7 +7,7 @@
 
 ##Abstract
 
-The need for accessible experiences is not going away. In fact, with more and more new devices and operating systems coming onto the market, the conversation must continue. Remember how Flash was terrible for accessibility? JavaScript doesn't have to be that way. By focusing a little attention on accessibility and multi-screen development, we will ensure more people can use the cool things we build without having to create separate sites or risk leaving users out in the cold.
+The need for accessible experiences is not going away. In fact, with more and more new devices and operating systems coming onto the market, the conversation must continue. Remember how Flash was terrible for accessibility? JavaScript doesn't have to be that way. By focusing a little attention on accessibility and multi-screen development, we will ensure more people can use the cool things we build.
 
 While accessibility has traditionally referred to the practice of providing equal website access to the blind, hearing impaired or cognitively disabled, it now extends to people of all abilities using tablets, smartphones, desktops, smart appliances, time machines and more. Okay, maybe not time machines...but you never know! I'll share what's new with HTML5 and screen readers, Javascript events and responsive development techniques like media queries and symbol fonts and how they can be applied for accessibility.
 
