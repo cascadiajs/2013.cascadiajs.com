@@ -173,7 +173,7 @@
 
         $(document).ready(function() {
           var peeps = {};
-          var forksUrl = 'https://api.github.com/repos/cascadiajs/2013.cascadiajs.com/forks?callback=?';
+          var forksUrl = 'https://api.github.com/repos/cascadiajs/2013.cascadiajs.com/forks?per_page=100&callback=?';
           var collabsUrl = 'https://api.github.com/repos/cascadiajs/2013.cascadiajs.com/collaborators?callback=?';
           $.when( $.getJSON(forksUrl), $.getJSON(collabsUrl) ).done(function(forks, collabs) {
             console.log(forks);
