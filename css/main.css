@@ -450,17 +450,12 @@ article {
 
 
 section {
+  float: left;
   width: 100%;
   clear: both;
   text-align: center;
-}
-
-.lead-paragraph {
-  text-align: center;
-  font-size: 1.3em;
-  font-weight: 300;
-  margin: 0;
-  line-height: 1.5;
+  padding: 30px 0;
+  border-top: solid 1px rgb(41, 131, 47);
 }
 
 .logo {
@@ -485,6 +480,7 @@ h1 {
 h2 {
   font-size: 1.4em;
   margin: 10px 0;
+  line-height: 1.4;
 }
 
 h3 {
@@ -528,43 +524,51 @@ hr.under-lead:after {
     background-size: 23px 23px;
 }
 
+/* Lead Paragraph */
+
+.lead-paragraph {
+  float: none;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0 0 20px 0;
+  padding: 0;
+  border-top: none;
+}
+
 /* The Calls to Action On Home Page*/
 
 section.callstoaction {
   float: left;
-  padding: 0 0 35px 0;
+  padding-top: 0;
+  border-top: none;
 }
 
 ul.actions {
   float: left;
   list-style: none;
-  margin: 0;
   padding: 0;
 }
 
 ul.actions > li {
   text-align: center;
-  margin: 20px 0 40px 0;
+  margin: 0 0 30px 0;
 }
 
 ul.actions > li:last-child {
-  margin: 40px 0 0 0;
+  margin-bottom: 0;
 }
 
 /* The Organizers List */
 
-section.organizers {
-  float: left;
-  border-top: solid 1px rgb(41, 131, 47);
-  padding: 20px 0;
-}
-
 ul.organizers {
+  float: left;
   width: 100%;
   display: block;
   list-style: none;
   padding: 0;
-  margin: 20px 0 40px 0;
+  margin: 20px 0 0 0;
   min-height: 70px;
   text-align: center;
 }
@@ -601,11 +605,6 @@ ul.organizers > li > h3 {
 
 /* The Sponsors List */
 
-section.sponsors {
-  border-top: solid 1px rgb(41, 131, 47);
-  padding: 20px 0;
-}
-
 ul.sponsors {
   list-style: none;
   padding: 0;
@@ -618,6 +617,12 @@ ul.sponsors > li {
   width: 100%;
   margin: 0 auto;
 }
+
+/* The Cloudflare Community List */
+#community {
+  margin: 20px 0 0 0;
+}
+
 
 /* The Speakers List */
 
@@ -658,7 +663,6 @@ ul.speakers-list > li > a {
 .callout {
   text-align: center;
   font-size: 1.15em;
-  margin: 0 0 30px 0;
   padding: 20px 0;
   border-top: solid 1px #29832f;
   border-bottom: solid 1px #29832f;
@@ -672,9 +676,13 @@ ul.speakers-list > li > a {
 /* The Tiny Section About 2012 */
 
 .more-info {
+  width: 100%;
   text-align: center;
-  width: 85%;
-  margin: 0 auto 10px auto;
+  border-top: none;
+}
+
+.more-info > p {
+  padding: 0;
 }
 
 /* Le Footer */
@@ -688,6 +696,7 @@ ul.speakers-list > li > a {
 }
 
 footer {
+  float: left;
   width: 100%;
   color: rgb(255,255,255);
   background-color: rgb(100, 193, 249);
@@ -712,11 +721,7 @@ footer a {
 
   .lead-paragraph {
     font-size: 1.6em;
-  }
-
-  section.sponsors {
-    margin-bottom: 0;
-    padding: 20px 0 30px 0;
+    margin: 0;
   }
 
   ul.sponsors > li {
@@ -759,9 +764,8 @@ footer a {
     font-size: 100%;
   }
 
-  .lead-paragraph {
-    width: 60%;
-    margin: 0 auto 20px auto;
+  .lead-paragraph > p {
+    padding: 0 20%;
   }
 
   ul.actions > li {
@@ -774,16 +778,6 @@ footer a {
     float: left;
     width: 30%;
     margin: 40px 0 0 0;
-  }
-
-  ul.organizers {
-    width: 100%;
-    display: block;
-    list-style: none;
-    padding: 0;
-    margin: 20px 0 40px 0;
-    min-height: 70px;
-    text-align: center;
   }
 
   ul.organizers > li {
@@ -811,9 +805,8 @@ footer a {
     margin-bottom: 0;
   }
 
-  section.sponsors {
-    margin-bottom: 0;
-    padding: 20px 0 0px 0;
+  #community {
+    margin: 30px 0 0 0;
   }
 
   ul.speakers-list > li {
@@ -831,12 +824,10 @@ footer a {
 
   .callout {
     font-size: 2.15em;
-    margin: 30px 0;
   }
 
-  .more-info {
-    margin: 40px auto;
-    width: 53%;
+  .more-info > p {
+    padding: 0 25%;
   }
 
 }
@@ -847,9 +838,8 @@ footer a {
     font-size: 120%;
   }
 
-  .more-info {
-    margin: 40px auto;
-    width: 35%;
+  .more-info > p {
+    padding: 0 32%;
   }
 
   ul.speakers-list > li {

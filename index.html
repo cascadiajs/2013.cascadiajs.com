@@ -61,7 +61,7 @@
 
 	</section>
 
-	<section class="organizers">
+	<section>
 		
 		<h2>Organizers</h2>
 
@@ -85,7 +85,7 @@
 		</ul>
 	</section>
 	
-	<section class="sponsors">
+	<section>
 
 		<h2>Sponsors</h2>
 
@@ -102,11 +102,11 @@
 		</ul>
 	</section>
 
-	<section class="sponsors"> <!-- FIX THIS -->
+	<section>
 
-		<h2>Join the CascadiaJS 2013 Community!</h2>
-
-        <div id="community"></div>
+		<h2>Join The CascadiaJS Community!</h2>	
+	
+		<div id="community"></div>
 
 	</section>
 
@@ -138,87 +138,6 @@
 						<p>Engineer at Voxer</p>
 				    </li>
 				
-				    <li>
-				        <a href="https://github.com/cascadiajs/cascadiajs.github.com/blob/master/proposal/distributed-programming-for-kids_dominictarr.md" target="_blank" title="John-David Dalton – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
-				        
-						<img src="/images/speakers/jdalton.png" alt="An image of John-David Dalton"/>
-						
-						<h3>John-David Dalton</h3></a>
-						<p>JavaScript Tinkerer, Bug Fixer & Benchmark Runner</p>
-				    </li>
-				
-				    <li>
-				        <a href="https://github.com/cascadiajs/cascadiajs.github.com/blob/master/proposal/distributed-programming-for-kids_dominictarr.md" target="_blank" title="Itay Neeman – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
-				        
-						<img src="/images/speakers/ineeman.png" alt="An image of Itay Neeman"/>
-						
-						<h3>Itay Neeman</h3></a>
-						<p>Splunker</p>
-				    </li>
-				
-				    <li>
-				        <a href="https://github.com/cascadiajs/cascadiajs.github.com/blob/master/proposal/distributed-programming-for-kids_dominictarr.md" target="_blank" title="Geoffrey Grosenbach – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
-				        
-						<img src="/images/speakers/topfunky.jpeg" alt="An image of Geoffrey Grosenbach"/>
-						
-						<h3>Geoffrey Grosenbach</h3></a>
-						<p>Creator of Peepcode</p>
-				    </li>
-				
-				    <li>
-				        <a href="https://github.com/cascadiajs/cascadiajs.github.com/blob/master/proposal/distributed-programming-for-kids_dominictarr.md" target="_blank" title="Emily Rose – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
-				        
-						<img src="/images/speakers/emilyrose.jpeg" alt="An image of Emily Rose"/>
-						
-						<h3>Emily Rose</h3></a>
-						<p>Makes Magic Happen with JS & Hardware</p>
-				    </li>
-				
-				    <li>
-				        <a href="https://github.com/cascadiajs/cascadiajs.github.com/blob/master/proposal/distributed-programming-for-kids_dominictarr.md" target="_blank" title="Rick Waldron – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
-				        
-						<img src="/images/speakers/rickwaldron.jpg" alt="An image of Rick Waldron"/>
-						
-						<h3>Rick Waldron</h3></a>
-						<p>Javascript Evangelist</p>
-				    </li>
-				
-				    <li>
-				        <a href="https://github.com/cascadiajs/cascadiajs.github.com/blob/master/proposal/distributed-programming-for-kids_dominictarr.md" target="_blank" title="Matt Podwysocki – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
-				        
-						<img src="/images/speakers/mattpodwysocki.png" alt="An image of Matt Podwysocki"/>
-						
-						<h3>Matt Podwysocki</h3></a>
-						<p>Maintainer of RxJS</p>
-				    </li>
-				
-				    <li>
-				        <a href="https://github.com/cascadiajs/cascadiajs.github.com/blob/master/proposal/distributed-programming-for-kids_dominictarr.md" target="_blank" title="Dominic Tarr – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
-				        
-						<img src="/images/speakers/dominictarr.png" alt="An image of Dominic Tarr"/>
-						
-						<h3>Dominic Tarr</h3></a>
-						<p>JavaScript Meta-haxx</p>
-				    </li>
-				
-				    <li>
-				        <a href="https://twitter.com/angelinamagnum" target="_blank" title="Angelina Fabbro – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
-				        
-						<img src="/images/speakers/angelinafabbro.jpg" alt="An image of Angelina Fabbro"/>
-						
-						<h3>Angelina Fabbro</h3></a>
-						<p>Programming & Cognitive Science Geek</p>
-				    </li>
-				
-				    <li>
-				        <a href="https://github.com/cascadiajs/cascadiajs.github.com/blob/master/proposal/distributed-programming-for-kids_dominictarr.md" target="_blank" title="David Greenspan – Learn the concepts behind Spark, a library that lets you write HTML declaratively by eliminating update logic.">
-				        
-						<img src="/images/speakers/dgreenspan.jpg" alt="An image of David Greenspan"/>
-						
-						<h3>David Greenspan</h3></a>
-						<p>Meteor author & creator of Etherpad</p>
-				    </li>
-				
 
 		</ul>
 
@@ -241,31 +160,33 @@
 
         </div>
 
+        <!-- Javascripts -->
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.0/underscore-min.js"></script>
+        <script>
+        function renderPeeps(peeps) {
+          peeps.forEach(function(peep) {
+            $('<a href="' + peep.url + '"><img width="80" height="80" src="' + peep.avatar_url + '"/></a>').appendTo('#community');
+          });
+        }
+
+        $(document).ready(function() {
+          var peeps = {};
+          var forksUrl = 'https://api.github.com/repos/cascadiajs/2013.cascadiajs.com/forks?callback=?';
+          var collabsUrl = 'https://api.github.com/repos/cascadiajs/2013.cascadiajs.com/collaborators?callback=?';
+          $.when( $.getJSON(forksUrl), $.getJSON(collabsUrl) ).done(function(forks, collabs) {
+            console.log(forks);
+            forks[0].data.forEach(function(fork) {
+              peeps[fork.owner.login] = {url: 'https://github.com/'+fork.owner.login, avatar_url: fork.owner.avatar_url};
+            });
+            collabs[0].data.forEach(function(collab) {
+              peeps[collab.login] = {url: 'https://github.com/'+collab.login, avatar_url: collab.avatar_url};
+            });
+            renderPeeps(_.values(peeps));
+          });
+        });
+        </script>
+
     </body>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.0/underscore-min.js"></script>
-    <script>
-    function renderPeeps(peeps) {
-      peeps.forEach(function(peep) {
-        $('<a href="' + peep.url + '"><img width="80" height="80" src="' + peep.avatar_url + '"/></a>').appendTo('#community');
-      });
-    }
-
-    $(document).ready(function() {
-      var peeps = {};
-      var forksUrl = 'https://api.github.com/repos/cascadiajs/2013.cascadiajs.com/forks?callback=?';
-      var collabsUrl = 'https://api.github.com/repos/cascadiajs/2013.cascadiajs.com/collaborators?callback=?';
-      $.when( $.getJSON(forksUrl), $.getJSON(collabsUrl) ).done(function(forks, collabs) {
-        console.log(forks);
-        forks[0].data.forEach(function(fork) {
-          peeps[fork.owner.login] = {url: 'https://github.com/'+fork.owner.login, avatar_url: fork.owner.avatar_url};
-        });
-        collabs[0].data.forEach(function(collab) {
-          peeps[collab.login] = {url: 'https://github.com/'+collab.login, avatar_url: collab.avatar_url};
-        });
-        renderPeeps(_.values(peeps));
-      });
-    });
-    </script>
-
 </html>
