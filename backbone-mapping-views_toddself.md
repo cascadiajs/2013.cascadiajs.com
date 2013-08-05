@@ -13,7 +13,7 @@ The pain of building an interactive map has been greatly reduced thanks to tools
 
 ![toddself](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/toddself.png)
 
-Hi! I'm Todd Kennedy and I live in Brooklyn and have been writing JavaScript for nearly 17 years.  I'm the currently tech lead for Condé Nast Traveler where we are busy gearing up to re-launch our product and site on a node.js based platform and API. Prior to this I was the Head of Product for Updater.com and the senior front end developer for a (sadly) defunct mapping start-up, Broadcastr and am the author of the [Backbone.Validation](https://github.com/toddself/backbone.validtion) plug-in.
+Hi! I'm Todd Kennedy and I live in Brooklyn and have been writing JavaScript for nearly 17 years.  I'm the currently tech lead for Condé Nast Traveler where we are busy gearing up to re-launch our product and site on a node.js based platform and API. Prior to this I was the Head of Product for Updater.com and the senior front end developer for a (sadly) defunct mapping start-up, Broadcastr and am the author of the [Backbone.Validation](https://github.com/toddself/backbone.validation) plug-in.
 
 [@whale_eat_squid]:http://twitter.com/whale_eat_squid
 [toddself]:https://github.com/toddself
