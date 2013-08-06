@@ -25,5 +25,6 @@ it’s the most future proof decision for everyone.
 
 Andras is in love with JavaScript. With strong overall IT knowledge and more than 15 years of experience
 developing web applications he has participated in very different projects and done awesome things. He's
-now a lead engineer at Prezi, but worked on frontend heavy services like [Netvibes.com](http://netvibes.com/)
-and [Liligo.com](http://liligo.com/) from the beginning when the rise of AJAX changed web programming.
+now a lead engineer at [Prezi](http://prezi.com), but worked on frontend heavy services like
+[Netvibes.com](http://netvibes.com/) and [Liligo.com](http://liligo.com/) from the beginning when the
+rise of AJAX changed web programming.
