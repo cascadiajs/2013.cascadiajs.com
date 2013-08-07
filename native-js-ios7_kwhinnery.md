@@ -10,6 +10,6 @@ In this talk, we'll focus on what developers need to know to take advantage of J
 There are many exciting possible applications of this technology, and I hope the JavaScript community takes full advantage of them.
 
 ### Awkward Third Person Biography
-Kevin Whinnery is a front-end hacker and developer evangelist for [Twilio](http://www.twilio.com).  Kevin loves building native mobile apps and browser-based apps, all with a healthy helping of node.js on the back end. Kevin is also the author and maintainer of Twilio's [official node.js helper library](http://twilio.github.io/twilio-node/).
+Kevin Whinnery is a front-end hacker and developer evangelist for [Twilio](http://www.twilio.com).  Kevin has been researching and using JavaScript on mobile for several years, including a four year stint at [Appcelerator](http://www.appcelerator.com) prior to joining Twilio. Kevin is also the author and maintainer of Twilio's [official node.js helper library](http://twilio.github.io/twilio-node/).
 
 Kevin lives in Saint Paul, Minnesota with his beautiful wife and three devious children.
