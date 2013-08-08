@@ -13,7 +13,7 @@ Having been involved in the node.js community for some time, and having talked s
 
 ##Speaker Bio 
 
-![Josh](http://jesusabdullah.net/img/me.jpg)
+![Josh](https://raw.github.com/jergason/2013.cascadiajs.com/master/images/joshuaholbrook.png)
 
 In late 2010, as I was in grad school for an engineering degree tangentially related to software at best, [@substack](https://github.com/substack) showed me this newfangled platform for writing webservers called node.js and insisted that it was way better than MATLAB. Within a year I had ditched engineering and moved from Alaska to the Bay Area to go on a **JavaScript adventure**.
 
