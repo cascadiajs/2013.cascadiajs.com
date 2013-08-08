@@ -11,10 +11,10 @@ When you're writing code to demo browser performance analysis tools, how do you 
 
 ##Speaker Bio
 
-![jandoe](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/gregbulmash.png)
+![GregBulmash](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/gregbulmash.png)
 
-Greg Bulmash is an urban legend. Seriously. Look him up on Snopes.com. He was IMDb.com's first photo editor, a contributor to openclipart.org, a Zend Certified Engineer in PHP, and a Microsoft Certified Specialist in HTML5, CSS3, and JavaScript. He currently works for Microsoft, writing developer documentation for Internet Explorer. 
+Greg Bulmash is an urban legend. Seriously. Look him up on Snopes.com. He was IMDb.com's first photo editor, contributed to openclipart.org, is a Zend Certified Engineer in PHP and a Microsoft Certified Specialist in HTML5, CSS3, and JavaScript. He currently works for Microsoft, writing developer documentation for Internet Explorer. 
 
 [@GregBulmash]:http://twitter.com/GregBulmash
-[gregbulmash]:http://github.com/GregBulmash
+[GregBulmash]:http://github.com/GregBulmash
 [www.olddeveloper.com]:http://www.olddeveloper.com
