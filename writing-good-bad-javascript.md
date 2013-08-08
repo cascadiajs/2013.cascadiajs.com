@@ -11,7 +11,7 @@ When you're writing code to demo browser performance analysis tools, how do you 
 
 ##Speaker Bio
 
-![GregBulmash](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/gregbulmash.png)
+![GregBulmash](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/greg_bulmash.png)
 
 Greg Bulmash is an urban legend. Seriously. Look him up on Snopes.com. He was IMDb.com's first photo editor, contributed to openclipart.org, is a Zend Certified Engineer in PHP and a Microsoft Certified Specialist in HTML5, CSS3, and JavaScript. He currently works for Microsoft, writing developer documentation for Internet Explorer. 
 
