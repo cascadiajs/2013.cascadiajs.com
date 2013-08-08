@@ -1,8 +1,10 @@
-###IMPORTANT: Deadline is August 15th
+##IMPORTANT: DEADLINE IS AUGUST 15, 2013
 
 Welcome to the open call for speakers for [CascadiaJS 2013][]. CascadiaJS is a JavaScript conference for developers in the Pacific Northwest. If you love JavaScript and know how to submit a pull request, you are eligible to speak at our conference. Diversity of voices is important to our community, so please don't think that you need to be a JS celebrity in order to speak at CJS.
 
-The deadline to submit a proposal is **August 15, 2013**. You are free to submit (and even revise) proposals up until that date. Please follow the instructions below and help us spread the word!
+* The deadline to submit a proposal is **August 15, 2013**. You are free to submit (and even revise) proposals up until that date. 
+* Travel and accomodations for speakers will be taken care of.
+* Please follow the instructions below and help us spread the word!
 
 ###How to submit a proposal
 
