@@ -3,7 +3,6 @@
 * Name      : Shawn Jansepar
 * Twitter   : [@shawnjan8](http://twitter.com/shawnjan8)
 * Github    : [jansepar](http://github.com/jansepar)
-* Website   : [www.jansepar.com](http://www.jansepar.com)
 
 ##Abstract
 
@@ -33,7 +32,7 @@ have loaded).
 
 ![jansepar](images/jansepar.png)
 
-I am a software engineer and dev lead on the Product Team at Mobify where I
-get to hack both on the front-end and back-end, with a heavy focus on the
+I am a software engineer and dev lead on the Product Team at Mobify, where I
+get to hack both on the front-end and back-end with a heavy focus on the
 user experience. When I'm not hacking, you likely find me playing hockey/video
 games, eating donairs, or travelling. 
