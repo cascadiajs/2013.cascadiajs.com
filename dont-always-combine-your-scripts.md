@@ -26,7 +26,7 @@ for the SPDY web.
 
 ##Speaker Bio
 
-![jansepar](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/jansepar.png)
+![jansepar](images/jansepar.png)
 
 I am a software engineer and dev lead on the Product Team at Mobify where I
 get to hack both on the front-end and back-end, with a heavy focus on the
