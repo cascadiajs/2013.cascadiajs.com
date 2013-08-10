@@ -23,5 +23,8 @@ compile-to-JS language designers who don't want to reiterate mistakes from the p
 
 ## Speaker Bio
 
-![David Bruant](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/davidbruant.png)
+![David Bruant](images/davidbruant.png)
 
+David is a web developer. Passionate about the web ecosystem in general; web browsers, websites and JavaScript in particular.
+Also passionate about education, he occasionally contributes to the JavaScript section of MDN, do company training and
+teaches people around him.
