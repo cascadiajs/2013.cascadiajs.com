@@ -13,7 +13,7 @@ Do you find yourself often copying-and-pasting boilerplate for similar projects?
 
 ![Brian Holt](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/brianholt.png)
 
-Brian is currently the director of redditgifts front-end development for reddit. When not working on the reddit marketplace or posting cat memes to reddit, but often finds himself doing a variety of outdoor sports poorly or hanging out with with his wife and puppy.
+Brian is currently the director of redditgifts front-end development for reddit. When not working on the reddit marketplace or posting cat memes to reddit, Brian often finds himself doing a variety of outdoor sports poorly or hanging out with with his wife and puppy.
 
 [@holtbt]:http://www.twitter.com/holtbt
 [btholt]:http://github.com/btholt
