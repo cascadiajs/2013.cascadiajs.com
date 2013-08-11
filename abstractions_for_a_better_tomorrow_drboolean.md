@@ -15,12 +15,13 @@ Welcome friend. Here, all code across languages utilizes a few well known mathem
 Knowledge gained stays relevant. Here you can instantly swap 1 module for another,
 compose everything, avoid docs, share algorithms, effortlessly optimize, discuss things in common terms!
 
-"Bullhonkey", you proclaim as I start to hum a low note quietly.
+"Bullhonkey", you proclaim as I start to hum a low note quietly, fingers coiled into semi-rings.
+"But I hate math and I heard math isn't prog..."
 "Shhhhhhh...", I press my finger to your lips. "Come to my talk & I'll explain everything..."
                                                                
-We'll look at the FP ecosystem to see what how they are doing this _right now_.
+In this talk, we'll look at the FP ecosystem to see how fantasy land is a reality _right now_.
 You'll hear why normal folks like you & me get bit by the math bug.
-We'll see all of this in understandable JS. We'll have our utopia and eat it too.
+We'll see all of this in understandable JS.
 
 Hash taggggg: \#electric\_chameleonism. \#robotic\_contortionists. \#systemic\_shape\_shifting. \#fantasyland
 
