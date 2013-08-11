@@ -1,9 +1,9 @@
 #Yeoman: Set Your Workflow Ablaze
 
 * Name      : Brian Holt
-* Twitter   : [@holtbt](http://www.brianholt.me)
-* Github    : [btholt](http://github.com/btholt)
-* Website   : [brianholt.me](http://www.brianholt.me)
+* Twitter   : [@holtbt][]
+* Github    : [btholt][]
+* Website   : [brianholt.me][]
 
 ##Abstract
 
@@ -14,3 +14,7 @@ Do you find yourself often copying-and-pasting boilerplate for similar projects?
 ![Brian Holt](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/brianholt.png)
 
 Brian is currently the director of redditgifts front-end development for reddit. When not working on the reddit marketplace or posting cat memes to reddit, but often finds himself doing a variety of outdoor sports poorly or hanging out with with his wife and puppy.
+
+[@holtbt]:http://www.twitter.com/holtbt
+[btholt]:http://github.com/btholt
+[brianholt.me]:http://www.brianholt.me
