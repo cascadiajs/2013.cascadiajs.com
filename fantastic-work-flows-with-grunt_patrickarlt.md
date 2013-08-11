@@ -2,7 +2,7 @@
 
 * Name      : Patrick Arlt
 * Twitter   : [@patrickarlt][]
-* Github    : [Patrickarlt][]
+* Github    : [patrickarlt][]
 
 ## Abstract
 
