@@ -19,7 +19,7 @@ software is **data**. Data that programs take in form of
 **input** and transform to produce data they
 **output**. Everything that is not part of data
 transformation pipeline is an incidental complexity
-that serves as a distraction form the essence,
+that serves as a distraction form the essence of the
 problem we are trying solve.
 
 Luckily there are viable solutions (like [FRP][]) pioneered
