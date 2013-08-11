@@ -24,8 +24,8 @@ problem we are trying solve.
 
 Luckily there are viable solutions (like [FRP][]) pioneered
 by functional languages, that do a better job at managing
-complexity by concentrating fully on the data & it's
-transformations, which in many cases can be provide more
+complexity by concentrating fully on the data & its
+transformations, which in many cases can provide more
 effective & simpler solutions.
 
 It can not be a coincidence that lots of parallels can be
@@ -38,8 +38,8 @@ thought!
 
 ![gozala](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/gozala.png)
 
-Irakli likes to thing of himself as a "functional" guy who
-inroduces interesting ideas from other languages to a JS community.
+Irakli likes to think of himself as a "functional" guy who
+introduces interesting ideas from other languages to a JS community.
 He is kind of a dreamer, exercising his skills in making web
 development more [interactive][interactivate] and [(fun)][wisp].
 Well, his definition of fun involves many parenthesis & most of
