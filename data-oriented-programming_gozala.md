@@ -7,32 +7,26 @@
 
 ## Abstract
 
-Software industry is adopting a lot of ideas from the
-("mostly" pure) functional languages. However most of the
-GUI applications & frameworks are still stuck with OO &
-MVC. That usually implies: classes & objects that inherit
-complexity, ever growing API surface and decent amount
-of plumbing!
+Essence of all applications lays in **data**. Programs take
+it in form of **input** & apply transformations to produce
+data they **output**. Naturally all programs should be 
+about data transformation pipelines & everything else has to
+be considered an incidental complexity disconnecting us from
+the actual problem we are trying to solve. However most of
+the web applications & frameworks are stuck with [OO][],
+reinventing [MVC][] where **data** is scattered across class
+hierarchies that inheriting complexity from each other,
+producing ever growing API surface.
 
-One thing that we tend to forget is that essence of all
-software is **data**. Data that programs take in form of
-**input** and transform to produce data they
-**output**. Everything that is not part of data
-transformation pipeline is an incidental complexity
-that serves as a distraction form the essence of the
-problem we are trying solve.
-
-Luckily there are viable solutions (like [FRP][]) pioneered
-by functional languages, that do a better job at managing
-complexity by concentrating fully on the data & its
-transformations, which in many cases can provide more
-effective & simpler solutions.
-
-It can not be a coincidence that lots of parallels can be
-drawn with other big, but essentially same, ideas:
-[Unix pipes][], [Block diagrams][], [FBP][] etc... They
-have to be up to something that is worth giving another
-thought!
+Luckily JS also has a functional side to it and that paradigm
+has a lot to offer in the same problem space. This enables us
+to draw our inspiration from alternatives like [FRP][], that
+do a better job at managing complexity by focusing on data
+& its transformations. It can not be a coincidence that
+[Unix pipes][], [Block diagrams][], [FBP][] also share same
+core idea, they must be up to something. With that I'd like to
+invite you to a journey, to discover harmony of a simple data
+transformations in the event driven nature of the web platform.
 
 ## Speaker Bio
 
@@ -53,6 +47,8 @@ them on the wrong side, because he is a [lisper][] in his heart!
 [Block diagrams]:http://en.wikipedia.org/wiki/Block_diagram
 [Unix pipes]:https://en.wikipedia.org/wiki/Pipeline_%28Unix%29
 [FBP]:http://en.wikipedia.org/wiki/Flow-based_programming
+[OO]:http://en.wikipedia.org/wiki/Object-oriented_programming
+[MVC]:http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
 
 [interactivate]:http://jeditoolkit.com/interactivate/
 [wisp]:http://jeditoolkit.com/interactivate-wisp/
