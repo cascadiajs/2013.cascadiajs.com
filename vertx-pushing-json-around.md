@@ -35,4 +35,4 @@ the Javascript language module, for Vert.x.
 [reactor]:http://en.wikipedia.org/wiki/Reactor_pattern
 [Project Odd]:http://projectodd.org/
 [DynJS]:http://dynjs.org
-[lang-js]:http://github.com/vert-x/lang-js
+[lang-js]:http://github.com/vert-x/mod-lang-js
