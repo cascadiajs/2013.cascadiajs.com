@@ -12,12 +12,12 @@ Let's close our eyes, hold hands, & imagine together. Sit here, cross legged, op
 We're going to fantasy land.
 
 Welcome friend. Here, all code across languages utilizes a few well known mathematical interfaces.
-Knowledge gained stays relevant. Here you can instantly swap 1 module for another,
-compose everything, avoid docs, share algorithms, effortlessly optimize, discuss things in common terms!
+Here, knowledge gained stays relevant. Here, you can instantly swap 1 module for another,
+compose everything, avoid docs, discuss things in common terms, share algorithms, refactor to formulas!
 
 "Bullhonkey", you proclaim as I start to hum a low note quietly, fingers coiled into semi-rings.
 "But I hate math and I heard math isn't prog..."
-"Shhhhhhh...", I press my finger to your lips. "Come to my talk & I'll explain everything..."
+"Shhhhhhh...", I press my finger to your lips. "I did too. Come to my talk & I'll explain everything..."
                                                                
 In this talk, we'll look at the FP ecosystem to see how fantasy land is a reality _right now_.
 You'll hear why normal folks like you & me get bit by the math bug.
