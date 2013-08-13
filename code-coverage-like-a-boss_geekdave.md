@@ -11,12 +11,17 @@ Code Coverage tools can prove to be invaluable resources in software projects la
 
 In this talk, you'll learn:
 
-* how implementing a Code Coverage process keeps teams honest and avoids technical debt.  
-* how to automate the coverage enforcement process using Grunt, so that you don't have to nag your teammates.  
-* how coverage statistics can lie to you, and what you can do about it.  
-* why chasing a high coverage percentage is a bad strategy, and how to explain that to your number-oriented boss.  
-* why "Feature Coverage" is an essential companion to Code Coverage
-* how your QA team can get involved with the Unit Testing process without writing any code.
+### Bossy Code Coverage
+Code Coverage is meaningless if it's not enforced.  But nobody likes being the one who chronically nags their teammates.  By automating the process of enforcing a minimum coverage threshold, this responsibility is passed on to a robot.  We'll look into using Grunt to handle this task, and how you can configure a solution that runs on popular CI frameworks like TravisCI and Jenkins.  Over time, this process can change the culture of teams to a "test-first" mindset.
+
+### Lies, Damn Lies, & Statistics
+Now that you love Code Coverage, find out how your tool's statistics are *lying to you.*  It's easy to get a false sense of security based on coverage percentages.  But as it turns out, there are many ways that developers can (intentionally or not) manipulate the system to produce misleading coverage statistics.  Luckily, there are a few simple strategies that can mitigate this issue, and keep your numbers honest.
+
+### The Zen of Coverage
+How much coverage is "good enough"? 50%? 75%? 90%? Just as a Zen master lives in a constant pursuit of enlightenment, so must we never cease to pursue better code coverage.  But is it really about the numbers?  Learn why chasing a high coverage percentage is a bad strategy, and how to explain that to your number-oriented boss.  
+
+### Feature Coverage FTW
+Code Coverage serves as a great "fail safe" for catching untested or under-tested code.  But it does nothing to ensure that the tests we write are actually *meaningful*.  To accomplish this, we need actual human brains, eyeballs, and conversations.  Learn how to implement a "Feature Coverage" process as an essential companion to Code Coverage, and how this will instill harmony in your team between Product Managers, QA, and developers. 
 
 ##Speaker Bio
 
