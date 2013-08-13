@@ -4,7 +4,7 @@
 * Twitter   : [@renrutnnej][]
 * Github    : [renrutnnej][]
 * Website   : [renrutnnej.com][]
-              [andyet.net][]
+              [andyet.com][]
 
 ##Abstract
 
@@ -21,14 +21,16 @@ Being "in the developer world but not of it" has given me perspective to identif
 - A framework for moving forward to greater emotional safety.]
 
 ## Jenn Turner
+
+![renrutnnej](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/renrutnnej.png)
+
 - Young, wild, and free. Except for the young part. And the wild part.
 - TriConf lead organizer
 - Writer and emotional safety engineer at &yet
 
-![renrutnnej](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/renrutnnej.png)
 
 [@renrutnnej]:http://twitter.com/renrutnnej
 [renrutnnej]:http://github.com/renrutnnej
 [renrutnnej.com]:http://renrutnnej.com
-[andyet.net]:http://andyet.net
+[andyet.com]:http://andyet.com/team/jenn
 
