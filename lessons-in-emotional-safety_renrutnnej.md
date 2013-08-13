@@ -8,7 +8,7 @@
 
 ##Abstract
 
-[# Lessons in Emotional Safety
+# Lessons in Emotional Safety
 
 ## Introduction
 Emotional safety is the most important predictor of the health of an organization and a community. But more importantly, it has a enduring repurcussions on our lives as individuals. Like, our real lives—the ones we live for our whole lives.
@@ -18,10 +18,10 @@ I've worked in intensely unsafe professional environments prior to joining &yet.
 Being "in the developer world but not of it" has given me perspective to identify blind spots within our culture as a company and a community. Traditionally copywriters on a software team are viewed as a supporting role: we help sell what gets made. But what if all contributors to a team were true equals capable of leading and shaping a continuously improving company culture? That's the foundation of emotional safety. 
 
 ## Outline: 
-  1) What emotional safety is and why it's important.
-  2) Why it's not something that can be simply tacked on, but must be embedded in culture.
-  3) My struggles with identifying myself as a sexist and the challenges that presents.
-  4) A framework for moving forward to greater emotional safety.]
+- What emotional safety is and why it's important.
+- Why it's not something that can be simply tacked on, but must be embedded in culture.
+- My struggles with identifying myself as a sexist and the challenges that presents.
+- A framework for moving forward to greater emotional safety.]
 
 ##Speaker Bio
 
