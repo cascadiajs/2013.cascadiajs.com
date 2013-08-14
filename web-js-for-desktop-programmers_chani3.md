@@ -7,7 +7,18 @@
 
 ##Abstract
 
-Switching from desktop to web development is... a big change. While I'm still in the middle of this transition, I'd like to talk about some of the pitfalls I've encountered, from callbacks to css to mental biases.
+Switching from desktop to web development is... a big change. While I'm still in the middle of this transition, I'd like to talk about some of the pitfalls I've encountered.
+
+This talk will cover:
+* ways to f*** up callbacks
+* biases (it's "just" web development, right?)
+* browser hells
+* responsive design
+and more, if there's time.
+
+It will not cover:
+* javascript syntax
+* basic html/css
 
 This could also work as an unconference topic - I'd love to hear about other people's experiences.
 
