@@ -18,7 +18,7 @@ This talk will present the tools to build a distributed Big Data platform coveri
 
 ##Speaker Bio
 
-![kcq](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/janedoe.png)
+![kcq](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/kcq.png)
 
 I'm a co-founder at CloudImmunity and a Big Data architect at CrowdStrike.
 I use node.js and JavaScript when it makes sense and I use other tools when it doesn't :-)
