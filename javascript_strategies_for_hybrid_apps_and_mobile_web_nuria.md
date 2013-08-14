@@ -1,4 +1,4 @@
-#Javascript Strategies for Webviews and Mobile Web
+#Javascript Strategies for Hybrid Apps and Mobile Web
 
 * Name      : Nuria Ruiz
 * Twitter   : [@pantojacoder][http://twitter.com/pantojacoder]
@@ -17,7 +17,8 @@ are two closely related, but significantly different problems. I will go into wh
 when you develop for mobile is to know your user base. Why user agent sniffing is helpful when determining 
 levels of support. How having a flavor of a mobile website that works everywhere allows us to support legacy 
 browsers forever, for free. I will also discuss PhoneGap and how it can be a game changer, but also how 
-the best way to use it in a hybrid app might not be the obvious one.
+the best way to use it in a hybrid app might not be the obvious one. 
+
 
 ##Speaker Bio
 
@@ -25,7 +26,9 @@ the best way to use it in a hybrid app might not be the obvious one.
  have been working on the web for over ten years. The bulk of my experience comes from the 7 years 
  I worked at Amazon.com in various positions. I had to learn a lot there because before taking that job 
  I made my living doing research in Oceanography. On 2010 I joined tuenti.com, a social network in Spain where 
- I discover mobile and I thought, hey, is just like the desktop ten years ago.
+ I started learning about mobile. And I thought, hey, is just like the desktop ten years ago.
+ 
+ http://www.linkedin.com/in/nurieta
 
 [@pantojacoder]:http://twitter.com/pantojacoder
 [nuria]:http://github.com/nuria
