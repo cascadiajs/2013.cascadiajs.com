@@ -2,8 +2,8 @@
 
 * Name      : Morgan Roderick
 * Twitter   : [@mrgnrdrck](https://twitter.com/mrgnrdrck)
-* Github    : [mroderick][https://github.com/mroderick]
-* Website   : [roderick.dk][http://roderick.dk]
+* Github    : [mroderick](https://github.com/mroderick)
+* Website   : [roderick.dk](http://roderick.dk)
 
 ## Abstract
 
