@@ -22,9 +22,8 @@ There will be up to 3 demos, building interactive stories with glass (mirror), i
 
 ![marcysutton](https://raw.github.com/flockonus/2013.cascadiajs.com/master/images/flockonus.png)
 
-Fabiano Soriani is pixel tamer and bytes organizer at Axiom Zen, passionate with all the web things
+Kicked out of Brazil for not playing soccer, Fabiano Soriani found joy at Axiom Zen, a newly created startup/agency in Vancouver. Passionate with the web things, perfs, games, tinkering, cycling and hiking!
 
-Marcy Sutton is a developer at Substantial in Seattle. She's passionate about equal access and mobile web development, bicycling, snowboarding and music.
 
 [@flockonus]:http://twitter.com/flockonus
 [flockonus]:http://github.com/marcysutton
