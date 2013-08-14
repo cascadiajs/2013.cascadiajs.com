@@ -16,9 +16,10 @@ While I'm still in the middle of this transition, I'd like to talk about some of
 * biases (it's "just" web development, right?)
 * browser hell (what do you mean, it doesn't work in firefox?  (╯°□°)╯︵ ┻━┻ )
 * responsive design (even images aren't reliable any more)
+
 and more, if there's time.
 
-It will not cover:
+This talk will not cover:
 * javascript syntax
 * basic html/css
 
