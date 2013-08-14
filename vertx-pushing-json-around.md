@@ -16,9 +16,11 @@ or applications simple. With JSON as the native message format, and a SockJS
 client that speaks directly to the bus, pushing event-based messages to the
 browser has never been easier.
 
-In this talk I will introduce the vert.x platform and show you how to push JSON
-messages from a cluster of servers to the browser in just a few lines of
-Javascript.
+In this talk I will introduce the Vert.x platform. I will discuss the pros and
+cons of Vert.x compared to other platforms like Node.js, and we'll look at some
+sample code. I'll finish up by wowing you with some semi-live code that pushes JSON
+messages from a server cluster to the browser in just a few lines of Javascript - and
+maybe even a dash of Clojure just to keep it interesting.
 
 ##Speaker Bio
 
