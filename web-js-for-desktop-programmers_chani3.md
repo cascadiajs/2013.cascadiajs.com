@@ -7,16 +7,15 @@
 
 ##Abstract
 
-Back when the web was young, and midi files were cool, I turned my back on it in favour of desktop applications.
-Now I've returned to find that it has changed. A lot.
+Back when the web was young, and midi files were still cool, I was there. I had not just a website, but a server, hosting a couple of dozen sites for my community.
+But just as css was starting to show up, I got bored, shut down the server, and turned to desktop applications.
+Now I've returned to find that the web has changed. A lot.
 
-While I'm still in the middle of this transition, I'd like to talk about some of the pitfalls I've encountered.
-
-This talk will cover:
+While I'm still in the middle of this transition, I'd like to talk about some of the pitfalls I've encountered in server and client javascript, like:
 * ways to f*** up callbacks
 * biases (it's "just" web development, right?)
-* browser hells
-* responsive design
+* browser hell (what do you mean, it doesn't work in firefox?  (╯°□°)╯︵ ┻━┻ )
+* responsive design (even images aren't reliable any more)
 and more, if there's time.
 
 It will not cover:
