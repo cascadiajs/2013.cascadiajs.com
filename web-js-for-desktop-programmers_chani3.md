@@ -7,7 +7,10 @@
 
 ##Abstract
 
-Switching from desktop to web development is... a big change. While I'm still in the middle of this transition, I'd like to talk about some of the pitfalls I've encountered.
+Back when the web was young, and midi files were cool, I turned my back on it in favour of desktop applications.
+Now I've returned to find that it has changed. A lot.
+
+While I'm still in the middle of this transition, I'd like to talk about some of the pitfalls I've encountered.
 
 This talk will cover:
 * ways to f*** up callbacks
