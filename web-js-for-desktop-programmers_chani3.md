@@ -27,7 +27,7 @@ This could also work as an unconference topic - I'd love to hear about other peo
 
 ##Speaker Bio
 
-![chani3](https://raw.github.com/chani3/2013.cascadiajs.com/master/images/chani3.jpg)
+![chani3](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/chani3.jpg)
 
 Chani is a developer-of-all-trades at SteamClock, and a recent emigrant from the KDE foss community (I miss you guys!!). Mostly from Vancouver, her hobbies range from juggling to weight lifting to textile hacking.
 
