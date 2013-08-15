@@ -1,4 +1,4 @@
-# Remote Testing Websites with Grunt and Casperjs
+# Remote Testing Websites with Grunt and Casper.js
 
 * Name      : Keith Bingman
 * Twitter   : [@kbingman][]
