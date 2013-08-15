@@ -20,7 +20,7 @@ bundlers, metacircular interpreters, and more!
 
 ## Speaker Bio
 
-![michaelficarra](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/michaelficarra.png)
+![michaelficarra](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/michaelficarra.jpg)
 
 Michael is best known for his significant contributions to the
 [CoffeeScript programming language](http://coffeescript.org/), its
