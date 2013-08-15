@@ -26,7 +26,10 @@ LLJS is in its infancy, and I will also discuss our plans for the future.
 
 ![jlongster](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/jlongster.png)
 
-I work for Mozilla. I created and maintain several node projects like
-Nunjucks, which is a templating system used by several big sites like
-the Mozilla Marketplace. I love games and hacking around with
-canvas/WebGL, and low-level gritty coding.
+I work for Mozilla and help developers write web apps. In my heart I'm
+an idealist but I've learned to mix practicality with idealism when
+approaching software problems. I have a heavy functional programming
+background with Scheme, and used to write DirectX games in high-school
+in C++. In fact, I wrote a text-based RPG on my TI-82 calculator
+during math class in 7th grade. It didn't take off like I thought it
+would.
