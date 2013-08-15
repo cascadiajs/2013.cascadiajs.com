@@ -6,8 +6,9 @@
 
 ##Abstract
 
-This talk will be about how to build mobile web apps/ hybrid mobile apps. I used a very small native wrapper that is basically the mobile browser but your app. I will discuss the trials and tribulations of building mobile web apps.
+This talk will be about how to build mobile web apps/hybrid mobile apps. I used a very small native wrapper that is basically the mobile browser but your app. I will discuss the trials and tribulations of building mobile web apps.
 
+I will also discuss the different tools that I have used over the course of developing mobile apps. This is a differnet approach than the phonegap way of making mobile apps. Also will include tips for real time communication with a node server.
 
 ##Speaker Bio
 
