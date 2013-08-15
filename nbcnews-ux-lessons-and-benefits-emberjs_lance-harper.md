@@ -11,21 +11,19 @@ I'd like to discuss our experiences with this framework, including benefits and 
 
 These include: 
 
-* Responsive JS capabilities for rendering experience catered to device resolution that go beyond CSS media queries and how we implemented this in part using EmberJS.
-* Leveraging EmberJS to drive the requirements for the API needed to power the app
-* Development workflow leveraging Grunt and NodeJS to allow for rapid feedback for developers and designers
-* Continuous Consumption strategies for loading new elements
-* Benefits of a development workflow from being back-end platform agnostic
-* Rendering strategies for heterogenous data
+* Responsive capabilities utilizing JS for rendering experiences (images, ads, etc.) catered to device resolution that go beyond CSS media queries using EmberJS.
+* Learning curve with Ember's magic (KVO, bindings, Ember's naming conventions)
+* Development workflow leveraging Grunt and NodeJS to allow for rapid feedback for developers and designers along with the benefits of a development workflow that allows for back-end platform agnosticism, CasperJS acceptance testing, CI, and auto-deployment
+* Leveraging EmberJS to drive the requirements for the API needed to power the app and developing a living specification for backend devs.
 * SEO considerations
-* Pre-fetching data for optimizing performance
+* Rendering strategies for heterogenous data
+* Pre-fetching data to limit round trips to optimize performance
 * Benefits and liabilities compared with BackboneJS
-* Custom testing page to serve as a living specification for back-end developers to match using EmberJS
-* Learning curve
+
 
 ##Speaker Bio
 
 ![lanceharper](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/lanceharper.png)
 
-I'm a UX Developer for NBC News Digital Group working for the R&D team in Seattle, WA who believes in the power and future of the web. I like to build things.
+I'm a UX Developer for NBC News Digital Group working for the R&D team in Seattle, WA who believes in the power and future of the web. I like to build things that people want to use.
 
