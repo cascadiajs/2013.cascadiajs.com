@@ -13,6 +13,6 @@ This talk will outline the major difficulties for beginners learning git, point 
 
 ##Speaker Bio
 
-![lyzidiamond](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/lyzi.png)
+![lyzidiamond](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/lyzidiamond.png)
 
 Lyzi is a GIS Technician at the Oregon Department of Geology and Mineral Industries. She also helps women get involved in tech as the Program Coordinator for [Code Scouts](http://codescouts.org). She loves making web maps, [writing blog posts about new geospatial technologies](http://giscollective.org), and helping beginners learn new concepts.
