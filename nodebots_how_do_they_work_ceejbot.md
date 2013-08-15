@@ -1,4 +1,4 @@
-# Nodebots: how do they work?
+# Where does the Javascript run, anyway?
 
 * Name      : C J Silverio
 * Twitter   : [@ceejbot][]
@@ -7,11 +7,13 @@
 
 ## Abstract
 
-Nodebots, nodecopters, nodeboats: how does the node- get glued to the -bot? How do you use javascript to make a robot roll forward, a quadcopter take off, or a rubber band sproing into the air? Why is Javascript so good for this? Isn't this the domain of Serious C Programmers writing Serious C? 
+This summer at JSConf they had a one-day workshop on robots, and then the very same day a nodetank shot a nodecopter out of the air. War has been declared, and *you* need to take a side. If you can write Javascript, you can command your own nodebot infantry or nodecopter squadron or nodeboat flotilla.
 
-Where does the Javascript run, anyway?
+You're convinced, of course. You need your own robot army. But where do you start? Where does the Javascript run, anyway?
 
-After the next half hour, you'll know exactly where the JS runs and how. You'll know the difference between an Arduino and a Raspberry PI, a GND pin and a PWM pin, 5V and 9V, serial and USB, JohnnyFive and Firmata. You'll know why JS's event-loop makes it perfect for interacting with hardware. Most importantly, you'll have everything you need to help bring about the Javascript robot apocalypse.
+It's not trivial. It's easy, though, and not too expensive. Let me walk you through the basics and show you what you can do with a few hundred lines of Javascript. After the next half hour, you'll know how the node- gets glued to the -bot, how to use Javascript to make a robot roll forward, a quadcopter take off, or a rubber band sproing into the air. 
+
+You'll know where the Javascript runs and why it's so good for controlling hardware. Most importantly, you'll have everything you need for victory in the Javascript robot apocalypse.
 
 ## Speaker Bio
 
