@@ -5,13 +5,12 @@
 * Github    : [kbingman][]
 
 ## Abstract
-Testing javascript has become more important than ever as the complexity and requirements of web applications grow. But not all development environments lend themselves to easy testing. In particular, websites, as opposed to web applications, have been long ignored in the testing world.
+Testing javascript applications has become more important than ever as the complexity and requirements of web applications grow. But not all application development environments lend themselves to easy testing. In particular, websites, as opposed to web applications, have been long ignored in the testing world.
 
-[Mobify][]'s unique client-side rendering requires a novel approach to properly test and maintain. As we rely on the customer's original website for data and completely rebuild the DOM on the client-side, testing against idealized mock data is impractical and unwieldily.  
+[Mobify][]'s unique client-side rendering requires a novel approach to properly test and maintain. We rely on the customer's original website for data and completely rebuild the DOM on the client-side. Testing against idealized mock data is impractical and unwieldily. Instead, we have live data, which paints a far more accurate picture of the chaotic nature of the real world. 
 
-We have recently begun to rigorously test not only our web applications, but also our client sites using a combination of Casper.js and Grunt. These tools provide an easy and effective way of testing not only javascript, but the DOM elements themselves and even CSS.
+Recently, we have begun to rigorously test not only our web applications, but also our client sites using a combination of Casper.js and Grunt. These tools provide an easy and effective way of testing; not only javascript, but the HTML elements themselves and even CSS.
 
-These methods can be easily applied to both websites and applications and will provide you a richer set of tools for building and testing anything that runs in a browser .
 
 ## Bio
 ![kbingman](https://raw.github.com/kbingman/2013.cascadiajs.com/master/images/kbingman.png)
