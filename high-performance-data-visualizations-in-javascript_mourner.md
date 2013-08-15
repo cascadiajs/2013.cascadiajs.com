@@ -1,9 +1,9 @@
 # High Performance Data Visualizations in JavaScript
 
 * Name      : Vladimir Agafonkin
-* Twitter   : [@mourner][http://twitter.com/mourner]
-* Github    : [mourner][https://github.com/mourner]
-* Website   : [agafonkin.com/en][http://agafonkin.com/en]
+* Twitter   : [@mourner](http://twitter.com/mourner)
+* Github    : [mourner](https://github.com/mourner)
+* Website   : [agafonkin.com/en](http://agafonkin.com/en)
 
 ## Abstract
 
