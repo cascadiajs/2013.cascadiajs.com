@@ -14,7 +14,7 @@ Implementation of the Node tweet conversion to mp3 will be covered.
 
 ##Speaker Bio
 
-![](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/simianarmy.png)
+![](https://raw.github.com/simianarmy/2013.cascadiajs.com/master/images/simianarmy.png)
 
 Javascript game programmer and sometimes monkey
 
