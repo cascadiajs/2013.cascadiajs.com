@@ -1,9 +1,9 @@
 #Practical Distributed Systems using Node and DDP
 
 * Name : Naomi Seyfer
-* Twitter : [@sixolet][]
-* Github : [sixolet][]
-* Website : [www.meteor.com][]
+* Twitter : [@sixolet](http://twitter.com/sixolet)
+* Github : [sixolet](http://github.com/sixolet)
+* Website : [www.meteor.com](http://www.meteor.com)
 
 ##Abstract
 
@@ -22,5 +22,5 @@ do what you mean when running lots of copies of your webapp server.
 Naomi is purple.  No, purpler than that.  Yeah, that's about right.
 
 She likes building systems code, writing tools for developers, making users
-happy, and petting kittens.  She works at [meteor.com]:http://www.meteor.com
+happy, and petting kittens.  She works at [meteor.com](http://www.meteor.com)
 doing these things.
