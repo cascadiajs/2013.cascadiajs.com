@@ -10,7 +10,7 @@ Prototype-based inheritance is probably one of the most difficult to understand 
 
 In this presentation, we will look at how Backbone.js, Ember.js and CoffeeScript attempt to bridge the conceptual gap by exposing APIs that simulate class-based inheritance. In particular, we will compare how they implement common operations such as subclassing, declaring instance vs class methods/variables, overriding methods and calling super.
 
-Finally, we will look at how you can solve similar problems using "pure JavaScript" with ECMAScript 5.
+Finally, we will look at how you can solve similar problems today using "pure JavaScript" with ECMAScript 5, then end off with a sneak peek of the proposed ECMAScript 6 class syntax.
 
 ##Speaker Bio
 
