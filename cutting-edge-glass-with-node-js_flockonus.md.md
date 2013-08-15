@@ -26,5 +26,5 @@ Kicked out of Brazil for not playing soccer, Fabiano Soriani found joy at [Axiom
 
 
 [@flockonus]:http://twitter.com/flockonus
-[flockonus]:http://github.com/marcysutton
+[flockonus]:http://github.com/flockonus
 [blog]:http://fabianosoriani.wordpress.com/
