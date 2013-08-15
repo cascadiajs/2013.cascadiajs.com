@@ -10,7 +10,7 @@
 A funny story about making @horsejs tweets speak.  Covers the origin story from playing with OS X's 'say' command at work, 
 writing the first iteration in Ruby over the lunch break, its success leading to being banned at work, and finally 
 implementing the current iteration on horsejs.com in Node, currently hosted on my home iMac.
-Implementation of the Node tweet conversion to mp3 will be covered.
+Implementation of the tweet conversion to mp3 using Node and a few other tech tidbits will be included.
 
 ##Speaker Bio
 
