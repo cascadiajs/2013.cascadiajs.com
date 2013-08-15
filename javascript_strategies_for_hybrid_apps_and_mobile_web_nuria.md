@@ -13,10 +13,10 @@ our product to mobile and being able to develop fast enough in that environment.
 
 In this talk I will share the ways in which we have solved issues that we struggled 
 with when developing Webviews and Mobile Web. Why hybrid apps (native/HTML) and Mobile Web 
-are two closely related, but significantly different problems. I will go into why the most important thing 
-when you develop for mobile is to know your user base. Why user agent sniffing is helpful when determining 
-levels of support. How having a flavor of a mobile website that works everywhere allows us to support legacy 
-browsers forever, for free. I will also discuss PhoneGap and how it can be a game changer, but also how 
+are two closely related, but significantly different problems. Why in mobile, more than on the desktop, is crucial to know 
+you user base in detail. Why we think user agent sniffing server side is not so bad. How having a 
+flavor of a mobile website that works everywhere allows us to support legacy 
+browsers forever, for free. We will also discuss PhoneGap and how it can be a game changer, but also how 
 the best way to use it in a hybrid app might not be the obvious one. 
 
 
