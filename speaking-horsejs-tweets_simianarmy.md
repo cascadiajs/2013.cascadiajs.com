@@ -16,7 +16,7 @@ Implementation of the Node tweet conversion to mp3 will be covered.
 
 ![](https://raw.github.com/simianarmy/2013.cascadiajs.com/master/images/simianarmy.png)
 
-Javascript game programmer and sometimes monkey
+Javascript game programmer at DoubleDown Interactive, sometimes a monkey
 
 [@simianarmy]:http://twitter.com/simianarmy
 [simianarmy]:http://github.com/simianarmy
