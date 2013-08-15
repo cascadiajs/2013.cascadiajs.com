@@ -20,7 +20,7 @@ We hope to show up to 3 demos, building interactive stories with glass (mirror),
 
 ##Speaker Bio
 
-![flockonus](https://raw.github.com/flockonus/2013.cascadiajs.com/master/images/flockonus.png)
+![flockonus](images/flockonus.png)
 
 Kicked out of Brazil for not playing soccer, Fabiano Soriani found joy at Axiom Zen, a newly created idea catalyst in Vancouver. Passionate with high performance web things, html5, perfs, amazing ux, tinkering, games, cycling and hiking!
 
