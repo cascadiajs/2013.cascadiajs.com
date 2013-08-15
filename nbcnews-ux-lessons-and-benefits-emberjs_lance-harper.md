@@ -1,4 +1,4 @@
-#NBCNews UX: Lessons and Benefits using EmberJS
+#NBCNews UX: Lessons and Benefits Using EmberJS
 
 * Name      : Lance Harper
 * Twitter   : [@royallance](http://www.twitter.com/royallance)
@@ -14,7 +14,8 @@ This includes:
 * Responsive JS capabilities for rendering experience catered to device resolution that go beyond CSS media queries and how we implemented this in part using EmberJS.
 * Leveraging EmberJS to drive the requirements for the API needed to power it
 * Development workflow leveraging Grunt to allow for rapid feedback to developers and designers
-* Continuous Consumption model for loading new elements
+* Continuous Consumption strategies for loading new elements
+* Benefits of a development workflow from being back-end platform agnostic
 * Rendering strategies for heterogenous data
 * SEO considerations
 * Pre-fetching data for performance
