@@ -23,10 +23,11 @@ the best way to use it in a hybrid app might not be the obvious one.
 ##Speaker Bio
 
 ![nuria](images/nuria.png)
- have been working on the web for over ten years. The bulk of my experience comes from the 7 years 
+ 
+ I have been working on the web for over ten years. The bulk of my experience comes from the 7 years 
  I worked at Amazon.com in various positions. I had to learn a lot there because before taking that job 
  I made my living doing research in Oceanography. On 2010 I joined tuenti.com, a social network in Spain where 
- I started learning about mobile. And I thought, hey, is just like the desktop ten years ago.
+ I started learning about mobile. 
  
  http://www.linkedin.com/in/nurieta
 
