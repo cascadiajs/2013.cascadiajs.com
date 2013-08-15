@@ -14,4 +14,4 @@ I will also discuss the different tools that I have used over the course of deve
 
 ![efernie](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/ericfernberg.png)
 
-Eric Fernberg works for Maxwell Health a start up based in boston ma. Where I work on the mobile apps using node.js javascript to power them.
+Eric Fernberg works for Maxwell Health a start up based in Boston MA. Where I work on the mobile apps using node.js and javascript to power them.
