@@ -14,6 +14,8 @@ We have recently begun to rigorously test not only our web applications, but als
 These methods can be easily applied to both websites and applications and will provide you a richer set of tools for building and testing anything that runs in a browser .
 
 ## Bio
+![drd](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/kbingman.png)
+
 Originally from Seattle and freshly moved to Vancouver via a 15 stint in Southern Germany, I am a photographer turned Ruby on Rails developer turned Front End Javascript Developer. I am currently working at [Mobify][], building both customer websites and single-page applications for our Product Team. 
 
 [@kbingman]:http://twitter.com/kbingman
