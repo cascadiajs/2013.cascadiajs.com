@@ -22,9 +22,9 @@ code is run inside our own VM in user-land, and allows you to pause
 and step through code.
 
 An example of the instrumented code is
-[https://github.com/jlongster/steps/blob/gh-pages/test_.js](here), and
+[here](https://github.com/jlongster/steps/blob/gh-pages/test_.js), and
 you can step through the code
-[http://jlongster.github.io/steps/](here). If we flesh this out, I
+[here](http://jlongster.github.io/steps/). If we flesh this out, I
 think it could be a powerful tool.
 
 ## Speaker Bio
