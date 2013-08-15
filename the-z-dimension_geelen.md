@@ -13,7 +13,7 @@ This talk will cover a few lessons and guidelines to demystify the Z-dimension -
 
 ##Speaker Bio
 
-![geelen](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/geelen.png)
+![geelen](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/geelen.jpg)
 
 Glen Maddern is a reformed backend developer, coming around once he realised that the internet was a Cool Place™ where people do Interesting Things™. In the last few years, that passion for the internet has seem him help start the super awesome movie review site [Goodfilms][goodfil.ms], local AngularJS meetup group [ngMelb](http://lanyrd.com/2013/ngmelb), and local web development studio [Codename][codename.io].
 
