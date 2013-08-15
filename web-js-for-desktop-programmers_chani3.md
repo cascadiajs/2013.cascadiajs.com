@@ -7,8 +7,8 @@
 
 ##Abstract
 
-Back when the web was young, and midi files were still cool, I was there. I had not just a website, but a server, hosting a couple of dozen sites for my community.
-But just as css was starting to show up, I got bored, shut down the server, and turned to desktop applications.
+Back when the web was young, and midi files were still cool, I had a website. And a server, too.
+But just as css showed up, I got bored, shut down the server, and turned to desktop applications.
 Now I've returned to find that the web has changed. A lot.
 
 While I'm still in the middle of this transition, I'd like to talk about some of the pitfalls I've encountered in server and client javascript, like:
@@ -19,7 +19,7 @@ While I'm still in the middle of this transition, I'd like to talk about some of
 
 and more, if there's time.
 
-This talk will not cover:
+This talk will **not** cover:
 * javascript syntax
 * basic html/css
 
