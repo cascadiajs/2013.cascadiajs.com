@@ -2,8 +2,8 @@
 
 * Name      : Marc Mauger
 * Twitter   : [@simianarmy][]
-* Github    : [simianarmy][https://github.com/simianarmy]
-* Website   : [horsejs.com][http://horsejs.com]
+* Github    : [simianarmy][]
+* Website   : [horsejs.com][]
 
 ##Abstract
 
@@ -14,7 +14,7 @@ Implementation of the Node tweet conversion to mp3 will be covered.
 
 ##Speaker Bio
 
-![simianarmy](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/simianarmy.png)
+![](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/simianarmy.png)
 
 Javascript game programmer and sometimes monkey
 
