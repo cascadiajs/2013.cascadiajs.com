@@ -22,7 +22,7 @@ We hope to show up to 3 demos, building interactive stories with glass (mirror),
 
 ![flockonus](images/flockonus.png)
 
-Kicked out of Brazil for not playing soccer, Fabiano Soriani found joy at Axiom Zen, a newly created idea catalyst in Vancouver. Passionate with high performance web things, html5, perfs, amazing ux, tinkering, games, cycling and hiking!
+Kicked out of Brazil for not playing soccer, Fabiano Soriani found joy at [Axiom Zen](http://www.axiomzen.co/), a newly created idea catalyst in Vancouver. Passionate with high performance web things, html5, perfs, amazing ux, tinkering, games, cycling and hiking!
 
 
 [@flockonus]:http://twitter.com/flockonus
