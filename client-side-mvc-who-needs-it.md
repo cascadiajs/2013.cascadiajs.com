@@ -16,5 +16,6 @@ I'll then move on to showing examples of how people are solving the same problem
 
 ## Speaker bio
 
+![mroderick](images/mroderick.png)
 
-
+Morgan is a Danish frontend web developer living in Berlin. Current duties include restructuring application architecture, thinking about how fellow developers work with code and improving tools to make their lives easier. When he needs a break from all the code, he enthusiastically explores food and gin.
