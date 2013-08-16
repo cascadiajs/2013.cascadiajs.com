@@ -1,7 +1,7 @@
 #Building a Server Appliance with node
 
 * Name      : Eugenio Pace
-* Twitter   : [@eugeniopace][]
+* Twitter   : [@eugenio_pace][]
 * Github    : [eugeniop][]
 * Website   : [auth0.com][]
 
@@ -14,6 +14,6 @@ Auth0 is a server/service to drastically simplify authentication, identity feder
 
 I'm Eugenio Pace, co-founder of Auth0, an identity management service built entirely in nodejs. Before Auth0, I worked for Microsoft in various teams. For the last 5 years I worked mostly in cloud computing and identity engineering. 
 
-[@eugeniopace]:http://twitter.com/eugeniopace
+[@eugenio_pace]:http://twitter.com/eugenio_pace
 [eugeniop]:http://github.com/eugeniop
 [auth0.com]:http://auth0.com
