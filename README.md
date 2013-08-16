@@ -1,4 +1,4 @@
-##IMPORTANT: DEADLINE IS AUGUST 15, 2013
+##CALL FOR SPEAKERS IS NOW CLOSED. 
 
 Welcome to the open call for speakers for [CascadiaJS 2013][]. CascadiaJS is a JavaScript conference for developers in the Pacific Northwest. If you love JavaScript and know how to submit a pull request, you are eligible to speak at our conference. Diversity of voices is important to our community, so please don't think that you need to be a JS celebrity in order to speak at CJS.
 
