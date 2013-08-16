@@ -46,6 +46,18 @@ All the talks will be 30 minutes.
 
 We're also open to suggestions for unconference topics. For example, suppose you really want to talk about MongoDB in Node.js but don't have a presentation, maybe just some questions or experiences to share? We will likely set aside time for lightning talks, so get your ideas ready.
 
+
+###Our policy on Q&A
+
+We often get questions about whether the 30 minutes include time for Q&A. That's an awesome question, because it brings up an important aspect of CascadiaJS: we don't permit Q&A following a talk. This might sound very odd and possibly foolish, but it's something we learned from NodeConf and seen used to excellent effect. The rationale is this:
+* It forces the speaker to plan and prepare an amazing 30-minute talk 
+* The speaker cannot count on Q&A to fill time
+* The speaker cannot use the audience to surface interesting questions
+* Attendees can't hijack Q&A
+* It encourages the speakers to interact with the attendees
+
+CascadiaJS is a small, intimate conference. Part of being a speaker at CascadiaJS is being willing (and excited!) to hangout with your fellow developers and answer questions that they might have about your talk. 
+
 ###Other Stuff
 
 If you have any questions about this process, need more information or need assistance with travel and/or lodging, don't hesitate to reach out to us at [info@cascadiajs.com][].
