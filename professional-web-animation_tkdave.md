@@ -1,9 +1,9 @@
 #Professional Web Animation
 
 * Name      : David Knape
-* Twitter   : [@bumpslide][]
-* Github    : [tkdave][]
-* Website   : [bumpslide.com][]
+* Twitter   : [@bumpslide](http://twitter.com/bumpslide)
+* Github    : [tkdave](http://github.com/tkdave)
+* Website   : [bumpslide.com](http://bumpslide.com/)
 
 ##Abstract
 
