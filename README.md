@@ -54,7 +54,7 @@ We often get questions about whether the 30 minutes include time for Q&A. That's
 * The speaker cannot count on Q&A to fill time
 * The speaker cannot use the audience to surface interesting questions
 * Attendees can't hijack Q&A
-* It encourages the speakers to interact with the attendees
+* It encourages the speakers to interact with the attendees during the social events
 
 CascadiaJS is a small, intimate conference. Part of being a speaker at CascadiaJS is being willing (and excited!) to hangout with your fellow developers and answer questions that they might have about your talk. 
 
