@@ -10,7 +10,7 @@ Auth0 is a server/service to drastically simplify authentication, identity feder
 
 ##Speaker Bio
 
-![eugeniop](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/eugeniop.png)
+![eugeniop](images/eugeniop.png)
 
 I'm Eugenio Pace, co-founder of Auth0, an identity management service built entirely in nodejs. Before Auth0, I worked for Microsoft in various teams. For the last 5 years I worked mostly in cloud computing and identity engineering. 
 
