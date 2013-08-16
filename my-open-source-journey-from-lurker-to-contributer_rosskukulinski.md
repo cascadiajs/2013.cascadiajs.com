@@ -16,7 +16,7 @@ Drawing from Angelina's presentation, I will share my thoughts and experiences t
 
 ##Speaker Bio
 
-![rosskukulinski](https://raw.github.com/rosskukulinski/2013.cascadiajs.com/master/images/rosskukulinski.png)
+![rosskukulinski](https://raw.github.com/cascadiajs/2013.cascadiajs.com/master/images/rosskukulinski.png)
 
 Ross is the Director of Product Development at ASTi.  His team works to develop innovative solutions for military training and serious games.  Most recently, he has been building a scalable real-time voice communication and sound simulation platform powered by NodeJS, AngularJS, NoSQL, and OpenStack.
 
