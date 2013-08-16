@@ -24,5 +24,5 @@ In this presentation I'll talk about the patterns we use:
 
 Noah is a Software Engineer at Mobify. He works across the front-end and back-end and the bits in between, to enable designers and developers to build delightful web experiences for any device. Noah hails from Vancouver, studied Computing Science at Simon Fraser University and formerly worked on scientific and distributed computing at Apple.
 
-[@noah_adams]:http://twitter.com/noahadams
+[@noah_adams]:http://twitter.com/noah_adams
 [noahadams]:http://github.com/noahadams
