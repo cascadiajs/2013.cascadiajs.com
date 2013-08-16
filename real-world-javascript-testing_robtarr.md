@@ -9,9 +9,9 @@ In this presentation I'll cover:
 
 * What are unit tests?
 * What do they look like?
-* How to run them in JavaScript
+* Methods for running your tests
 * What kind of things need to be tested?
-* How to deal with third-party services
+* How to deal with third-party services and libraries
 * How to party when all of your tests pass
 
 ##Speaker Bio
