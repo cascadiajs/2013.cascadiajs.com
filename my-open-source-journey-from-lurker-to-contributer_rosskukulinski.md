@@ -3,7 +3,7 @@
 * Name      : Ross Kukulinski
 * Twitter   : [@rosskukulinski][]
 * Github    : [rosskukulinski][]
-* Website   : [kukulinski.com](https://kukulinski.com)
+* Website   : [kukulinski.com](http://kukulinski.com)
 
 ##Abstract
 
