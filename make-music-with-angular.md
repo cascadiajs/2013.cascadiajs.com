@@ -1,4 +1,4 @@
-#Lessons from 100k Lines of JS
+#Make Music with Angular
 
 * Name      : Joe Eames & Merrick Christensen
 * Twitter   : [@iammerrick][]
@@ -9,7 +9,7 @@
 
 ##Abstract
 
-This talk will examine the lessons learned while building a very large single page application (SPA). The application discussed has one hundred thousand lines of client-side JavaScript code, and was built on AMD and Backbone.JS against a RESTful HTTP back end. An examination of the technical wins and losses, good ideas, bad ideas, and everything in between. We will cover code structure and organization, 3rd party development tools used, custom development tools built, automated and manual testing, development practices and methodologies used, organizational structure, stategies for performance and maintainability, and how each of these items affected the cost of the project. The focus will be on disseminating wisdom for future projects of this size and bigger.
+Browser interactions aren't just limited to mouse and key events.  Modern browsers support a large range of API's that can be utilized to build interesting applications, but how best to integrate these API's with Angular isn't always obvious. Using a virtual drumset, this session will show how to incorporate multimedia with angular.  We will actually create music, while demonstrating proper use of angular components to interact with the browser in ways beyond simple mouse events.
 
 ##Speaker Bio
 
