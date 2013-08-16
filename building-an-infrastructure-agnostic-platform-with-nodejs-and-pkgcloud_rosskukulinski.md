@@ -22,4 +22,4 @@ When not coding for work or pleasure, Ross can usually be found out on the socce
 
 [@rosskukulinski]:http://twitter.com/rosskukulinski
 [rosskukulinski]:http://github.com/rosskukulinski
-[hearvoisus.com]:http://hearvoisus.com
+[hearvoisus.com]:https://hearvoisus.com
