@@ -13,7 +13,7 @@ This talk is inspired by [Angelina Fabro](https://twitter.com/angelinamagnum)'s 
 
 ##Speaker Bio
 
-![rosskukulinski](https://raw.github.com/rosskukulinski/2013.cascadiajs.com/feat_rhk_talk/images/rosskukulinski.png)
+![rosskukulinski](https://raw.github.com/rosskukulinski/2013.cascadiajs.com/master/images/rosskukulinski.png)
 
 I'm a big furry mammal that likes to run through the forest and splash in the stream and I write code sometimes.
 
