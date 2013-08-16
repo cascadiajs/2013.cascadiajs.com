@@ -3,7 +3,8 @@
 * Name      : Ross Kukulinski
 * Twitter   : [@rosskukulinski][]
 * Github    : [rosskukulinski][]
-* Website   : [kukulinski.com](http://kukulinski.com)
+* Website   : [kukulinski.com](http://kukulinski.com.com)
+* Corporate : [hearvoisus.com](https://hearvoisus.com)
 
 ##Abstract
 
