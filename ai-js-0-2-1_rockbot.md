@@ -7,11 +7,9 @@
 
 ##Abstract
 
-The cat's out of the bag: you can program robots with JavaScript! (If you didn't know that yet - now you do!) And hey, the little robot you built at International NodeBots Day is not only AWESOME, it's also super adorable - congratulations!
+The cat's out of the bag: you can program robots with JavaScript! (If you didn't know that yet - now you do!) You've got your Arduino, and johnny-five has got your LED blinking like a champ! Now how do we get it to make you breakfast already? 
 
-So, your little bot has got some great moves, but it's not making you breakfast yet?
-
-Let's level-up on your robot skills. We'll talk about kinematics (so you can make your robot move like a pro) and object recognition via computer vision (so your robot knows if it's going high or low), and then we'll try to give a robot a high-five (unless you're too slow!).
+Let's level-up on your robot skills. Building a robot is just like building the next great app - to prove it, we'll talk about how to build BatBot, which uses sonar to navigate around the world... all by itself! 
 
 ##Speaker Bio
 
