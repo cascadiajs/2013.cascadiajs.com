@@ -1,4 +1,4 @@
-# AI.js: 0.2.1
+# So you want to build a robot?
 
 * Name      : Raquel Vélez
 * Twitter   : [@rockbot][http://twitter.com/rockbot]
