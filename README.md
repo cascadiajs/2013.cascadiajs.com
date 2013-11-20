@@ -12,6 +12,7 @@
 * Chris Dickinson  
   http://2013.cascadiajs.com/speakers/chris-dickinson  
   https://speakerdeck.com/chrisdickinson/my-little-parser-tooling-is-magic
+  https://github.com/chrisdickinson/cascadiajs-2013
 
 * Zach Bruggerman  
   http://2013.cascadiajs.com/speakers/zach-bruggeman  
