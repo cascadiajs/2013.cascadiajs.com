@@ -87,8 +87,10 @@
 
 ### Web.js
 
-* Joe Sepi  
+* Joe Sepi
   http://2013.cascadiajs.com/speakers/joe-sepi
+  https://speakerdeck.com/joesepi/front-end-dependency-management
+  https://github.com/joesepi/fedepmgmt-presentation
 
 * Dave Foley  
   http://2013.cascadiajs.com/speakers/dave-foley
