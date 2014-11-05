@@ -1,0 +1,40 @@
+<!DOCTYPE html><html><head><script type="text/javascript" src="//use.typekit.net/wdz6oco.js"></script><script type="text/javascript">try{Typekit.load();}catch(e){}</script><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>CascadiaJS</title><link rel="stylesheet" href="/css/main.css"><link rel="icon" type="image/png" href="/images/favicon-16x16.png"><link rel="icon" type="image/png" href="/images/favicon-32x32.png"><style>header{
+  padding-top:100px;
+}
+.container{
+  max-width:720px;
+  margin:0 auto;
+}
+p{
+  margin-bottom:1.5em;
+}
+footer{
+  display:relative;
+}</style></head><body><div class="container"><header><a href="/" title="Link to the home page of the CascadiaJS website"><img src="/images/cascadiajs-logo.png" width="80" alt="The logo for CascadiaJS" class="logo animated fadeInDown"></a></header><article class="single-talks animated fadeIn"><p style="text-align:center">CascadiaJS 2013 is proudly brought to you by<br><a href="http://modern.ie"><img src="/images/sponsors/internet-explorer.svg" height="75px"></a></p><hr><iframe width="560" height="315" src="//www.youtube.com/embed/rFY5nUB1TJs" frameborder="0" allowfullscreen=""></iframe><p><i>You can view the rest of the videos on our<a href="https://www.youtube.com/playlist?list=PLLiioAbFTbKP9CxF9Fu4_NQteU_v9wkA3"><CascadiaJS>2013 playlist on Youtube</CascadiaJS></a></i></p><hr><h1>Event is the new Model</h1>
+<ul>
+<li>Name      : Dave Foley</li>
+<li>Twitter   : <a href="http://twitter.com/davidmfoley">@davidmfoley</a></li>
+<li>Github    : <a href="http://github.com/davidmfoley">davidmfoley</a></li>
+<li>Website   : <a href="http://substantial.com">Substantial</a></li>
+</ul>
+<h2>Abstract</h2>
+<p>Most of us are accustomed to modeling our application domains by their state at any given point in time. When audit logs, reporting views, data migrations and real-time updates are required, our tendency is to bolt them on to this relational point-in-time model, which can be difficult and costly.</p>
+<p>Building on the <a href="http://martinfowler.com/eaaDev/EventSourcing.html">Event Sourcing</a> pattern, we can instead treat each application as an append-only stream of immutable events. In this style of application, the state of the model at any point in time can be derived by replaying all of the events up to that point in time. This also allows for multiple point-in-time representations (&quot;Models&quot;) to exist simultaneously in different places.</p>
+<p>The Node.js ecosystem provides a particularly interesting platform for this style of application development. With a shared language between a browser-based client and a node-based server, we can even use the same model logic in both places. I&#39;ll walk through experiences and lessons learned over the course of the development of an event-sourced real-time browser application using <a href="http://nodejs.org">node</a>, <a href="http://socket.io">socket.io</a>, <a href="http://spinejs.com/">spine</a>, and related technologies.</p>
+<p>Topics include:</p>
+<ul>
+<li>Using socket.io as an event bus</li>
+<li>How events are filtered, routed, distributed and stored</li>
+<li>The different needs of UI components and services</li>
+<li>Sharing code between client and server</li>
+<li>Client-side dependency management</li>
+<li>Organization of client-side application modules</li>
+<li>Pragmatic unit, integration, and acceptance testing</li>
+<li>Evolving infrastructure alongside an application</li>
+</ul>
+<p>I will approach these topics in a retrospective fashion, to share both successes and failures, in the hopes that they might provide some useful learnings.</p>
+<p>Also, the code examples will be demonstrated in coffeescript. Get over it.</p>
+<h2>Speaker Bio</h2>
+<p><img src="/images/speakers/dave-foley.png" alt="davidmfoley"></p>
+<p>I am CTO of <a href="http://substantial.com">Substantial</a>, a 60-person digital product studio based in Seattle and San Francisco.</p>
+</article><footer><p>© CascadiaJS</p><a href="https://twitter.com/davidmfoley" target="_blank" title="Link to the CascadiaJS Twitter page" class="twitter logo animated tada"></a></footer></div><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.0/underscore-min.js"></script><script src="/js/application.js"></script></body></html>

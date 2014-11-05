@@ -1,0 +1,47 @@
+<!DOCTYPE html><html><head><script type="text/javascript" src="//use.typekit.net/wdz6oco.js"></script><script type="text/javascript">try{Typekit.load();}catch(e){}</script><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>CascadiaJS</title><link rel="stylesheet" href="/css/main.css"><link rel="icon" type="image/png" href="/images/favicon-16x16.png"><link rel="icon" type="image/png" href="/images/favicon-32x32.png"><style>header{
+  padding-top:100px;
+}
+.container{
+  max-width:720px;
+  margin:0 auto;
+}
+p{
+  margin-bottom:1.5em;
+}
+footer{
+  display:relative;
+}</style></head><body><div class="container"><header><a href="/" title="Link to the home page of the CascadiaJS website"><img src="/images/cascadiajs-logo.png" width="80" alt="The logo for CascadiaJS" class="logo animated fadeInDown"></a></header><article class="single-talks animated fadeIn"><p style="text-align:center">CascadiaJS 2013 is proudly brought to you by<br><a href="http://developer.rackspace.com/devtrial"><img src="/images/sponsors/rackspace.svg" height="75px"></a></p><hr><iframe width="560" height="315" src="//www.youtube.com/embed/9TOxJU_TGOc" frameborder="0" allowfullscreen=""></iframe><p><i>You can view the rest of the videos on our<a href="https://www.youtube.com/playlist?list=PLLiioAbFTbKP9CxF9Fu4_NQteU_v9wkA3"><CascadiaJS>2013 playlist on Youtube</CascadiaJS></a></i></p><hr><h1>Programming a Node Cluster Like It&#39;s One Really Big Computer</h1>
+<ul>
+<li>Name      : Neuman Vong</li>
+<li>Twitter   : <a href="https://twitter.com/neuman">@neuman</a></li>
+<li>Github    : <a href="https://github.com/luciferous">luciferous</a></li>
+<li>Website   : <a href="http://lcfrs.org">lcfrs.org</a></li>
+</ul>
+<h2>Abstract</h2>
+<p>Distributed programming is a lot easier if the abstraction makes the cluster
+look just like a really big computer.</p>
+<p>I&#39;ll talk a little bit about some concepts from Cloud Haskell (and Erlang and
+Akka), and how they might look ported over to Node. The main idea is to be able
+to spawn many <code>Process</code>es which are automatically distributed across the
+cluster. <code>Process</code>es communicate via message passing, inspired by Erlang&#39;s
+&quot;actor model&quot;.</p>
+<p>One point of focus is serialization and transmission of function closures. For
+example, given a function <code>add</code></p>
+<pre><code class="language-javascript">var add = function(x) {
+  return function(y) {
+    return x + y + 1
+  }
+}</code></pre>
+<p>We should be able to partially apply it and transmit it elsewhere to have its
+second argument applied, then have the result returned back to us.</p>
+<pre><code class="language-javascript">spawnRemote(add(1), function(err, result) {
+  if (err) throw err
+  console.log(&quot;Result computed remotely: &quot;, result)
+})</code></pre>
+<p>Serialization of a function closure is possible by serializing its environment
+(i.e. the bindings of its free variables) and a representation of its code.</p>
+<h2>Speaker Bio</h2>
+<p><img src="/images/speakers/neuman-vong.png" alt="neuman"></p>
+<p>Sr Software Engineer at Twitter, formerly at Twilio, board member at HIFY.
+Ideas man, Haskeller, a cynic with a bleeding heart.</p>
+</article><footer><p>© CascadiaJS</p><a href="https://twitter.com/neuman" target="_blank" title="Link to the CascadiaJS Twitter page" class="twitter logo animated tada"></a></footer></div><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.0/underscore-min.js"></script><script src="/js/application.js"></script></body></html>

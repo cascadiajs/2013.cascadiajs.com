@@ -1,0 +1,1097 @@
+<!DOCTYPE html><html><head><script type="text/javascript" src="//use.typekit.net/wdz6oco.js"></script><script type="text/javascript">try{Typekit.load();}catch(e){}</script><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>CascadiaJS Conference 2013</title><link rel="stylesheet" href="/css/main.css"><link rel="icon" type="image/png" href="/images/favicon-16x16.png"><link rel="icon" type="image/png" href="/images/favicon-32x32.png"><style>header{
+  padding-top:100px;
+}
+.container{
+  max-width:720px;
+  margin:0 auto;
+}
+p{
+  margin-bottom:1.5em;
+}
+footer{
+  display:relative;
+}</style></head><body><div class="container"><header><a href="/" title="Link to the home page of the CascadiaJS website"><img src="/images/cascadiajs-logo.png" width="80" alt="The logo for CascadiaJS" class="logo animated fadeInDown"></a></header><article class="single-talks animated fadeIn"> 
+
+<h1>1) Code Coverage (Like a Boss)</h1>
+<p>Code Coverage tools can prove to be invaluable resources in software projects large and small.  But just like putting a hammer in your toolbox won&#39;t build you a safer house, Code Coverage tools will do little for you on their own, without a process to follow.</p>
+<p>In this talk, you&#39;ll learn:</p>
+<h3>What&#39;s All This, Then?</h3>
+<p>Confused about the difference between line coverage, statement coverage, function coverage, and branch coverage?  How about pre-instrumented source vs. on-the-fly instrumentation?  What the heck are Istanbul and Blanket?  Here&#39;s a crash course in Code Coverage tools &amp; methodology, and a summary of the current lay of the land in the JavaScript world.</p>
+<h3>Bossy Code Coverage</h3>
+<p>Code Coverage is meaningless if it&#39;s not enforced.  But nobody likes being the one who chronically nags their teammates.  By automating the process of enforcing a minimum coverage threshold, this responsibility is passed on to a robot.  We&#39;ll look into using Grunt to handle this task, and how you can configure a solution that runs on popular CI frameworks like TravisCI and Jenkins.  Over time, this process can change the culture of teams to a &quot;test-first&quot; mindset.</p>
+<h3>Lies, Damn Lies, &amp; Statistics</h3>
+<p>Now that you love Code Coverage, find out how your tool&#39;s statistics are <em>lying to you.</em>  It&#39;s easy to get a false sense of security based on coverage percentages.  Whether intentional or not, there are many ways that developers can manipulate the system to produce misleading coverage statistics.  Luckily, there are a few simple strategies that can mitigate this issue, and keep your numbers honest.</p>
+<h3>The Zen of Coverage</h3>
+<p>How much coverage is &quot;good enough&quot;? 50%? 75%? 90%? Just as a Zen master lives in a constant pursuit of enlightenment, so must we never cease to pursue better code coverage.  But is it really about the numbers?  Learn why chasing a high coverage percentage is a bad strategy, and how to explain that to your number-oriented boss.  </p>
+<h3>Feature Coverage FTW</h3>
+<p>Code Coverage serves as a great &quot;fail safe&quot; for catching untested or under-tested code.  But it does nothing to ensure that the tests we write are actually <em>meaningful</em>.  To accomplish this, we need actual human brains, eyeballs, and conversations.  Learn how to implement a &quot;Feature Coverage&quot; process as an essential companion to Code Coverage, and how this will instill harmony in your team between Product Managers, QA, and developers. </p>
+<h1>2) Navigating the Bazaar</h1>
+<p>Finding an open source library based on features, popularity, and code quality is a daunting task in the face of tens of thousands of modules. Navigating the Bazaar is about forming authenticate connections with the programmers who write the code libraries that we use every day, and relying on those connections when we are looking for new libraries. I propose we recognize that we are already in interdependent and mutually valuable relationships with these developers, and that we honor those connections, because it&#39;s part of making what we do and who we are into a single, holistic experience.</p>
+<h1>3) Make Art Not Money</h1>
+<p>Forget those lucrative contracting jobs and make something useless! Between Node.js, WebGL, and the ever-faster evolution of JS engines, Javascript is an ideal platform to make interactive and/or generative art.</p>
+<p>This talk will have three parts:</p>
+<p>A) A survey of the tools for creating art with JavaScript (graphics, tweening, 3D) and how to connect to input devices (webcam, Kinect, LeapMotion, Arduino) to make amazing things.</p>
+<p>B) A demo and walkthrough of a Leap/JavaScript app I wrote. Users form and destroy particle-based words with their fingertips. I&#39;ll explain how to get started with Leap + JS, describe the app&#39;s architecture (receiving position information from the Leap SDK via node, updating the application state, and optimizing performance), and cover some common (and unexpected) problems. This Leap project is a gallery installation that is a followup to Between Page and Screen, a digital popup book of poetry (more on that <a href="http://www.youtube.com/watch?v=1s-JFxEmtpY">here</a> and <a href="http://betweenpageandscreen.com">here</a>).</p>
+<p>C) Practical takeways from creative code: become a better engineer by stretching the boundaries.</p>
+<ul>
+<li>Performance. When you&#39;re trying to maintain &gt;30FPS you need to be zealous about writing tight, efficient code.</li>
+<li>Memory Leaks. Installed pieces can run for days without a refresh. With single-page apps, users can sit on a single screen for hours. How does your app manage memory use and garbage collection?</li>
+<li>Event-based interaction. The Leap spits out events at &gt;90FPS--that&#39;s far messier than simply handling user clicks. How do you coordinate your app&#39;s internal events with this firehose of user input?</li>
+<li>Learn far more about CSS-vs-SVG-vs-Canvas performance than you ever wanted to know.</li>
+<li>Dive into the bizarro world of GPUs! It makes IE look downright sensible.</li>
+</ul>
+<h1>4) From Top to Bottom - Workflow for the JavaScript Stack</h1>
+<p>Each developer has to come up with a workflow that works well for them. Sometimes a lot of the workflow is dictated but there is still a lot that&#39;s left up to the individual. With many modern tools you have a selection of everything from text editor, to IDE to actual operating system distribution. In this presentation I&#39;m going to walk through some of the tooling to help keep all of these things under control during the course of programming efforts. ...and yes, this will go beyond just the IDE (or text editor, etc)</p>
+<h1>5) JavaScript, Welcome to the Client</h1>
+<p>It sounds ridiculous to welcome JavaScript to the client, right? Doesn&#39;t JavaScript already live and breath the client? Isn&#39;t JavaScript to the client what ice tea is to summertime? Well, sort of. I think JavaScript has gotten the shaft - invited to live on the client and then confined to his room in the browser.</p>
+<p>Well, not so in Windows 8. When you write a Windows 8 app, one of your choices of language stacks is the web platform. It&#39;s an elegant and 100% standards compliant implementation of HTML, CSS, and JavaScript with an extremely powerful engine, and perhaps most importantly, with a programming language you already know. It enables you, without taking the time to learn new languages, to use your web skills to get an app into the Windows Store. The Store is growing fast and getting in now is like getting in on a good stock.</p>
+<p>I&#39;ll blaze through the basics and the linger on the more advanced and interesting parts of the web engine in Windows and on the developer tools and techniques for creating apps in this market.</p>
+<p>I&#39;ll to answer...
+- what&#39;s the architecture of the web platform in Windows 8?
+- what are the differences between my HTML, CSS, and JS running in the browser versus in an app?
+- what does it take to get into app development?
+- what sort of modern touch and performance support does the JavaScript engine in Windows 8 have?
+- what sort of code sharing opportunities are available between Windows 8 apps, other apps, and websites?</p>
+<h1>6) Productivity Up</h1>
+<p>The major ingredient that makes working with JavaScript so much fun is the high level of productivity it enables due to its
+dynamic nature. Unfortunately many of us have gotten used to one way of doing things without questioning if we could be more
+productive if we optimized it.</p>
+<p>This presentation is designed to get the attendees excited about re-evaluating their workflow and tools in order to
+push their productivity level to the absolute maximum.</p>
+<p>The live demonstration which constitutes the bigger part of the presentation will show how to meet the following
+requirements in order to be productive:</p>
+<ul>
+<li>minimize turn around time for writing a line of code to seeing results<ul>
+<li>server side: run your code or pipe it into a repl via editor shortcut</li>
+<li>client side: refresh the browser with updated code via editor shortcut</li>
+</ul>
+</li>
+<li>interact with your own and third party code in order to quickly assess if/how it works</li>
+<li>access documentation like Readmes for libraries and jsdocs/comments for functions within a second right from the
+console</li>
+<li>quickly find, inspect and/or edit functions of third party libraries to learn how they work, i.e. by injecting log statements</li>
+</ul>
+<p>The focus of the demonstration is not on certain tools, but on showing how to use and tweak them to become part of a
+highly productive workflow. I do however hope to make the attendees aware of benefits that can be gained by giving
+browserify, the node repl or replpad and editor plugins like syntastic or equivalents a go.</p>
+<h1>7) FreeDOM - a Decentralized Web Framework</h1>
+<p>Free and open source web frameworks have played a crucial role 
+in catalyzing innovative new applications on the Web. However, 
+under the current SaaS model, free software developers who want 
+to build on top of these frameworks have to solve the problem of 
+logistics, a challenging and expensive situation if you want to 
+offer the high availability and scalability users have come to 
+expect. In this world if you write a popular app, you may lose 
+a little money. If you write a viral app, you may need to sell 
+your kidney.</p>
+<p>In this talk, I will answer the question: “What does it mean 
+to write free web apps?”. In a world of rich multi-user 
+global-scale distributed web apps, free software developers 
+who want to write browser-facing code need some help. I will 
+propose a new model for web app development that challenges the 
+way we think about web apps. FreeDOM is a new web framework that 
+cleaves the meat of complex web services from the hardware where 
+the data is stored and the code is executed. As a research project, 
+FreeDOM takes a new stab at making aggregate global service highly 
+available, self-scaling, automatically federated, secure, and 
+easy-to-use. We are on track to make free software as convenient 
+as a typical SaaS web app. By giving more power to the end-user of 
+a web app, FreeDOM has profound implications on free software 
+distribution as well as privacy in the age of the Web.</p>
+<h1>8) My Little Parser: Tooling is Magic</h1>
+<p>Code is abstraction. When we code, we punch keys to write tokens to 
+form expressions to build great towering syntactical forests. When 
+we code, we weave a flow of data from outset to outcome. 
+When we code, we alter the course of electrons, inadvertantly 
+hastening the heat death of the universe by just that little bit.</p>
+<p>We edit code at that one level of abstraction -- keypresses, text --
+and we treat with code -- searching, replacing, grep&#39;ing -- at that level. 
+What problems can we free ourselves from by interacting with our code 
+at the AST level?</p>
+<p>One of JavaScript&#39;s many sterling qualities is its relatively simple, unambiguous
+syntax. Another is its community&#39;s familiarity with querying and manipulating
+complex, nested tree structures. With AST-aware tools, we can free ourselves 
+from the opportunity cost of switching our module loader, frontend
+framework, or test framework. What other new tools can we create?</p>
+<p>In this talk, I will touch on:</p>
+<ul>
+<li>The basics of ASTs and streaming parsers.</li>
+<li>CSS as a general purpose AST selector language.</li>
+<li>Building unix-style small, composable command line tools
+(and node.js modules) to search and edit JavaScript ASTs.</li>
+<li>Using AST transformation to switch module loaders, test
+frameworks, and APIs.</li>
+<li>Using CSS-the-AST-selector to search for unsafe operations
+in existing codebases, intelligently grep for code, and build
+simple, flexible linters for common programmer errors.</li>
+</ul>
+<h1>9) BAS: Integration testing for Humans</h1>
+<p><a href="http://bas.cgiffard.com">Behaviour Assertion Sheets</a>, or BAS, is a new, open 
+source testing language/framework written in node and utilising a declarative,
+CSS-inspired syntax for friendly client-side integration testing.</p>
+<p>Conventional integration testing can be frustrating. There are lots of tools
+available — many of which are exceptionally powerful. But most of us have also
+struggled with complicated systems that suck up hours of time, and require us
+to write highly dependent tests in bulky arcane syntax. (<em>cough</em> selenium <em>cough</em>)</p>
+<p>Testing should be repeatable and produce reusable tests. Testing should be easy,
+and writing good tests should be possible for inexperienced programmers and even
+non-developers.</p>
+<p>BAS is an attempt to solve this problem using a familiar, simple declarative
+syntax. BAS makes it simple to write versatile tests which can be easily reused.
+Because of this flexibility, BAS can also be used as a QA and reporting tool,
+capable of scanning websites for broken links, behaviour, or even accessibility
+or content readability issues.</p>
+<p>In this talk I&#39;ll describe the motivations behind BAS, the problems it solves and
+the things it can&#39;t yet do. Hopefully you&#39;ll all be inspired to think about
+testing in new ways.</p>
+<h1>10) Event is the new Model</h1>
+<p>Most of us are accustomed to modeling our application domains by their state at any given point in time. When audit logs, reporting views, data migrations and real-time updates are required, our tendency is to bolt them on to this relational point-in-time model, which can be difficult and costly.</p>
+<p>Building on the <a href="http://martinfowler.com/eaaDev/EventSourcing.html">Event Sourcing</a> pattern, we can instead treat each application as an append-only stream of immutable events. In this style of application, the state of the model at any point in time can be derived by replaying all of the events up to that point in time. This also allows for multiple point-in-time representations (&quot;Models&quot;) to exist simultaneously in different places.</p>
+<p>The Node.js ecosystem provides a particularly interesting platform for this style of application development. With a shared language between a browser-based client and a node-based server, we can even use the same model logic in both places. I&#39;ll walk through experiences and lessons learned over the course of the development of an event-sourced real-time browser application using node, socket.io, spine, and related technologies.</p>
+<p>Topics include:</p>
+<ul>
+<li>Using socket.io as an event bus</li>
+<li>How events are filtered, routed, distributed and stored</li>
+<li>The different needs of UI components and services</li>
+<li>Sharing code between client and server</li>
+<li>Client-side dependency management</li>
+<li>Organization of client-side application modules</li>
+<li>Pragmatic unit, integration, and acceptance testing</li>
+<li>Evolving infrastructure alongside an application</li>
+</ul>
+<p>I will approach these topics in a retrospective fashion, to share both successes and failures, in the hopes that they might provide some useful learnings.</p>
+<p>Also, the code examples will be demonstrated in coffeescript. Get over it.</p>
+<h1>11) Why People Hate Your Framework</h1>
+<p>Today&#39;s JavaScript community suffers from a divide. On one side of the divide are those people who praise npm&#39;s module system over all else, eschew even the <a href="https://github.com/senchalabs/connect">most micro of frameworks</a>, loathe CoffeeScript and demand that promises get off their respective lawns. On the other are those which yearn for the &quot;rails of node&quot;, write <em>everything</em> in CoffeeScript, love <a href="http://angularjs.org">Angular</a> to pieces and extoll the virtues of promises at every opportunity.</p>
+<p>Having been involved in the node.js community for some time, and having talked shop with some of today&#39;s foremost JavaScript philosophers, I&#39;ve began to develop a theory explaining the root causes of this divide, the truth behind both extremes in position, and how best to balance the concerns of both forces.</p>
+<h1>12) Human Handlebars Internationalization</h1>
+<p>Internationalization is not only a technical problem, but a human problem. In order to effectively internationalize a project, the right words and sentences must be extracted from the source documents with enough context for translators to produce the correct native-language strings. HTML template files present numerous challenges in this process: they are largely free-structured documents with at least two comptuer languages embedded, and the phrases and sentences therein can be split into pieces by markup.</p>
+<p>In this talk I will demonstrate a system which extracts strings from Handlebars templates in a way that uses the HTML document structure to its advantage, outputs a Gettext PO file, and then reconstitutes translated documents at compile time. In this manner, one can deliver translated Handlebars templates without any additional processing on the client side, which is particularly useful for resource-constrained mobile environments. Currently, the system is implemented in Python, using the babel library to produce the PO files with a custom HTML/Handlebars-aware string extractor.</p>
+<p>I will also discuss technical hurdles which must be first overcome before the system can be 100% Javascript, as well as some of the restrictions in allowable syntax which must be adopted by the template authors. I will also walk through the implementation of this system at Idealist.org, and show the major flows and points of integration we use.</p>
+<h1>13) Test Driving your JavaScript</h1>
+<p>I actually never really liked writing JavaScript code. It just breaks too often and most times the code looks like a mess. </p>
+<p>It&#39;s just a little bit of script, I hear people say. why should I bother? </p>
+<p>But web applications are relying on JavaScript more and more every day. We see JavaScript MVC, MVVM, ... libraries popping up all around us, promising us a better life in JavaScriptland. But that doesn&#39;t mean writing JavaScript code suddenly became painless and, even more important, faultless. While for our backend services we have taken the tendency of writing automatic tests that better assure our correctness, we haven&#39;t copied that good practice to our front end ... yet. 
+In this session I will show you how you can easily test drive your JavaScript code and automate those front end tests. By doing so you will end up with better, cleaner and more structured JavaScript code. It will help you get rid of those runtime bugs once and for all and maybe in the mean time you may even start to love writing JavaScript code. </p>
+<h1>14) Punching Rocks: Bloody knuckling my way through rock climbing and learning code.</h1>
+<p>A funny thing happened at the rock gym... I kept running into programmers. Rock climbing is a constant challenge. Physical? Hardly. Tired muscles is a concern once you&#39;re two pitches up and can&#39;t figure out the next move. I&#39;m afraid of heights! The psychological and mental tenacity required to complete a wall feels eerily similar to the daily challenges of the Programmer. You will commit yourself to situations that you pretty much HAVE to find a way out of. Sound familiar?</p>
+<p>How are people learning to program nowadays? MOOCs, tutorials, workshops, communities, books, degrees, internships, apprenticeships, code schools. What am I doing? What have I done? How many callouses have I built in the process?</p>
+<p>Experiences shared from my own perspective and others I have met on my journey have shown me a number of great ways to help move forward those willing to take up the challenge. Finally, what can I do, along with sharp and helpful Node.js and JavaScript developers, to build the knowledge base and accessibility into the community? How do I get programmers hooked?</p>
+<p>And how can I convince all of these brainiacs to get out and punch a few rocks?</p>
+<h1>15) Appium: Node-powered Mobile Automation</h1>
+<p>Appium (<a href="http://appium.io">appium.io</a>) is a Node.js server that makes it
+possible to automate native and hybrid mobile applications, using any
+programming language and any testing framework.  When we started work on
+Appium, which has become a successful open-source project with the better part
+of a thousand resolved GitHub issues and pull requests, we had our choice of
+programming languages and frameworks. For a variety of reasons, we chose
+Node.js to power this automation server, intended to be used not excluseively
+by Node devs but by all kinds of devs and QA engineers.</p>
+<p>This talk is a reflection on the upshot of having chosen Node, from technical,
+architectural, and cultural points of view. It will contain an introduction to
+Appium itself, and a tour of the choices we made along the way, some good and
+some bad, which will be of interest to anyone looking to start a sizeable
+Node-based open-source project, especially if they want non-Node devs to be
+involved.</p>
+<h1>16) Structuring front-end JavaScript apps to scale</h1>
+<p>Over the past year or so, the company I&#39;ve <em>just joined</em> have been building a developer toolkit and lightweight front-end framework that&#39;s helped them ensure that a 200k LoC JavaScript SDK hasn&#39;t become a tangled mess of unstable spaghetti code. This SDK is then delivered to enterprise organisations who are expected to build on top of around 50k LoC example functionality that&#39;s shipped with the SDK… and not turn that into a tangled mess of unstable spaghetti code. At the same time, all this code needs to be easy to navigate, maintain, continually test, enhance and develop upon.</p>
+<p>How is this achieved with an app of this scale, you may ask?</p>
+<p>In this talk I won&#39;t directly discuss the toolkit itself, but instead cover the main points that have been considered when trying to achieve what might sound like the impossible.</p>
+<h1>17) Automated Testing &amp; Inversion of Control</h1>
+<p>Unit testing: It&#39;s probably important or something. 
+This is going to be based really heavily on <a href="http://www.youtube.com/watch?v=GSqrmuZQxz0">this</a> 
+online mini-talk, but I&#39;m going to flesh it out a little bit and extend it into Javascript tools and use-cases. </p>
+<ul>
+<li>Why is it important? <ul>
+<li>Making changes to your code: it will break things.</li>
+<li>Documenting your API by forcing yourself to use it.</li>
+<li>Improving your API by forcing yourself to use it. </li>
+</ul>
+</li>
+<li>How do we get started?<ul>
+<li>Finding a test framework.</li>
+<li>Finding a test runner.</li>
+</ul>
+</li>
+<li>Arrange-Act-Assert</li>
+<li>Running Your Tests Regularly (Continuous Integration!)</li>
+<li>Only Test The Thing You&#39;re Testing<ul>
+<li>Why integration tests are bad.</li>
+<li>Why unit tests are good.</li>
+<li>What is Inversion of Control?</li>
+<li>Why there aren&#39;t any famous IOC frameworks for dynamic languages.</li>
+</ul>
+</li>
+<li>Mocking out things that are hard to test.<ul>
+<li>Mocking out the DOM.</li>
+</ul>
+</li>
+<li>The balance between testing and everything else. </li>
+</ul>
+<h1>18) Automate Your Responsive Images</h1>
+<p>Responsive images represent one of the biggest sources of frustration among
+the web development community — and with good reason too; the average page
+size has grown from 1MB to a staggering 1.5MB in the last year alone.
+Much of that page weight could be reduced if images were conditionally optimized
+based on device widths, pixel density and modern image formats (such as WebP).
+The question is, what is the best workflow for optimizing our images?</p>
+<p>The <code>&lt;picture&gt;</code> element is currently the frontrunner for replacing the <code>&lt;img&gt;</code>
+element because it allows developers to specify different images for different
+device conditions in order to solve both the performance and art direction problems.
+However, the <code>&lt;picture&gt;</code> element introduces a whole new problem: developers must
+now generate a separate asset for every image at every breakpoint. What developers
+really need is a solution that automatically generates smaller images for smaller
+devices from a single high resolution image. Ideally, this automatic solution would
+only make one request per image and would be 100% semantic and backwards compatible. </p>
+<p>This solution is possible using Mobify.js. Its Image API will automatically resizes
+and compresses <code>&lt;img&gt;</code> and <code>&lt;picture&gt;</code> elements, and can do so without needing to
+modify a single <code>&lt;img&gt;</code> tag in your existing backend markup through the use of Capturing
+(an API in Mobify.js that allows for modification to the DOM before any resources
+have loaded).</p>
+<h1>19) Computer Science through Streams</h1>
+<p>Readable, writable, piping, transform, duplex ... even just <em>talking</em> about Streams is confusing. However, Streams -- with their absurd modularity, evented nature and powerful efficiency -- might be Node.js&#39;s most compelling feature.</p>
+<p>But <strong>how</strong> do they work? What&#39;s <strong>really</strong> happening when we say <code>a.pipe(b)</code>?</p>
+<p>At their core, Streams play hand-in-hand with various layers on our systems. Understanding Stream fundamentals often requires looking at general computer problems rather than just JavaScript.</p>
+<p>This talk takes a low-level look at how Streams work and provides some insight into why they&#39;re so great and what can make them so complicated. Finally, we&#39;ll look at Streams in userland via important modules like <a href="https://npmjs.org/package/through">through</a>, <a href="https://npmjs.org/package/level">level</a> and more. </p>
+<h1>20) Spreadsheet, the Little Database that Could</h1>
+<p>Google Spreadsheets are a quick, highly-collaborative and low-barrier-to-entry database for small projects and new developers.   Spreadsheet backed projects can empower those breaking into development and those who didn&#39;t know getting a hosted, live website could be free and easy. Using GitHub pages, a repository with a spreadsheet backed site on just a gh-pages branch becomes duplicatable with just a fork and commit. With this fork-n-go setup the barrier to entry goes way, way down and brings open source to a whole new crop of non-developers looking to organize communities, visualize or share data.</p>
+<p>I&#39;ve been working on an open source library, sheetsee.js, to make the connection between a spreadsheet and website visualizations easier. Starting with the JSON thisabletop.js returns from your spreadsheet and adding other libraries like d3.js, handlebars.js and mapbox.js - there are tons of possibilities. I&#39;ll talk about the different tiers of developing with spreadsheets from server-side with Node.js and client-side with pure JavaScript, the supporting libraries, hosting options and the awesome potential for data sharing and collaboration. </p>
+<h1>21) &quot;Web Component&quot;-style Mobile Apps using Angular</h1>
+<p>Web Components are a collection of emerging W3C standards that aim to simplify web development through well-encapsulated, reusable custom HTML elements.  This holds particular potential for the future of mobile HTML5/hybrid app development, but even with Google&#39;s Polymer project it could be several years before we have the mobile browser capabilities that support these technologies in real world deployments.  So how do we get the benefits of Web Components to build mobile apps today?</p>
+<p>This talk will explain how we&#39;ve put together a mix of best-of-breed web technologies, with Angular at its foundation, to deliver on Web Components&#39; promises today.  Leveraging Angular directives, SASS, Bootstrap and a Yeoman/Grunt/Bower-based process, we can quickly build mobile apps using custom HTML elements that encapsulate best practices for mobile apps. During this talk we will walk through the creation of a mobile app using this process - from project scaffolding to real-world performance in a Cordova/PhoneGap environment.  We will share our experiences and learnings from building several enterprise mobile apps, and assembling a collection of reusable custom elements along the way.  </p>
+<h1>22) The future of web applications: client-side MVC frameworks</h1>
+<p>To provide an industry leading support experience for our users, I always try to find great solutions to help our agents. Recently, we created a web-based CRM system to make agents more productive. Using a client side MVC was a no-brainer (we replaced a generated admin solution). Now we can engineer high-speed, non-traditional, and easy-to-use user interfaces. We selected a framework that was best for our goals and implemented our key features with the most popular variations. I will share these implementations and introduce the strengths and weaknesses of <a href="http://backbonejs.org/">Backbone.js</a>, <a href="http://emberjs.com/">Ember.js</a>, and <a href="http://angularjs.org/">AngularJS</a>. As we ended up selecting AngularJS, (it’s feature-rich, standard-friendly, easy to test and extend, as well as being popular), I will go a lot deeper into its details. It emerged as the best solution for us and maybe it’s the most future proof decision for everyone.</p>
+<h1>23) Lessons in Emotional Safety</h1>
+<p>Emotional safety is the most important predictor of the health of an organization and a community. But more importantly, it has a enduring repurcussions on our lives as individuals. Like, our real lives—the ones we live for our whole lives.</p>
+<p>I&#39;ve worked in intensely unsafe professional environments prior to joining &amp;yet. I&#39;d like to candidly share some of the lessons I&#39;ve learned from my unique perspective as a female who isn&#39;t a software developer but who spends much of her life around them (including co-organizing events like RealtimeConf, RedisConf, and TriConf).</p>
+<p>Being &quot;in the developer world but not of it&quot; has given me perspective to identify blind spots within our culture as a company and a community. Traditionally copywriters on a software team are viewed as a supporting role: we help sell what gets made. But what if all contributors to a team were true equals capable of leading and shaping a continuously improving company culture? That&#39;s the foundation of emotional safety. </p>
+<h2>Outline:</h2>
+<ul>
+<li>What emotional safety is and why it&#39;s important.</li>
+<li>Why it&#39;s not something that can be simply tacked on, but must be embedded in culture.</li>
+<li>My struggles with identifying myself as a sexist and the challenges that presents.</li>
+<li>A framework for moving forward to greater emotional safety.]</li>
+</ul>
+<h1>24) Using Node.js to Build a Robust Server Architecture</h1>
+<p>Over the last 15+ years, I&#39;ve focused on server-side development, and I&#39;ve built many complicated backend systems using &quot;mature&quot; languages and technologies such as C/C++, C# and Java. But with my current project, all that was thrown out when we made the decision to base our implementation on Javascript and Node.js.</p>
+<p>Now just over one year into the project, this talk will share our experience to date with how we&#39;ve architected and implemented a large, highly scalable system in Node.js. During this talk, I&#39;ll cover:
+<em> Our initial learning curve with Javascript and Node.js (which was </em>steep<em> due to how different these are from traditional languages and technologies)
+</em> Key architecture &amp; design decisions, such as: 
+ <em> Making each component a service
+ </em> Message queuing for dealing with lengthy/asynchronous tasks
+ <em> Creating a pluggable architecture that allows us to &quot;fail fast&quot; on technology choices
+</em> &quot;Must have&quot; server development techniques, such as robust error handling, unified logging, defensive programming and profiling/monitoring.</p>
+<h1>25) NBCNews Digital Group UX Team: Lessons and Benefits Using EmberJS</h1>
+<p>As a member of the UX R&amp;D team for NBCNews Digital Group (nbcnews.com, today.com, msnbc.com among others), we are always looking for ways to improve the experiences for users visiting our websites across devices. Recently, we have focused our attention on SPAs using EmberJS to attempt to mimic the benefits of native devices while offering the ubiquity, functionality, and shareability of the web. 
+I&#39;d like to discuss our experiences with this framework, including benefits and frustrations.</p>
+<p>These include: </p>
+<ul>
+<li>Responsive capabilities utilizing JS for rendering experiences (images, ads, etc.) catered to device resolution that go beyond CSS media queries using EmberJS.</li>
+<li>Learning curve with Ember&#39;s magic (KVO, bindings, Ember&#39;s naming conventions)</li>
+<li>Development workflow leveraging Grunt and NodeJS to allow for rapid feedback for developers and designers along with the benefits of a development workflow that allows for back-end platform agnosticism, CasperJS acceptance testing, CI, and auto-deployment</li>
+<li>Leveraging EmberJS to drive the requirements for the API needed to power the app and developing a living specification for backend devs.</li>
+<li>SEO considerations</li>
+<li>Rendering strategies for heterogenous data</li>
+<li>Pre-fetching data to limit round trips to optimize performance</li>
+<li>Benefits and liabilities compared with BackboneJS</li>
+</ul>
+<h1>26) SpiderMonkey Parser API: A Standard For Structured JS Representations</h1>
+<p>The representation of JavaScript programs that Mozilla exposed with their
+<a href="https://developer.mozilla.org/en-US/docs/SpiderMonkey/Parser_API">SpiderMonkey reflection API</a>
+isn&#39;t perfect; in fact, it has a good number of flaws. But a rich ecosystem of
+tools has formed around this particular structured representation of JavaScript
+programs, most notably the popular esprima parser. The reusability and
+composability of these tools has made this format the standard for all modern
+projects that transform, generate, or otherwise work with JavaScript programs.
+We will explore this burgeoning format, evaluate its design with the benefit of
+hindsight, and showcase some of the more useful and prominent projects that
+have adopted it. This will include code generators, scope analysers, browser
+bundlers, metacircular interpreters, and more!</p>
+<h1>27) Building map overlay views using Backbone</h1>
+<p>The pain of building an interactive map has been greatly reduced thanks to tools like Google Maps, Leaflet.js, MapBox and OpenStreetMaps, but there&#39;s still one beguiling part &#151; creating custom overlay views to replace the stock standard pin and box widgets provided by the mapping tools themselves. This talk shows how you can create a base Backbone view which incorporates the various prototypes provided by the mapping APIs to provide automatic placement and pixel-offsetting of your view so that when the map scrolls or zooms, it stays where it&#39;s supposed to! I will also discuss methods and patterns for handling child views inside of your main view container, and providing for communication between the child views and the parent view which will allow us to create more complex sections directly on top of the map view.</p>
+<h1>28) DalekJS - Shifting to the frontlines of UI testing</h1>
+<p>Testing webpages is the inglorious bastard of our time. After we tamed this beast called &#39;Unit testing&#39; it is now time to shift our frontlines to another topic. This times it&#39;s all about your UI. And no, we&#39;re not going to penetrate our old enemy Selenium, no we&#39;re not fighting in the ruby-ish fields of Watir, no my friends, this time it&#39;s JavaScripts move to exterminate your bugs once and for all.</p>
+<h1>29) Six bottles of RUM: surprising stories of real world mobile performance</h1>
+<p>Thanks to abstraction, web developers enjoy a remarkably homogeneous development environment even across browsers and computing architectures. But abstraction only provides the illusion of a common platform: the implementation complexities of browser, operating system, hardware and wireless network can turn development best practices into anti-patterns.  </p>
+<p>Real world measurement at scale is the only reliable way for web engineers to understand the performance behaviour of routine techniques, considered to be best practices in desktop web development, on smartphones running on cellular data networks. </p>
+<p>In this talk, we&#39;ll go over surprising results of real world RUM tests on modern mobile web browsers with millions of samples answering questions such as: </p>
+<ul>
+<li>How long does it take the average phone to download content from a &quot;cold&quot; connection?</li>
+<li>Is domain sharding a best practice for mobile? </li>
+<li>When should you use data URIs? </li>
+<li>Should you use CSS sprites on mobile?</li>
+<li>Should you bother with a cookie-free domain?</li>
+<li>How much impact does CSS complexity have on mobile page load time? </li>
+</ul>
+<h1>30) Lessons from 100k Lines of JS</h1>
+<p>This talk will examine the lessons learned while building a very large single page application (SPA). The application discussed has one hundred thousand lines of client-side JavaScript code, and was built on AMD and Backbone.JS against a RESTful HTTP back end. An examination of the technical wins and losses, good ideas, bad ideas, and everything in between. We will cover code structure and organization, 3rd party development tools used, custom development tools built, automated and manual testing, development practices and methodologies used, organizational structure, stategies for performance and maintainability, and how each of these items affected the cost of the project. The focus will be on disseminating wisdom for future projects of this size and bigger.</p>
+<h1>31) An open source journey: from lurker to contributer</h1>
+<p>This talk is inspired by <a href="https://twitter.com/angelinamagnum">Angelina Fabro</a>&#39;s  presentation, <a href="http://afabbro.github.io/jsconf2013/">&#39;Javascript Masterclass&#39;</a> from <a href="http://2013.jsconf.us/">JSConf2013</a>, where she encourages people to &#39;Teach and/or speak at an event&#39; to improve their &#39;mastery&#39; as a programmer.</p>
+<p>It&#39;s easy for developers, seasoned veterans and rookies alike, to feel overwhelmed and intimidated when it comes to social coding and contributing to open source communities.  Many of the most widely publicized contributions and discussions revolve around the nerd celebrities and its challenging for us mere-mortals to figure out how to &#39;break in&#39;.</p>
+<p>Drawing from Angelina&#39;s presentation, I will share my thoughts and experiences transitioning from an open source user, to GitHub lurker, and finally to an (albeit small) open source contributer.</p>
+<h1>32) Editing Large Legacy Codebases with an Abstract Syntax Tree</h1>
+<p>I recently had to make changes across 100+ legacy Javascript files that could not be made via regexp search-and-replace [1]. To make this faster(?) and less typo-prone, I used Node.js and <a href="https://github.com/millermedeiros/rocambole/">Rocambole</a> to extract an abstract syntax tree (AST), edit it (and the associated token stream), and output the result. In this talk, I&#39;ll discuss what an AST is, my particular code transformation, how to edit code with a tool like Rocambole, and even implement a micro-Javascript interpreter.</p>
+<p>While I don&#39;t do anything particularly novel or unique with the AST, I found the technique useful and enlightening — and, if you&#39;ve never looked at an AST before, I think you will, too.</p>
+<p>[1] For instance, I had to change code from (you&#39;ll see why it had to get changed…)</p>
+<pre><code class="language-javascript">var a = &quot;index.php?new=&quot; + b.c;
+eval( &quot;my_iframe.location = &#39;&quot; + a + &quot;&#39;&quot; );</code></pre>
+<p>to</p>
+<pre><code class="language-javascript">io.frameGET( &quot;index.php&quot;, {
+    &quot;new&quot;: b.c
+}, document.getElementById( &quot;my_iframe&quot; ) );</code></pre>
+<h1>33) Using a Web Application Framework to Build Back-End Distributed Systems</h1>
+<p>Traditionally, we&#39;ve used different technology families to build front-end web
+applications and back-end distributed systems, even though they share many of
+the same problems. That&#39;s made it harder for a single team to excel at writing
+both of these kinds of code. And these days, for a web application to scale
+well, its back end is going to be a distributed system.</p>
+<p>I want to show you how the realtime technologies you use to build responsive
+front-end apps also let you write back-end distributed systems.  It turns out
+that DDP, the protocol Meteor uses to synchronize information between the client
+and the server, is also useful for synchronizing information between servers.
+Minimongo, an in-memory Javascript implementation of the MongoDB, is a valuable
+tool in the server environment.  I&#39;ll share some useful distributed system
+primitives we&#39;ve built on top of DDP, Node, and MongoDB with Minimongo, like
+leadership election and data synchronization.  I&#39;ll show you how to use them to
+Do What You Mean when running lots of copies of your webapp server.</p>
+<h1>34) Bug-Free Games from Day One with Behaviour-Driven Development</h1>
+<p>Behavior-Driven Development is a methodology enabling you to develop better, more reliable applications faster through test cases. Seldom used in the game industry, it would yield huge benefits for indie-game developers as well as established game companies. Whether you want to learn the basics or you&#39;re having difficulty getting started with Behavior-Driven Development, this talk will illustrate the advantages of this methodology by walking you through a practical example: the building of a web-based version of Simon through the use of test cases.</p>
+<p>The presenation will introduce Mocha and Sinon.js to the audience and cover the following topics:
+<em> Benefits of BDD
+</em> Applying BDD to video game development
+<em> Testing your game logic
+</em> Testing your game UI</p>
+<p>The <a href="https://github.com/jerle76/simon-game">source code</a> for Simon, the <a href="http://jerle76.github.io/simon-game">playable game</a> and its <a href="http://jerle76.github.io/simon-game/tests.html">test suite</a> are available on my github account.</p>
+<h1>35) Righteous Javascript, Dude! (Being a teenage programmer)</h1>
+<p>Over the last few years, there&#39;s been a major push to encourage young people to program. There&#39;s been initiatives like <a href="http://www.code.org/">Code.org</a>, or Valve&#39;s <a href="http://pipeline.valvesoftware.com/">Pipeline</a>. While some of these feature the teens themselves, many of them instead are featuring the adults, in hopes to inspire teenagers. I may not speak for everyone, but I&#39;d much rather hear about programming from another teen who could relate to my situation, rather than some adult who&#39;s already &quot;made it&quot;.</p>
+<p>With this talk, I&#39;d like to talk about why I was inspired to start programming now and what I think the challenges are of being a teenage programmer. I&#39;ll also talk about mentorship, and how everyone can have a part in shaping the future of programmers. And since this <em>is</em> a JS conference, I&#39;ll talk about why I think Javascript is the best first language for any programmer, especially teenagers.</p>
+<h1>36) Accessible JavaScript: Don&#39;t be the new Flash.</h1>
+<p>The need for accessible experiences is not going away. In fact, with more and more new devices and operating systems coming onto the market, the conversation must continue. Remember how Flash was terrible for accessibility? JavaScript doesn&#39;t have to be that way. By focusing a little attention on accessibility and multi-screen development, we will ensure more people can use the cool things we build.</p>
+<p>While accessibility has traditionally referred to the practice of providing equal website access to the blind, hearing impaired or cognitively disabled, it now extends to people of all abilities using tablets, smartphones, desktops, smart appliances, time machines and more. Okay, maybe not time machines...but you never know! I&#39;ll share what&#39;s new with HTML5 and screen readers, Javascript events and responsive development techniques like media queries and symbol fonts and how they can be applied for accessibility.</p>
+<p>Some questions I&#39;ll answer:</p>
+<ul>
+<li>How does accessible Javascript differ from regular Javascript?</li>
+<li>What has changed about how we code for accessibility as our tools have evolved?</li>
+<li>Should your mobile site be accessible?</li>
+<li>How can accessibility possibly be as cool as robotics?</li>
+</ul>
+<h1>37) Using Feature Flags To Ship Beta Features In Stable Builds</h1>
+<p>With the growing complexity of web applications and the diversity of platforms it is becoming harder to ship 100% stable products while relying solely on internal testing and QA. To combat this many have been relying on controlled rollouts of new features to their active client base once internal testing and QA shows that these features are stable enough. But what if the users hate the new features, render the application unusable on their platform, or the application is packaged for user installation?</p>
+<p>Bringing experience from implementing this technique on existing large scale applications I’ll teach you how to avoid these pitfalls by integrating url feature flags into your application. This will allow you to develop, test, and enhance new features within your stable application and allow users to easily toggle these beta, alpha, or even pre-alpha features on and off.</p>
+<h1>38) Making WebRTC awesome</h1>
+<p>Right now WebRTC is like a young, immature, olympic hopeful. Everyone knows it&#39;s going to do amazing things, it&#39;s got tons of talent, piles of potential but at the same time it&#39;s raw, unrefined, unpredictable and a bit hard to work with. </p>
+<p>Browser support is all over the map, APIs are inconsistent, documentation is still basically crap and everyone&#39;s writing tools and libraries with various levels of adoption and support.</p>
+<p>In a time where things like Prism threaten the openness and freedom of the web, as implmentors and builders we need to do whatever we can to push this all-too-important standard forward.</p>
+<p>I&#39;ll discuss the challenges, the opportunities and share what we&#39;re trying to do with SimpleWebRTC and talky.io. In addition I&#39;ll discuss two yet-to-be-announced initiatives:
+- One for promoting and pushing WebRTC support and quality forward.
+- One that aims to establish a completely open source, easy to set up, fully interoperable WebRTC server that uses the existing standardized federated messaging protocol, XMPP.</p>
+<h1>39) A True SPA - Angular + Firebase</h1>
+<p>Front-end developers, fear not -- back-ends are overrated. You can build a real-time single-page app without touching Node.js or sockets. Single-page Apps were rendered useless without a back-end serving, persisting and propagating the data. Not anymore. Firebase can serve as your backend, and as a bonus, it keeps your clients up-to-date real-time.</p>
+<p>One of Angular&#39;s most-touted features is two-way data binding -- with <a href="https://www.firebase.com/blog/2013-03-29-firebase-bindings-for-angular.html">AngularFire</a> you now have <em>x-way</em> data binding across clients!</p>
+<p>This talk will explain why Angular and Firebase is a match made in heaven and should be added to your tool-box -- especially if you&#39;re a front-end developer. As a case in point, we&#39;ll walk through the making of <a href="https://mck-.github.io/T3">T3 - Multiplayer Ultimate Tic-Tac-Toe</a>, and zoom in on a few challenges and caveats. Hopefully this talk will expand your realm of possibilities with front-end alone.</p>
+<h1>40) Building an infrastructure agnostic platform with NodeJS and pkgcloud</h1>
+<p>In November 2012, the folks over at <a href="https://www.nodejitsu.com/">nodejtisu</a> announced a great NodeJS package called <a href="https://github.com/nodejitsu/pkgcloud">pkgcloud</a>.  From their <a href="http://blog.nodejitsu.com/introducing-pkgcloud">blog post</a>: &quot;Pkgcloud is a node.js module that allows interaction with multiple cloud service providers. With the help of this module, you&#39;re able to manage a variety of cloud resources from within your application. You can provision compute, storage or database instances with ease.&quot;</p>
+<p>In this talk, I will discuss our architectural decisions, technical issues, and lessons learned in building out a scalable real-time voice communication platform powered by NodeJS and pkgcloud as well as by IaaS platforms including Rackspace, AWS, and OpenStack.</p>
+<h1>41) A User-land JavaScript Stepping Debugger</h1>
+<p>Programming today can still feel like a black box, even with all the
+new developer tools for debugging code. I think this is because we
+don&#39;t have the ability to truly customize the debugging experience for
+our application. What if we could have a user-land JavaScript debugger
+that you could shape to your needs?</p>
+<p>It turns out that you can build a real stepping debugger by abusing
+<code>yield</code> from ES6 generators. By instrumenting every expression with
+<code>yield</code>, we gain control of the stack and execution while allowing the
+native JavaScript VM to still execute everything else. This special
+code is run inside our own VM in user-land, and allows you to pause
+and step through code.</p>
+<h1>42) Using Big Data for Node.js Performance and Debugging</h1>
+<p>Big data analysis techniques have yielded remarkable insights in nearly every industry, from advertising to oil exploration to manufacturing.  What happens when those same techniques are applied to software development, and Node.js in particular?</p>
+<p>Well, we’ve done that!  In this talk, we will share the results of analyzing petabytes of performance and debug data across a wide variety of Node.js applications.  This type of analysis can yield a large number of insights, including: </p>
+<ul>
+<li>Quicker understanding of the hundreds of thousands or even millions of lines of code from third party modules.</li>
+<li>Spotting hard-to-find performance bottlenecks.</li>
+<li>Identifying anomalous behavior in a way that it easier to debug (aka how do you fix those really obnoxious, non-reproducible bugs?) </li>
+</ul>
+<p>We will also do a quick overview of big data analytic techniques for the uninitiated, including our favorite open source big data tools.   We will also share some best practices in writing Node.js apps that we&#39;ve discovered through this analysis.  </p>
+<h1>43) Javascript Strategies for Hybrid Apps and Mobile Web</h1>
+<p>In 2011 and 2012 we saw our traffic rapidly migrating to mobile. In 2013, of the 5 million 
+unique users we get in a week, about 50% use mobile; of those, 2 million users use mobile only. 
+Being mostly a web-based company, we had to find ways to meet the challenge of adapting 
+our product to mobile and being able to develop fast enough in that environment.</p>
+<p>In this talk I will share the ways in which we have solved issues that we struggled 
+with when developing Webviews and Mobile Web. Why hybrid apps (native/HTML) and Mobile Web 
+are two closely related, but significantly different problems. Why in mobile, more than on the desktop, is crucial to know 
+you user base in detail. Why we think user agent sniffing server side is not so bad. How having a 
+flavor of a mobile website that works everywhere allows us to support legacy 
+browsers forever, for free. We will also discuss PhoneGap and how it can be a game changer, but also how 
+the best way to use it in a hybrid app might not be the obvious one. </p>
+<h1>44) Drag and Drop Inside and Out: How does the drag and drop API work from both sides of the implementation, and why it is worth the effort.</h1>
+<p>The html5 drag and drop standard makes it possible to drag data between
+applications, and web pages. This is a huge win for desktop use, but the lack
+of support in mobile browsers, and lack of understanding has slowed adoption.
+It turns out that adding support for the API to browsers is not that hard.
+I wrote an 
+<a href="https://github.com/teknotus/html5-drag-drop-shim">html5 shim</a> that supports
+both mouse, and touch interaction in under 2 weeks. There has been quite a bit
+of criticism for the specification, but in the process of writing a shim many
+reasons for design decisions became clearer. </p>
+<p>This presentation will cover both what a web application needs to do to use
+the API, and how this can be implemented behind the curtains.</p>
+<p>Note the shim works now, but should be more full featured, and documented soon.</p>
+<h1>45) WinBots - Robotics with Windows 8.1 and JavaScript</h1>
+<p>Robotics has been a hot topic for the past year, especially with JavaScript and Node.js.  With such libraries as node-serialport and Johnny-Five, JavaScript has become a premiere language for pushing robotics to the everyday developer.  Windows 8.1 has also followed the trend of making hardware more accessible through new APIs to such things as USB, Bluetooth and even native 3D Printer support.  Now, using nothing but the power of JavaScript and WinRT, you can develop the next generation hardware.  In this presentation, we will cover the basics of what’s supported in Windows 8.1, and what’s the art of the possible with just some simple hardware, an Xbox controller and your imagination! </p>
+<h1>46) Message Passing vs. Data Synchronization</h1>
+<p>The words &quot;real-time&quot; usually conjure up images of &quot;message-passing&quot; in
+developer&#39;s minds - but it doesn&#39;t have to be that way.</p>
+<p>Message passing systems have been the de-facto way of doing real-time on the
+web, but new technologies like <a href="https://www.firebase.com">Firebase</a> and
+<a href="http://www.meteor.com">Meteor</a> treat it as a data synchronization problem.
+All apps had to have persistence for some of their data anyway, so by
+combining persistence and message passing into one problem instead of two,
+real-time apps are vastly easier to build and within the reach
+of everyone.</p>
+<p>In this talk we&#39;ll go into the nitty gritty of building a real-time web
+app and understanding what the advantages of the data synchronization
+approach over message passing are.</p>
+<h1>47) Serverless Apps</h1>
+<p>While the web development industry has seen a rapid growth of client-side applications, most of these still assume, or depend upon, a traditional application server design. But, with the rise of modern workflow tools supporting static sites, as well as an ever-growing array of hosted or configurationless services, you can now build functional web applications without writing a single line of server-side code.</p>
+<p>This talk will go through the ways in which traditional server-side functionality is being moved. A combination of better tooling for client-side code, hosted services for authentication and persistence, and new open-source projects such as <a href="http://hood.ie">Hoodie</a> all have a part to play.</p>
+<p>Of course, security or sensitivity constraints may prevent logic from being wholly client-side, but we&#39;ll see how a client-first approach changes the way we think about even these tasks.</p>
+<h1>48) A High Performance Rendering Pipeline for Backbone</h1>
+<p>Backbone views offer a simple render and event binding interface that works well on small applications. Scaling this up to handle many views and thousands of models creates challenges for browser performance. Re-rendering views when things change is a good place to start, however the browser gets bogged down updating the page when many cascading changes occur. At this point there is a need to create a rendering pipeline.</p>
+<p>This technique is similar to the way that video game engines pipeline work for GPUs. The pipeline is an extra step where rendering work is reorganized and streamlined in preparation for drawing. In the same way, browsers can render more efficiently when you take the time to reorganize the rendering work.</p>
+<p>This talk discusses the pipeline we built to achieve high performance without having to change how Backbone views render. I will discuss our strategies for de-duping events that cause unnecessary renders, creating a proxy view to handle updates, and prioritizing the list of render functions based on user intent and visibility.</p>
+<h1>49) JavaScript as a First-Class Citizen on iOS 7</h1>
+<p>One of the most exciting technology improvements announced for iOS 7 was the new JavaScriptCore framework.  With this new system framework, developers can write JavaScript code with full access to iOS platform APIs. </p>
+<p>This means that native UIKit applications, games, and everything in between can now be written in JavaScript, without the addition of a third party framework or missing out on rich platform APIs.  After many years in purgatory, JavaScript is now blessed and officially supported by Apple for usage in native iOS apps.</p>
+<p>In this talk, we&#39;ll focus on what developers need to know to take advantage of JavaScriptCore bindings in iOS 7.  We will also explore where this new technology fits in alongside existing JavaScript solutions for mobile development, like Appcelerator&#39;s Titanium and Apache Cordova (PhoneGap).  To demonstrate how this new framework might be used, we will script a simple game using SpriteKit, the new built-in 2D game framework in iOS 7.</p>
+<p>There are many exciting possible applications of this technology, and I hope the JavaScript community takes full advantage of them.</p>
+<h1>50) ECMAScript Regrets</h1>
+<p>JavaScript got implemented and shipped in browsers in a rush; not your textbook way to evaluate a product before handing
+it off to your customers. Websites started to be written against the JavaScript that was actually shipped in browsers,
+not some ideal language we wish we had. In order to avoid &quot;breaking the web&quot;, the Bad Parts of the language not only
+weren&#39;t removed, but had to be standardized to make sure websites behaved the same way in different browsers.</p>
+<p>The <a href="https://github.com/DavidBruant/ECMAScript-regrets">ECMAScript Regrets</a> project is an attempt at listing all of these
+things we wish were removed from the JavaScript language, but can&#39;t be because it would break the web.</p>
+<p>In this talk, I&#39;ll walk through several of these &quot;regrets&quot; and explain what we can do as developers to avoid them
+as well as how ECMAScript 5 and 6 help to work around them. From beginners who are fighting against the language to
+compile-to-JS language designers who don&#39;t want to reiterate mistakes from the past, everyone should be learning something.</p>
+<h1>51) Vert.x: Pushing JSON Around</h1>
+<p>Vert.x is an asynchronous, event-driven application platform similar in
+style to Node.js, except it runs on the JVM. It supports several JVM languages,
+including Javascript, and uses a multi-[reactor] event loop to handle a very
+high number of concurrent connections. Clustering is built-in and remarkably
+easy to use, and the Vert.x event bus makes passing messages between components
+or applications simple. With JSON as the native message format, and a SockJS
+client that speaks directly to the bus, pushing event-based messages to the
+browser has never been easier.</p>
+<p>In this talk I will introduce the Vert.x platform. I will discuss the pros and
+cons of Vert.x compared to other platforms like Node.js, and we&#39;ll look at some
+sample code. I&#39;ll finish up by wowing you with some semi-live code that pushes JSON
+messages from a server cluster to the mobile browser in just a few lines of 
+Javascript - and maybe even a dash of Clojure just to keep it interesting.</p>
+<h1>52) Where does the Javascript run, anyway?</h1>
+<p>This summer at JSConf they had a one-day workshop on robots, and then the very same day a nodetank shot a nodecopter out of the air. War has been declared, and <em>you</em> need to take a side. If you can write Javascript, you can command your own nodebot infantry or nodecopter squadron or nodeboat flotilla.</p>
+<p>You&#39;re convinced, of course. You need your own robot army. But where do you start? Where does the Javascript run, anyway?</p>
+<p>It&#39;s not trivial. It&#39;s easy, though, and not too expensive. Let me walk you through the basics and show you what you can do with a few hundred lines of Javascript. After the next half hour, you&#39;ll know how the node- gets glued to the -bot, how to use Javascript to make a robot roll forward, a quadcopter take off, or a rubber band sproing into the air. </p>
+<p>You&#39;ll know where the Javascript runs and why it&#39;s so good for controlling hardware. Most importantly, you&#39;ll have everything you need for victory in the Javascript robot apocalypse.</p>
+<h1>53) Self Discovery: Looking for Insight in Javascript’s Esoteric Roots</h1>
+<p>One of the most common gripes about Javascript is its use of prototypes rather than classes. This might explain the abundance of the many tools, patterns, and frameworks that massage it into a more classical OOP model. But are these approaches hammering a prototypal peg into a class-shaped hole? What was happening in the early 90s that made Brendan Eich reach for prototypes rather than classes when designing his new language?</p>
+<p>To find out, let’s a take a trip back in time and examine an exciting and very different language that heavily influenced Javascript: Self. Self is an ambitious language that, among other things, introduced prototypal OOP to the programming world. What lessons can we learn from this early pioneer of prototypal languages? Can we write better Javascript by understanding Self’s goals and approach to programming? Let’s explore the ambitions of Self and see if we can suss out the advantages and disadvantages of the prototypal approach and apply what we find to our own Javascript writing.</p>
+<h1>54) Building apps with D3.js</h1>
+<p>D3 is well-known as an SVG visualization library, but can provide a powerful platform for building entire DOM-aware frontend applications.</p>
+<p>As Bret Victor&#39;s essay &quot;Magic Ink&quot; points out, most of <a href="http://worrydream.com/MagicInk/#most_software_is_information_software">software is visualization</a> —
+by imagining your interface as an interactive chart, building an entire app with a DOM-based visualization library starts to make sense!
+Well-crafted code using D3 looks declarative, can be debugged imperatively, and lets you efficiently react to asynchronous or realtime updates. What&#39;s not to like?</p>
+<p>This talk will defend using D3 for everything, show how to do it well, and explain what sort of architecture(s) can result.
+We&#39;ll look at how D3 combines what <em>is</em> right about jQuery with the architectural sanity of &quot;capital-F frameworks&quot; like Knockout/Angular/Ember, brilliantly offering the best of both worlds.</p>
+<h1>55) Modular Javascript</h1>
+<p>In the dark ages, everything was global. Incomprehensible chaos 
+reigned. Then the laws of modularity were (re-)discovered and 
+applied through the module pattern. Programmers rejoiced. But 
+still Javascript could not be tamed. Soon, individual fiefdoms 
+of module loaders began sprouting. Javascript became beautiful, 
+but at a cost. Programs were now trapped in walled gardens of 
+incompatibility. However, we have been promised a way out of 
+this morass. ECMAScript 6 introduces 
+<a href="http://wiki.ecmascript.org/doku.php?id=harmony:modules">Harmony modules</a>. 
+Will this be the One Loader To Rule Them All?</p>
+<p>This talk will tell the story of modularity in Javascript from its 
+inflexible beginnings, to the ephemeral promise Harmony modules. On 
+the way, we will visit the pitfalls of monolithic programs, and
+experience the pain and power of module loaders.</p>
+<h1>56) JavaScript&#39;s place in the Web of Things</h1>
+<p>Microcontroller instruction sets. Electronic circuit theory. Embedded systems design. With great power comes great big scary words — but hardware is really not all that hard!</p>
+<p>It can be incredibly easy to get into the Arduino ecosystem with JavaScript and prototype all kinds of fun physical interfaces, sensors and actuators. The trouble comes when you&#39;ve got your circuit working and want to unhook it from your laptop and send it out into the world — that&#39;s where Microstates comes in.</p>
+<p>Microstates will help us use mostly JavaScript to build a Web of Things — things that could cost less than $20 apiece! Microstates is a collection of familiar JS <em>and</em> not-actually-so-scary hardware blueprints to help you make a lot of little wireless web servers with a few cheap chips.</p>
+<p>This session will show how JavaScript has an important place in both the interface and in the backend when pulling the (USB) plug with Microstates, and give a demo of how easy and affordable it can be to implement HTTP status code 418 I&#39;m a teapot.</p>
+<h1>57) Remote Testing Websites with Grunt and Casper.js</h1>
+<p>Testing javascript applications has become more important than ever as the complexity and requirements of web applications grow. But not all application development environments lend themselves to easy testing. In particular, websites, as opposed to web applications, have been long ignored in the testing world.</p>
+<p>Mobify&#39;s unique client-side rendering requires a novel approach to properly test and maintain. We rely on the customer&#39;s original website for data and completely rebuild the DOM on the client-side. Testing against idealized mock data is impractical and unwieldily. Instead, we have live data, which paints a far more accurate picture of the chaotic nature of the real world. </p>
+<p>Recently, we have begun to rigorously test not only our web applications, but also our client sites using a combination of Casper.js and Grunt. These tools provide an easy and effective way of testing; not only javascript, but the HTML elements themselves and even CSS.</p>
+<h1>58) Front End Dependency Management</h1>
+<h2>Bower/RequireJS v. Browserify/npm/CommonJS</h2>
+<p>There have been many heated debates about how you should structure and manage your JavaScript code; specifically what module pattern to use: RequireJS or CommonJS. One&#39;s allegiance is usually determined by environment variables -- Node or the browser. As the front end world goes barreling into the future, this distinction is beginning to get blurry. Let&#39;s take an objective look at the advantages and disadvantages of each approach and have a healthy conversation as to why you would choose one over the other. Let&#39;s hug it out. Won&#39;t you join me?</p>
+<h1>59) Programming a Node Cluster Like It&#39;s One Really Big Computer</h1>
+<p>Distributed programming is a lot easier if the abstraction makes the cluster
+look just like a really big computer.</p>
+<p>I&#39;ll talk a little bit about some concepts from Cloud Haskell (and Erlang and
+Akka), and how they might look ported over to Node. The main idea is to be able
+to spawn many <code>Process</code>es which are automatically distributed across the
+cluster. <code>Process</code>es communicate via message passing, inspired by Erlang&#39;s
+&quot;actor model&quot;.</p>
+<p>One point of focus is serialization and transmission of function closures. For
+example, given a function <code>add</code></p>
+<pre><code class="language-javascript">var add = function(x) {
+  return function(y) {
+    return x + y + 1
+  }
+}</code></pre>
+<p>We should be able to partially apply it and transmit it elsewhere to have its
+second argument applied, then have the result returned back to us.</p>
+<pre><code class="language-javascript">spawnRemote(add(1), function(err, result) {
+  if (err) throw err
+  console.log(&quot;Result computed remotely: &quot;, result)
+})</code></pre>
+<p>Serialization of a function closure is possible by serializing its environment
+(i.e. the bindings of its free variables) and a representation of its code.</p>
+<h1>60) Abstraction for sanity</h1>
+<p>A lot of JavaScript code these days suffer from showing all the mechanics of completing a task, and not much of the intention of author or the problem that they&#39;re trying to solve. Being confronted with this kind of code can be overwhelming, and trying to maintain it can be quite a nightmare.</p>
+<p>In this talk I am going to show examples of code with poor abstraction, and how it is</p>
+<ul>
+<li>difficult to read</li>
+<li>a breeding ground for bugs</li>
+<li>a likely place for the next programmer to make mistakes</li>
+<li>difficult to test</li>
+</ul>
+<p>After this horrorshow, I am going to show you some techniques to improve abstraction levels in your code.</p>
+<p>After this talk, you will be better equipped to tackle poorly abstracted code, and will leave it better than you found it.</p>
+<p>Readers of <a href="http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882">Clean Code</a> and <a href="http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052">Working Effectively with Legacy Code</a> should feel right at home with this talk.</p>
+<h1>61) ncaabrackets.js</h1>
+<p>November brings college basketball season which culminates with one of the most
+exciting events in sports: a 68 team single elimination tournament to declare
+a champion. With more than 9.2 <em>quintillion</em> possible brackets, how can you write
+modular, testable code that will parse, validate, and display each bracket
+<em>and</em> allow each entry to fit in a single tweet?</p>
+<p>I&#39;ll detail the web services, node modules, and Backbone code that I&#39;ve written
+for TweetYourBracket to make all this a possibility, going over the stumbles
+and aha moments I had along the way. Everyone will be able to get something out
+of this, although if you&#39;re not already an NCAA basketball fan, you may become one
+after you see how much fun you can have writing regex-generating, data-caching,
+realtime-updating sportsball code.</p>
+<h1>62) Evolution of BDD</h1>
+<p>Let&#39;s look at the evolution of Behavioral Driven Development (BDD). Where did it come from? What are its ancestral roots?</p>
+<p>In this presentation, we will look at the past, present, and future of BDD. This includes demonstrations to get BDD novices out on the right foot.</p>
+<h1>63) A Quest For Better Code</h1>
+<p>Nowadays, articles on how to structure properly a large JavaScript application are flourishing on the Web. Every three months or so, a new MV* framework is announced. This may be relevant if you&#39;re about to write a web app from scratch but how do you deal with a 5-years old application with more than 529,000 js LOC ?<br>This is the thrilling challenge we had to face at HootSuite. Over the past years, our dev team grew from 1 to 36 developers. Well structured, testable and maintainable code has become an absolute necessity.</p>
+<p>This presentation will walk you through our quest for better code and uncover :</p>
+<ul>
+<li>how we restructured and improved our codebase by small iterations</li>
+<li>how we transitioned from DOM-heavy, tightly-coupled libraries to maintainable modules</li>
+<li>how we provided our devs with tools helping them to write better code</li>
+<li>how we are monitoring code quality</li>
+<li>how we are testing and deploying continuously</li>
+<li>lessons you can take away to refactor your own codebase</li>
+</ul>
+<h1>64) Turbocharge Your Animations by Taming Browser Reflows &amp; Repaints</h1>
+<p>In this talk you will learn how to design turbocharged procedural animation code. You will acquire a set of strategies to conserve the browser&#39;s rendering muscle, eliminating inessential rendering activity, so that it can concentrate on animating your widgets at ludicrous speed.</p>
+<p>Stylesheets and high-level API for manipulating the appearance of DOM elements on screen make it easy to ignore the demands that your application imposes on the browser&#39;s rendering engine. Come along for a peek into the world of document reflows and repaints; you may be surprised how small tweaks to your code can turn a laggy mess into a buttery-smooth animation.</p>
+<h1>65) Don&#39;t (Always) Combine Your Scripts</h1>
+<p>You&#39;ve heard it time an time again from Google and Yahoo - combining your
+external scripts to reduce the number of requests will improve the load-time
+of your website. Up until now, this has been common knowledge that people
+have accepted, because intuitively, it makes a lot of sense. But this advice
+was dished out in the early days of the web - before the look-ahead
+pre-parser/pre-loader (a feature of the browser that attempts to start
+downloading scripts as fast as possible by spawning a separate thread outside
+of the main rendering thread, whose only job is to locate resources
+and download them in parallel) had been added to browsers.</p>
+<p>Today in modern browsers, leaving your JavaScript separated actually <em>improves</em>
+the performance of your site for a majority of different scenarios - even on
+mobile networks. In this talk, I will be discussing why this is, and showing
+some data collected around the world using RUM to prove this claim. As well,
+I will be discussing why leaving scripts separate will be even more important
+for the SPDY web.</p>
+<h1>66) Peer-to-peer apps with WebRTC</h1>
+<p>WebRTC is a new browser API designed for peer-to-peer video
+conferencing.  But it is useful for more than just video.  It is
+possible for the first time to build peer-to-peer web applications.</p>
+<p>Peer-to-peer (P2P) has been used to achieve performance and data
+availability (BitTorrent), to provide privacy (Tor), and to disrupt
+long-held assumptions (Bitcoin).  A recurring theme of P2P is that it
+empowers users.</p>
+<p>Web apps are inherently accessible - an app can be loaded and run just
+by clicking a link.  The combination of P2P and web has potential for
+disruptive apps with low barriers to entry.</p>
+<p>I will describe building a distributed hash table (DHT) that operates in
+the browser, with an introduction to a reusable library that provides
+this functionality.  I will talk about building apps on top of a DHT.
+And I will discuss issues of reliability, performance, and
+interoperability of WebRTC data channels.</p>
+<h1>67) Abstractions for a Better Tomorrow</h1>
+<p>Let&#39;s close our eyes, hold hands, &amp; imagine together. Sit here, cross legged, open minded.
+We&#39;re going to fantasy land.</p>
+<p>Welcome friend. Here, all code across languages utilizes a few well known mathematical interfaces.
+Here, knowledge gained stays relevant. Here, you can instantly swap 1 module for another,
+compose everything, avoid docs, discuss things in common terms, share algorithms, refactor to formulas!</p>
+<p>&quot;Bullhonkey&quot;, you proclaim as I start to hum a low note quietly, fingers coiled into semi-rings.
+&quot;But I hate math and I heard math isn&#39;t prog...&quot;
+&quot;Shhhhhhh...&quot;, I press my finger to your lips. &quot;I did too. Come to my talk &amp; I&#39;ll explain everything...&quot;</p>
+<p>In this talk, we&#39;ll look at the FP ecosystem to see how fantasy land is a reality <em>right now</em>.
+You&#39;ll hear why normal folks like you &amp; me get bit by the math bug.
+We&#39;ll see all of this in understandable JS.</p>
+<p>Hash taggggg: #electric_chameleonism. #robotic_contortionists. #systemic_shape_shifting. #fantasyland</p>
+<h1>68) High Performance Data Visualizations in JavaScript</h1>
+<p>If you thought that building rich, interactive and mobile-friendly visualizations of high volume data with 100,000+ points just using the power of browser-side JavaScript was impossible, this talk will prove you wrong.</p>
+<p>We’ll review every important aspect of achieving peak performance and responsiveness for these types of applications, including search indexes and tree structures, computational geometry and clustering algorithms, real-time data simplification, fast collision detection, advanced use of Web Workers and mixing Canvas with SVG and HTML.</p>
+<p>This is a refined and improved version of the talk given at Front-Trends 2013 in Warsaw (<a href="https://speakerdeck.com/mourner/high-performance-data-visualizations">slides</a>, <a href="https://vimeo.com/68252990">video</a>).</p>
+<h1>69) Designing Maintainable, Production-Ready API Client Libraries</h1>
+<p>Client libraries that wrap your API can be very useful tools for your customers,
+converting the HTTP nitty-gritty of your API into easy-to-use objects. However
+there are several common problems you&#39;ll run into as a library author.</p>
+<ul>
+<li>Do changes to your API require O(n) updates to your client libraries?</li>
+<li>Do enterprise customers dismiss your client library as &quot;not production-ready&quot;
+and insist on writing their own?</li>
+<li>Your API has many wrinkles and endpoints. How do you ensure each client
+library can exercise the entire API?</li>
+</ul>
+<p>Using real world examples from Twilio, we&#39;ll discuss how to:</p>
+<ul>
+<li>Design your library for maintainability, uniformity and simplicity</li>
+<li>Implement a test harness to ensure <strong>all</strong> of your libraries exercise your
+entire API</li>
+<li>Harden your HTTP client to be robust against networking and transient API
+errors.</li>
+</ul>
+<h1>70) Make Music with Angular</h1>
+<p>Browser interactions aren&#39;t just limited to mouse and key events.  Modern browsers support a large range of API&#39;s that can be utilized to build interesting applications, but how best to integrate these API&#39;s with Angular isn&#39;t always obvious. Using a virtual drumset, this session will show how to incorporate multimedia with angular.  We will actually create music, while demonstrating proper use of angular components to interact with the browser in ways beyond simple mouse events.</p>
+<h1>71) NLP vs Twitter: A Voyage into Linguistic Frontiers</h1>
+<p>Given a linguistic frontier like Twitter, we are tempted to dive down the rabbit hole of semantic analysis, but for online communities whose evolution outpaces the traditional development of corpuses, we need a to look at every tool we have to uncover their secrets.</p>
+<p>We&#39;ll demonstrate how to answer questions like &quot;How do idioms grow and spread?&quot;, &quot;What regions are evolving fastest linguistically?&quot;, and &quot;What regions&#39; tendencies are spreading, or shrinking?&quot; using a Node.js app to collect data from Twitter, MapReduce jobs to slice and dice it upon retrieval, and d3.js to generate share-able graphs of your research.</p>
+<p>We&#39;ll focus on analyzing n-grams using CouchDB, but we&#39;ll discuss many techniques both statistical and semantic for studying language, teaching machines to parse it, and what JavaScript libraries will help you do that.</p>
+<p>(Based on <a href="nltk-pyconca.maxthayer.org">this talk</a> from PyCon Canada 2013)</p>
+<h1>72) Professional Web Animation</h1>
+<p>This talk is not about WebGL, canvas drawing, or sprite sheets. It&#39;s about real, hard-working, everyday, hardware-accelerated animation with JavaScript, CSS Transforms (and sometimes canvas). </p>
+<p>We will mention CSS Animation in passing as we introduce the <a href="http://www.greensock.com/gsap-js/">Greensock Animation Platform</a> as our foundation for quality procedural animation. We&#39;ll discuss ways to hack the  transform matrix and point out some cross-platform pitfalls. Repaints, framerates, and optimization are all on the agenda as we discuss generative animation, easing, oscillation and curves. </p>
+<h1>73) Cutting edge Glass with Node.js</h1>
+<p>Google has been pushing the <a href="https://developers.google.com/glass/about">Mirror API</a> as the main way to communicate with Glass and only recently they released the <a href="https://developers.google.com/glass/gdk">GDK</a> (Android) for Glass. The main question remain open; what <a href="http://venturebeat.com/2013/04/10/google-glass-app-funding/">can be done</a> with it?</p>
+<p>In this talk we will go over the process and new challenges of developing a fully functional Glass application implemented on the Mirror API via Node.js, and new tools we&#39;ve built along the way.</p>
+<p>We will share our learnings on how Glass app differ from web app, how to manage user life-cycle in Glass from  authentication to messaging and listening for updates, while keeping in mind Google&#39;s UX guidelines.</p>
+<p>We hope to show up to 3 demos, building interactive stories with glass (mirror), image eating monster (mirror), and real-time information consumption (GDK+sockets).</p>
+<h1>74) High-Performance WebGL Apps with LLJS and asm.js</h1>
+<p>Asm.js is a technology to unlock high performance in today&#39;s JavaScript
+engines, but it&#39;s only meant as a compilation target for C/C++
+applications and is not easily accessible to JavaScript developers.</p>
+<p>Low-Level JavaScript (LLJS) is an experimental language from Mozilla
+that mixes C-like language constructs with JavaScript. In this talk I
+will explain how I ported LLJS to run on asm.js, allowing web
+developers to tap into the huge performance gains with asm.js. Using
+LLJS, you can integrate low-level code that runs on asm.js with
+JavaScript apps easily. I will explore a high-performance WebGL app that
+uses this.</p>
+<p>LLJS is in its infancy, and I will also discuss our plans for the future.</p>
+<h1>75) Building Community With Git: Tools, Tips, and Tricks</h1>
+<p>Learning git is like learning to read: once you understand, it&#39;s hard to remember what it was like not to. This makes it very hard for experienced git users to teach beginners, and unfortunately, the official git documentation doesn&#39;t much help. Learning git can help beginners feel more comfortable with the command line, GitHub, and contributing to projects, thus empowering them to learn more by seeking out example code and building an early excitement for open source.</p>
+<p>This talk will outline the major difficulties for beginners learning git, point out some of the shortfalls of the existing documentation and resources, and suggest some ways the CascadiaJS community can help teach and encourage beginners through tutorials, documentation, and one-on-one mentorship.</p>
+<h1>76) The Z Dimension</h1>
+<p>There&#39;s no escaping it - the way a browser stacks elements on a page is complicated. With positioning, floats, opacity and lexical ordering all having their own effects, and z-index not quite working how most people expect, it was already hard enough to get your head around. Now, however, with transforms and WebGL bringing 3D to the web, things are even more complex.</p>
+<p>This talk will cover a few lessons and guidelines to demystify the Z-dimension - what a stacking context is, how events are distributed, how transforms (3D &amp; 2D) are handled by the browser, and how to untangle a vertical mess. And, as a bonus, how a better understanding of depth leads to higher-performing websites.</p>
+<h1>77) Building Event Driven Javascript Applications</h1>
+<p>Building modern web applications, particularly javascript driven single page applications can quickly devolve in a mess of callbacks and spaghetti code. One way out of this madness to require each part of the application to communicate with nothing more than events. Backbone applications, while allowing this behaviour, do not exactly encourage it and building such applications is sometimes harder than it should be. </p>
+<p>Twitter Flight, on the other hand, is a new minimal framework that allows nothing else. Each part of the application is entirely driven by events, either emitting or receiving them and has no other connection to any part of the application. </p>
+<p>Enforcing such a drastic architecture creates a cleaner, modular  application and lessons learned from Twitter&#39;s approach can easily be applied to other front-end frameworks. </p>
+<h1>78) Localization for Javascript: Adventures in gettext</h1>
+<p>Localization (L10n) for software is not an easy problem, but one that&#39;s been, more or less, sufficiently
+solved for the desktop. Unfortunately, the current situation is not so rosy if you&#39;re working in JavaScript.</p>
+<p>Lets make it better.</p>
+<p>This talk discusses lessons learnt in designing and implementing a localization system for
+a Javascript thick-client currently in development. Topics include:</p>
+<ul>
+<li>Why Gettext is better than sliced bread</li>
+<li>State of Gettext for JavaScript (spoiler: it&#39;s OK, but not great)</li>
+<li>When off-the-shelf doesn&#39;t cut it: building the toolchain</li>
+<li>Stuff that bit us: L10n for ExtJS</li>
+<li>Writing translation-friendly strings</li>
+<li>Useful gettext hacks, because JavaScript</li>
+</ul>
+<p>Come learn what it took to localize an almost pure JavaScript application without the help of a
+L10n aware templating system, and save yourselves some sanity should you choose to travel down the same path.</p>
+<h1>79) Real World JavaScript Testing: Moving from testing basics into testing real world applications</h1>
+<p>When I first started testing JavaScript code, I got excited. I used simple examples to help me learn how to write tests for different cases. I then jumped into my next project ready to test all the things. I quickly found out though that testing a web-app is much different than writing unit tests for does thing A equal thing B.</p>
+<p>There is a lot more that goes into testing an app than</p>
+<p>In this presentation I&#39;ll cover:</p>
+<ul>
+<li>What are unit tests?</li>
+<li>What do they look like?</li>
+<li>Methods for running your tests</li>
+<li>What kind of things need to be tested?</li>
+<li>How to deal with third-party services and libraries</li>
+<li>How to party when all of your tests pass</li>
+</ul>
+<h1>80) Terraformer - A Geo-Toolkit</h1>
+<p><a href="https://github.com/Esri/Terraformer">Terraformer</a> is a geo-toolkit that helps you build large-scale geographic applications and databases.</p>
+<p><a href="https://github.com/Esri/Terraformer">Terraformer</a> helps you navigate the various geo-formats, acts as a geometry and primitives engine, and helps you build powerful geo-databases.  Stop thinking locally, and start thinking globally as you learn how to build your own databases with multiple backends (memory, localstorage, leveldb, postgresql, etc) and multiple index types in node.js and the browser.</p>
+<p>This talk will cover the basics of Geometry, Terraformer, and building your own bespoke geo-databases.</p>
+<h1>81) Audio Tags: Web Components + Web Audio = &lt;3</h1>
+<p>Web Components are all the rage. Their declarative syntax and the power they put in the hands of the developers to build and extend blocks without having to wait for browser implementations are the prelude to a revolution when it comes to developing for the web.</p>
+<p>But... can we use them for anything else than creating new UI elements? What if we joined them with another exciting HTML5 API such as <em>Web Audio</em>?</p>
+<p>Yes!</p>
+<p>This talk will discuss <em>Audio Tags</em>: a series of Web Components that encapsulate Web Audio objects, and the potential applications of such project: interactive circuit visualisations, DSP chains, additive synthesis modelling (AKA &quot;build your own synthetiser!&quot;... in <em>JavaScript</em>!), etc. And of course, the potential shortcomings and pitfalls one can find and quite possibly fall for when developing a mashup of these dimensions.</p>
+<h1>82) Class-based inheritance in JavaScript</h1>
+<p>Prototype-based inheritance is probably one of the most difficult to understand aspects of JavaScript. This is especially true for web developers coming from traditional object-oriented languages with class-based inheritance.</p>
+<p>In this presentation, we will look at how Backbone.js, Ember.js and CoffeeScript attempt to bridge the conceptual gap by exposing APIs that simulate class-based inheritance. In particular, we will compare how they implement common operations such as subclassing, declaring instance vs class methods/variables, overriding methods and calling super.</p>
+<p>Finally, we will look at how you can solve similar problems today using &quot;pure JavaScript&quot; with ECMAScript 5, then end off with a sneak peek of the proposed ECMAScript 6 class syntax.</p>
+<h1>83) Pro AngularJS for For Web App Developers</h1>
+<p>AngularJS is a powerful framework for building web apps, but due various misunderstandings, developers are caught up making costly mistakes. This presentation is a deep-dive into AngularJS: it&#39;s design philosphy, core architecture, and how to properly use it to avoid pitfalls when creating web apps.</p>
+<h1>84) Web JS for Desktop Programmers</h1>
+<p>Back when the web was young, and midi files were still cool, I had a website. And a server, too.
+But just as css showed up, I got bored, shut down the server, and turned to desktop applications.
+Now I&#39;ve returned to find that the web has changed. A lot.</p>
+<p>While I&#39;m still in the middle of this transition, I&#39;d like to talk about some of the pitfalls I&#39;ve encountered in server and client javascript, like:
+<em> ways to f**</em> up callbacks
+<em> biases (it&#39;s &quot;just&quot; web development, right?)
+</em> browser hell (what do you mean, it doesn&#39;t work in firefox?  (╯°□°)╯︵ ┻━┻ )
+* responsive design (even images aren&#39;t reliable any more)</p>
+<p>and more, if there&#39;s time.</p>
+<p>This talk will <strong>not</strong> cover:
+<em> javascript syntax
+</em> basic html/css</p>
+<p>This could also work as an unconference topic - I&#39;d love to hear about other people&#39;s experiences.</p>
+<h1>85) Higher abstraction for sanity</h1>
+<p>A lot of JavaScript code these days suffer from showing all the mechanics of completing a task, and not much of the intention of author or the problem that they&#39;re trying to solve. Being confronted with this kind of code can be overwhelming, and trying to maintain it can be quite a nightmare.</p>
+<p>In this talk I am going to show examples of code with poor abstraction, and how it is</p>
+<ul>
+<li>difficult to read</li>
+<li>a breeding ground for bugs</li>
+<li>a likely place for the next programmer to make mistakes</li>
+<li>difficult to test</li>
+</ul>
+<p>After this horror show, I am going to show you some techniques to improve abstraction levels in your code, to make it</p>
+<ul>
+<li>easier to read and reason about</li>
+<li>easier to test</li>
+<li>easier for the next programmer to maintain</li>
+<li>less likely to cause bugs</li>
+</ul>
+<p>After this talk, you should be better equipped to tackle poorly abstracted code, and will leave it better than you found it.</p>
+<p>Readers of <a href="http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882">Clean Code</a> and <a href="http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052">Working Effectively with Legacy Code</a> should feel right at home with this talk.</p>
+<h1>86) Writing Delightful JS Using The Fibonacci Sequence</h1>
+<p>Learn how to control the User Interface by injecting the Fibonacci sequence in your code.  Use the Fibonacci sequence in JS functions, animations, callbacks and lists to write code that is strategic, manageable, and enhances the user experience. See how to use JS and CSS harmoniously with the Fibonacci sequence to overwrite the css box model (margins, paddings, dimensions etc), grid systems (using 5-13 cols), animation (pacing, intervals) and creating organic pattern libraries that are never completed (style guides).</p>
+<h1>87) The Future of Persistence on the Client</h1>
+<p>In a world that is quickly moving to the client, the way applications save data is lagging sorely behind. Frameworks such as Ember.js and Angular have recently emerged, providing rich abstractions around how applications are structured and presented, but the way changes are persisted to the backend is essentially the same as it was a decade ago.</p>
+<p>In this talk, we explore how most client-side applications interface with their persistence layer and why naive AJAX is not enough. Alternative streaming solutions are discussed as well as how REST can be improved for long-running client-side applications.</p>
+<p>AdminJS, a soon to be released open source framework, will also be introduced. AdminJS is a backend-agnostic client-side adminstration framework that takes advantage of some of the techniques discussed in the talk.</p>
+<h1>88) Taking Web Workers From Apps To Libraries</h1>
+<p>Web workers are an exciting technology that allows web developers to fully harness modern multi processors. So why haven&#39;t you seen them in any of your favorite libraries? I will explore techniques for using workers cross-domain in libraries, problems that workers solve well, and problems that you’d think workers would solve but don’t through copious pictures of cats.</p>
+<h1>89) How To Run A Successful Local (JS) User Group</h1>
+<p>Not enough opportunities to hang out with local JS folks? Start your own user group.</p>
+<p>There are a few tips, tricks, leadership, and organizational skills that will help you organize, and participate in your local meet (or drink) up. Most importantly as an organize you will want make sure to create a consistent, high quality event that folks feel pumped to be a part of. But how do you do that? How do you find a venue, speakers, sponsors? How to you keep recruiters away? How do you let people know about your event?</p>
+<p>There are a bunch of variables but they can be easily managed. I&#39;ll share how we run the JS.LA group and a few of the things we have learned along the way.</p>
+<p>You don&#39;t need permission to start a group, you just need to make it happen ;)</p>
+<h1>90) Run Node.js and .NET code in-process</h1>
+<p>The choice between Node.js and .NET for your application is a compromise. While everything <em>can</em> be done in either Node.js or .NET, specific things are usually <em>better</em> done in one of them. This talk will explore Edge.js: a mechanism to run Node.js and .NET code in-process and enable you to use the best technology for the task at hand. </p>
+<h1>91) Learning from Libraries</h1>
+<p>jQuery runs on approximately 50% of all websites and is the de facto standard for DOM manipulation. Most front end developers use it, but how well do they understand what&#39;s happening when they use the API? How does a library take on the problems it solves? What are the reasons behind some of the techniques it uses? Observing the code under the hood of a library/framework is a fantastic way to become a better developer and thereby user of that library/framework. Better understanding of design patterns in some of the most popular libraries can open opportunities to contribute and be a better open source citizen. What&#39;s more, it&#39;s a fun way to learn! In this talk, we&#39;ll explore interesting patterns that popular libraries like jQuery, Backbone, Angular, and more use to solve problems.</p>
+<h1>92) Object of Interest</h1>
+<p>I gave a talk on <a href="www.youtube.com/watch?v=ADiF5UUKDCk">Garbage Collection</a> and got asked at the end &quot;Is there a tool
+to visualize the object graph of a website at runtime?&quot;. I answered negatively at the time. Unsatisfied with what
+state-of-the-art browser devtools provide to analyze objects at runtime, I decided to built it (as a Firefox addon for
+starters).</p>
+<p>In this talk, I&#39;ll briefly explain how Garbage Collection and the Mark-and-Sweep algorithm work in modern browsers.
+I&#39;ll explain what web developers should do to work well with the Garbage Collector and how they can use
+<a href="https://github.com/DavidBruant/OoI">Object of Interest</a> to better understand the JavaScript runtime and to find memory
+leaks in their websites.</p>
+<h1>93) Rethinking HTML5 for Mobile Games</h1>
+<p>From optimizing Javascript for mobile browsers, to building services that cater to mobile clients, to evolving infrastructure to handle for high-latency connections, this talk covers tips and tricks from 4 years of experience in building mobile games using HTML5. The underlying goal, however, is to illustrate the thought process of optimizing a system for niche audience and questioning status quo.</p>
+<h1>94) Viva la data binding revolución: Using AngularJS to control robots and take over the world.</h1>
+<p>All web applications need to get the right data to the right place at the right time.
+From a text input in a DOM to a database on a remote server, developers typically implement several layers of code just to move data back and forth.</p>
+<p>What if you could develop Web apps with fewer layers and less code?
+And what if the code was more modular and reusable?</p>
+<p>Brian and Jeff have discovered a better way through data binding, and will demonstrate its amazingness in AngularJS while interfacing with other parts of their Most Fullest-Stack&trade;*.</p>
+<p>*A stack isn&#39;t full unless there&#39;s a robot in it.</p>
+<h1>95) Database Building Blocks With LevelDB</h1>
+<p>The Node.js community has quickly latched onto LevelDB to build databases into applications. Let&#39;s dig into this powerful little database engine and why it has captured the hearts of so many Node developers.</p>
+<ul>
+<li>Why you should consider using LevelDB in your Node app</li>
+<li>Why sometimes you shouldn&#39;t</li>
+<li>An overview of the many plugin modules</li>
+<li>Address some FAQs about LevelDB</li>
+</ul>
+<h1>96) Talk to Your Browser: Speech Recognition on the Web</h1>
+<p>Speech recognition has traditionally been the domain of stuffy academia, C code
+and terrible fake movie computer interfaces. Thanks to new technologies like
+the WebAudioApi and Emscripten, we can get real-time speech recognition in the
+browser.</p>
+<p>I&#39;ll give a quick overview of the basic theory behind speech recognition
+(spinkled liberally with puppies so your eyes won&#39;t glaze over). Next I&#39;ll show
+how I got it up and running, followed by some fun demos.</p>
+<h1>97) Pushing WebRTC into Production</h1>
+<p>WebRTC is an exciting new set of open standards that promise to bring real time,
+plugin-free video, audio and data communication to the web. In this talk I will
+give an overview of the core WebRTC APIs, as well as reflect on some of the
+lessons I learned while integrating WebRTC into a production application.
+Specifically I will cover:</p>
+<ul>
+<li>the steps involved in setting up an RTC Peer Connection</li>
+<li>how ICE, TURN and STUN allow connections to form across complex network topologies</li>
+<li>the server infrastructure necessary to support WebRTC in production</li>
+<li>the availability of the WebRTC APIs now and in the future</li>
+</ul>
+<h1>98) Making it easier to build web apps</h1>
+<p>When building anything, one needs to keep a few things in mind to ensure 
+success. Two primary ones are:</p>
+<ol>
+<li>The target audience.</li>
+<li>Real-world constraints.</li>
+</ol>
+<p>The current state of web development ignores these two at everyone’s peril.</p>
+<p>This talk invites you to rethink modern web development a little bit, just 
+enough to build a better technical foundation for everyone to use.</p>
+<p>We will be looking at freeing frond-end developers from their shackles of 
+backend technology and the offline-first approach to build better, more 
+enjoyable, more functional and more mobile-friendly user experiences.</p>
+<h1>99) The Unquiet Dead: Using PhantomJS and GhostStory with Legacy Code</h1>
+<p>One of these days you&#39;ll have to go through your spooky old codebase. What haunts those dusty corridors? Where are the trap doors? Just what&#39;s supposed to be attached to that disembodied limb? </p>
+<p>Quit asking your co-worker, <strong>Did you hear that?!</strong> as you QA your Web application. Get automated JavaScript and CSS tests to run through your house of horrors.</p>
+<p>This presentation will answer questions like these:
+<em> I&#39;ve installed that Phantom/Spooky/Casper-JS stuff. Now what?
+</em> This &quot;headless WebKit&quot; thing gives me the creeps. How can I avoid it?
+* Unit-, regression-, or continuous integration tests: which will exorcise the poltergeist haunting my application?</p>
+<h1>100) JavaScript Puzzlers: Puzzles to Make You Think (and write fewer bugs)</h1>
+<p>Stay alert and try to solve these &quot;simple&quot; JavaScript puzzles.  These puzzles are designed to demonstrate some of the more obscure &quot;features&quot; of the language.  Try your best to answer them!  But be careful � the solutions aren&#39;t as easy as they look.  Learn how these work so you can avoid making the same mistakes in your own code!</p>
+<p>What to expect:
+<em> Learn about some of the more obscure features of the JavaScript language by solving fun puzzles.
+</em> Hear detailed explanations as to how it can cause bugs in your application.
+* Discover ways to make your code immune to bugs caused by these features.</p>
+<p>What <em>not</em> to expect:
+<em> 3rd-party libraries or frameworks (e.g. jQuery, Node.js, Backbone.js, etc)
+</em> Bugs</p>
+<h1>101) Keeping Your Wits with Backbone.js</h1>
+<p>A year ago, Mobify embarked to build a rich front-end app for creating mobile web sites from your existing website, called Mobify Studio.</p>
+<p>We found Backbone.js to be an invaluable foundation for our application, but along the way, we learned about, used and developed a great number of tools and techniques to preserve our sanity while developing a many-thousand line application for the browser.</p>
+<p>In this presentation I&#39;ll talk about the patterns we use:</p>
+<ul>
+<li>module systems</li>
+<li>using as little or as much as you like</li>
+<li>code re-use by any means necessary</li>
+<li>sub-views, inheritance and delegates</li>
+<li>compiled templates</li>
+<li>build systems</li>
+</ul>
+<h1>102) Real Time Collaborative Drawing in JavaScript</h1>
+<p>We can do more in JavaScript than we ever could before and quicker too.  In this presentation I&#39;m going to create a real-time collaborative drawing tool using JavaScript technologies.  I&#39;ll be live coding, so hold on to your hats.  But think about that: I&#39;m confident I can create a real-time collaborative drawing tool in the time it takes to give a presentation.  JavaScript has come so far.</p>
+<h1>103) The Fog of Dev</h1>
+<p>We use obscure acronyms. We dumb down our explanations. We skip over infrastructure tickets in meetings as &quot;technical stuff, don&#39;t worry about it.&quot; We are service providers to people who will never understand what we do. We&#39;re used to putting up walls around ourselves and our profession. It&#39;s what we&#39;re used to, and we think it protects us.</p>
+<p>But are we caught in a cycle of non-communication with the very users we write for? Or are we programming mostly for ourselves and not for others? How can they ever understand what software can do for them if we never talk to them about it?</p>
+<h1>104) Yeoman: Set Your Workflow Ablaze</h1>
+<p>Do you find yourself often copying-and-pasting boilerplate for similar projects? Or do you wish you had boilerplate for those types of projects? Think of Yeoman like smart boilerplate for your projects, using things like Handlebars to cut down repetitive set-ups. As part of the Yeoman suite, use Bower to keep your repositories clean of dependencies and use Grunt to run all your CSS and JS preprocessing, unit tests, linting, and even do LiveReload. In this presentation, we&#39;ll go through a beginner&#39;s guide to Yeoman, we&#39;ll go through on how to go from start to finish on creating your own Yeoman custom generators.</p>
+<h1>105) AI.js: 0.2.1</h1>
+<p>The cat&#39;s out of the bag: you can program robots with JavaScript! (If you didn&#39;t know that yet - now you do!) And hey, the little robot you built at International NodeBots Day is not only AWESOME, it&#39;s also super adorable - congratulations!</p>
+<p>So, your little bot has got some great moves, but it&#39;s not making you breakfast yet?</p>
+<p>Let&#39;s level-up on your robot skills. We&#39;ll talk about kinematics (so you can make your robot move like a pro) and object recognition via computer vision (so your robot knows if it&#39;s going high or low), and then we&#39;ll try to give a robot a high-five (unless you&#39;re too slow!).</p>
+<h1>106) Cutting-edge Mobile Web Audio</h1>
+<p>The Web Audio API is nearing ubiquity across browsers, and is even
+available in modern mobile browsers! The combination of audio as output,
+in addition to all of the interesting inputs (touch, orientation) on
+mobile devices and external instruments lets you build really cool
+applications. I&#39;ll quickly go over the basics of Web Audio and then dive
+into a few cutting edge examples:</p>
+<ul>
+<li>Open web mobile musical instruments.</li>
+<li>An introduction to the WebMIDI API and a demo of connected
+instruments.</li>
+<li>Sound as data via ultrasonic networking applications.</li>
+<li>(stretch) Data as sound for auralization.</li>
+</ul>
+<h1>107) How to Write Good Bad Code</h1>
+<p>When you&#39;re writing code to demo browser performance analysis tools, how do you write code that&#39;s bad enough to show off the tools, but good enough not to insult an audience of professional developers? We faced that problem when writing docs that demonstrated the new performance analysis features in IE11&#39;s F12 Developer Tools. I&#39;ll discuss some of the performance anti-patterns we tried to demonstrate and the challenges of writing bad code a good coder might actually write.</p>
+<h1>108) Flux + React: A Better Way to Structure Client-side Apps</h1>
+<p>Over the years, engineers at Facebook have developed opinions about how best to structure client-side JavaScript applications. We&#39;ve come to believe that bidirectional data binding is difficult, and mutating data models directly doesn&#39;t scale well over time. In the past year or so, we&#39;ve abandoned the traditional MVC approach in favor of a single directional data flow architecture we call Flux.</p>
+<p>Coupled with a rendering framework like <a href="http://facebook.github.io/react/index.html">React</a>, this approach to building client-side applications lends itself well to testability and maintainability, allowing engineers to move fast and face fewer bugs. This talk will give an overview of this architecture, and try to shed some light on why this approach has worked so well for us.</p>
+<h1>109) Server/Client Modules</h1>
+<p>Demonstrate the benefits of sharing JavaScript modules between Node.js and the browser via examples extracted from a production website using:</p>
+<ul>
+<li>node/npm</li>
+<li>express</li>
+<li>gluejs</li>
+</ul>
+<h1>110) Client side MVC, who needs it?</h1>
+<p>In this talk, I&#39;ll question the wisdom of what seems to be the first question of frontend web development today: &#39;what MVC framework are you using?&#39;</p>
+<p>Instead of trying to sell you this week&#39;s new MVC framework, I am going to show you that you already have plenty of knowledge and the tools to create excellent client side solutions without the crutches of client side MVC frameworks.</p>
+<p>My presentation will start with a quick tour of the benefits and drawbacks of current MVC frameworks.
+I&#39;ll then move on to showing examples of how people are solving the same problems without the headaches of MVC frameworks.</p>
+<h1>111) Functional Testing with Cucumber.js</h1>
+<p>Unit testing is all well and good. But at the end of the day you need to know that what users will be seeing and interacting with works and your application works from a business and design standpoint.</p>
+<p>This is where functional testing can help. This talk will show how to test web applications using <a href="https://github.com/cucumber/cucumber-js">Cucumber.js</a> and <a href="https://github.com/admc/wd">wd.js</a>. This kind of testing tests the entire application as a whole as opposed to confirming the detailed functionality of a single component.</p>
+<h1>112) Compiling to JavaScript, and Debugging with Source Maps</h1>
+<p>JavaScript is the x86 of the web, and it&#39;s important that JavaScript developers
+can take advantage of source maps as the popularity of transpiled languages like
+CoffeeScript and TypeScript grows. My presentation begins with an overview of
+source maps: what they are, and why they&#39;re cool. Then, moves into a quick
+tutorial overview on generating proper source maps for your language that
+compiles to JavaScript. Finally, I demonstrate painlessly debugging the original
+source language without dealing with the unnecessary mental overhead of
+wrangling with the generated JS code output from your compiler.</p>
+<h1>113) Emscripten: Bringing C/C++ to the Web</h1>
+<p>Bring your C/C++ application to the web with Emscripten, an LLVM-to-JavaScript compiler.
+This talk will explore how Emscripten made it possible to make  my C++ game truly cross-platform.</p>
+<p>Topics covered will include:</p>
+<ul>
+<li>Setting up an Emscripten build environment</li>
+<li>Translation of OpenGL-ES to WebGL graphics rendering</li>
+<li>BSD socket api to WebSockets for multiplayer communcation</li>
+<li><p>Techniques for managing differences in UI between desktop/mobile/web platforms</p>
+</li>
+<li><p>Example Source: <a href="https://github.com/diclophis/MemoryLeak">MemoryLeak source code</a></p>
+</li>
+<li>Demo: <a href="http://emscripten.risingcode.com/57489644d8ca28ee360980e30dd6f940/index.html">Maze Game</a></li>
+<li><a href="http://emscripten.org">Emscripten Homepage</a></li>
+</ul>
+<h1>114) Object capabilities</h1>
+<p>Object capabilities are a discipline that encourages POLA (Principle Of Least Authority). Sticking to this discipline
+which is an extreme form of object orientation, code naturally has less bugs by design and is easier to maintain.
+It most often leads to better performance and more importantly better user experience.
+And it&#39;s just a discipline. No need for a framework or a library beyond <a href="http://vaporjs.com/">vapor.js</a>.</p>
+<p>In this talk, I&#39;ll explain the magics behind this discipline through concrete examples.</p>
+<h1>115) Let&#39;s All Make Games</h1>
+<p>Game creation has traditionally been scary, for various reasons (low-level languages, poor tooling, memory management).</p>
+<p>Luckily, we now have the technology (WebGL, canvas, WebAudio) to build games where we are comfortable - the browser.</p>
+<p>I will investigate the ways we can apply our expertise in web development to build games and make things a little less scary.</p>
+<h1>116) Signal Processing with Web Audio</h1>
+<p>With the advent of the Web Audio API, processing audio signals is now
+possible in realtime within most browsers. Let’s take a look into what
+raw audio data actually is, the theory behind signal processing, and
+practical implementations of analyzing audio using the Web Audio API.
+We’ll see how effects processing, audio analysis tools, and DSP algorithms
+can be constructed, used, and shared all in JavaScript.</p>
+<h1>117) JS Bringing Crypto to the Masses.</h1>
+<p>Privacy is an increasing concern among people both developers and users. We are constantly seeing it stripped from us be it from companies are government. But we have a great ability to combat this problem. In this talk I want to give everyone the ability to start understanding cryptography and choosing if they want to become an expert in it. Highlights:</p>
+<ul>
+<li>What the hell consistutes cryptography.</li>
+<li>The difference between rot13, xor and some true cryptographiacally safe algorithms</li>
+<li>What Javascript can bring and do for crypto.</li>
+<li>The problematics of clientside crypto.</li>
+</ul>
+<p>Historical fact: Cryptography is 4000 years old. Why are we so afraid of it?</p>
+<h1>118) Building a Server Appliance with node</h1>
+<p>Auth0 is a server/service to drastically simplify authentication, identity federation &amp; SSO scenarios; for web &amp; mobile apps. It&#39;s our first big project on node. One of the reasons we decided to build it entirely on node, is the ability to package it and deploy it anywhere: as a service in the public cloud, as a virtual appliance on private cloud, or as an appliance on-premises. In this session we&#39;ll show how we built it. How we use for extensibility and easy customization. What worked well, what didn&#39;t. Tools we used, etc.</p>
+<h1>119) Workflows with Grunt</h1>
+<p><a href="http://gruntjs.com/">Grunt</a> is a task runner for JavaScript that helps automate mundane tasks.</p>
+<p><a href="http://gruntjs.com/">Grunt</a> is a fantastic tool for focusing your development workflows. At Esri we use Grunt in several of our JavaScript (and non JavaScript) projects to build lint, preprocess, build, test and minify projects.</p>
+<p>This talk will cover how to setup Grunt, install plugins and show some example grunt tasks as well as how to write your own custom tasks.</p>
+<h1>120) Hacking the Browser Environment for Speed and Profit</h1>
+<p>As JavaScript developers, we&#39;ve always been taught to program within the JavaScript environment given to us by the web browser. However, the browser doesn&#39;t always give us the environment we wish we had, biting us with poor performance and inflexibility.</p>
+<p>In the name of speed and profit, how can we extend the web ourselves? How can we change when it executes JavaScript, fires events, or downloads images?</p>
+<p>The nature of JavaScript allows it to be dynamic, and we can utilize this power, along with some tomfoolery, to force the browser to render faster.</p>
+<p>Let&#39;s hack the browser!</p>
+<h1>121) Liberate your Feed: The State of Open Social</h1>
+<p>Social media is dominated by a handful of companies: Twitter, Facebook, Google, Yahoo, etc. In the wake of PRISM, we are confronted with the pitfalls of such consolidation. But we&#39;re developers. We&#39;re makers. We can do this ourselves.</p>
+<p>Promising upstarts have taken on this problem, but there is much more to be done. We&#39;ll discuss who&#39;s pioneering Open Social, their architectures, and how to roll your own solution using JavaScript up and down the stack.</p>
+<h1>122) Building a Firefox OS App</h1>
+<p>Firefox OS is a new mobile operating system from Mozilla. Apps are all written
+in HTML5 (HTML, CSS, JS) instead of the traditional compiled languages that have
+ been used on mobile devices.</p>
+<p>This talk will walk you through the app develoment process. From creating your
+app manifest, to testing your app in the simulator, to pushing your app to
+device. It will not cover details like submission to the marketplace or inapp
+payments.</p>
+<h1>123) Don&#39;t Sleep on Testing Your JavaScript</h1>
+<p>Enter the JavaScript Era: from Node.js to Jquery, MV* frameworks &amp; libraries to tools like Grunt.js, Bower &amp; Yeoman, Javascript has taken center stage in the web community. During this renaissance, you are honing your skills with new bleeding-edge technologies, but are you making the most out of JavaScript testing? If not, now is the time to correct in your current or next application. I will show you the wonderful art of JavaScript testing and give you tips to get started.</p>
+<h1>124) Big Data Platform Power Tools for Node.js</h1>
+<p>Node.js and JavaScript are great not only for quickly building simple web apps.
+This talk will present the tools to build a distributed Big Data platform covering:
+<em> Data queueing with Kafka (and other tools)
+</em> Realtime data process with Storm
+<em> Batch data processing with Hadoop
+</em> Storing data in Cassandra, Redis, CouchDB, MongoDB, and Riak
+<em> Data serialization options (JSON, protobufs, and MsgPack)
+</em> Internal communication with HTTP, hook.io, dnode, and ZeroMQ
+* Creating external APIs using the built-in http/https modules, express.js, restify, and hapi</p>
+<h1>125) Modules, stories of future past</h1>
+<p>The good and bad parts of existing JS modules systems in CommonJS/node and AMD,
+and how ECMAScript Modules bridge the gaps and avoid a dystopian future where
+sentinels force preambles into your code. Also learn how ECMAScript Module
+Loader API allows porting of the good parts in AMD loaders of today, and what it
+could mean for JS-based package managers.</p>
+<h1>126) BROWSE LIKE XERCES, GOD-KING OF THE PERSIANS</h1>
+<p>Many of the web apps we use every day are not worthy of our time. Reshape this world in your own image. </p>
+<ul>
+<li>Creat an army of countless minions to perform your works.</li>
+<li>Claim tickets to your favorite events. All will be yours.</li>
+<li>Expand your empire outside your extension, into the page&#39;s own JS.</li>
+</ul>
+<p>Historical fact: 2500 years ago Xerces, the God-King of the Persians, built an empire based entirely on Chrome Extensions. Today we will recreate history.</p>
+<h1>127) Living on the Edge: CouchDB, PouchDB, and Offline Sync</h1>
+<p>One of the coolest things about CouchDB is master-master replication. PouchDB makes this even cooler by allowing you to replicate right into the client, so that even if the user loses connectivity, they can continue to operate, and sync when they come back online. I&#39;ll show you just how easy CouchDB and PouchDB make creating web apps with this functionality.</p>
+<h1>128) PDF.js - Building Firefox&#39;s PDF Viewer</h1>
+<p>Just a short time ago rendering a PDF would have only been considered a task that a native application could handle. However, with the advent of many new HTML5 APIs and blazing fast JavaScript engines it is now possible to create native like applications within the browser. In this talk I’ll cover Mozilla’s reasons for creating PDF.js, a brief overview of the PDF format, how we parse and render PDF’s using JavaScript and HTML5, and some of the lessons we learned along the way.</p>
+<h1>129) Automate Your Development with Grunt</h1>
+<p>There are many repetitive tasks we do while coding our front-end
+projects: compile Sass sheets or Handlebar templates, run Jasmine tests,
+launch a local server... We can save a lot of time by automating these
+with <a href="http://www.gruntjs.com">Grunt</a>, a JavaScript task runner. In this
+talk we will see how to setup Grunt to automate some of these common
+tasks, with practical examples.</p>
+<h1>130) Adventures in mobile web/hybrid apps with javascript</h1>
+<p>This talk will be about how to build mobile web apps/hybrid mobile apps. I used a very small native wrapper that is basically the mobile browser but your app. I will discuss the trials and tribulations of building mobile web apps.</p>
+<p>I will also discuss the different tools that I have used over the course of developing mobile apps. This is a differnet approach than the phonegap way of making mobile apps. Also will include tips for real time communication with a node server.</p>
+<h1>131) Unified Web Templating with oj.js</h1>
+<p>The web has struggled with abstraction since its inception. Enter oj.js, a library that simplifies website design into smart, view objects. Objects that render themselves and then can be used to dynamically change their contents after the fact.</p>
+<p>Together we will explore how object encapsulation will reinvent the web, why few people know about JavaScript properties, that two-way model binding is the shiznet, and how to change the world -- one plugin at a time.</p>
+<h1>132) Making @horsejs speak - A story</h1>
+<p>A funny story about making @horsejs tweets speak.  Covers the origin story from playing with OS X&#39;s &#39;say&#39; command at work, 
+writing the first iteration in Ruby over the lunch break, its success leading to being banned at work, and finally 
+implementing the current iteration on horsejs.com in Node, currently hosted on my home iMac.
+Implementation of the tweet conversion to mp3 using Node and a few other tech tidbits will be included.</p>
+<h1>133) Title of Talk</h1>
+<p>People use JS for all sorts of Browser and Robot fun stuff, but what
+about those of us who like being in the trenches of the command line?
+Ever install a binary using NPM so somebody doesn&#39;t have to do it
+globally? Ever automate a task with Grunt? Ever write a phantomjs script
+that has NOTHING to do with tests? Let&#39;s roll up our sleeves and get our
+nerd on.</p>
+<h1>134) THE ASTOUNDING ES5: ILLUSION, ENCHANTMENT AND WONDER</h1>
+<ul>
+<li>SEE safe extension of inbuilt methods!</li>
+<li>WATCH the DOM update from live binding data!</li>
+<li>Use EXOTIC TECHNIQUES FROM THE SPIRIT WORLD to make your code shorter and more readable!</li>
+</ul>
+<p>Using only ES5, WITHOUT RESORT TO TRICKERY OR LIBRARIES.</p>
+<h1>135) Fantasy Land</h1>
+<p><a href="https://github.com/puffnfresh/fantasy-land">Fantasy Land</a> is a
+project to specify interoperability of common algebraic
+structures. Some algebraic structures include functors, monads and
+monoids. What do these algebras support, why are they useful and how
+can they allow libraries to not repeat ourselves?</p>
+<p>This talk will cover the Fantasy Land specification and ecosystem. It
+will demonstrate compatible libraries which allow treating
+<em>everything</em> as a value, including I/O, state, dependency injection,
+logging and mutation. It will also show how algebras can improve
+performance and how to abuse JavaScript to achieve operator
+overloading.</p>
+<h1>136) Data oriented programming</h1>
+<p>The essence of all applications lies in <strong>data</strong>. Programs take
+data in form of <strong>input</strong> and apply transformations to produce
+data that they <strong>output</strong>. Naturally all programs should be
+about data transformation pipelines &amp; everything else has to be
+considered an incidental complexity disconnecting us from the
+actual problem we are trying to solve. However most of the web
+applications and frameworks are stuck with OO, reinventing
+MVC where <strong>data</strong> is scattered across class hierarchies
+that inherit complexity from each other, producing an ever
+growing API surface.</p>
+<p>Luckily, JS also has a functional side to it and that paradigm
+has a lot to offer in the same problem space. This enables us
+to draw our inspiration from alternatives like FRP, that
+do a better job at managing complexity by focusing on data &amp; its
+transformations. It can not be a coincidence that
+Unix pipes, Block diagrams, FBP also share the same
+core idea, and are still useful decades later. With that I&#39;d
+like to invite you to a journey, to discover the harmony of
+simple data transformations in the event  driven nature of the
+web platform.</p>
+
+
+</article><footer><p>© CascadiaJS. 2013</p><a href="https://twitter.com/CascadiaJS" target="_blank" title="Link to the CascadiaJS Twitter page"><div class="twitter logo animated tada"></div></a></footer></div><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.0/underscore-min.js"></script><script src="/js/application.js"></script></body></html>
